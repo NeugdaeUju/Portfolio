@@ -1,0 +1,30 @@
+.page-accueil {
+    display : flex;
+    height : 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+    &__presentation {
+        width : 60%;
+
+        &--title {
+            margin-bottom : 50px;
+        }
+    }
+
+    &__nav {
+        display : flex;
+        flex-direction: column;
+
+        &--link {
+            font-size : 6em;
+            font-family : 'Bodoni Moda', serif;
+            margin-bottom : 3rem;
+
+            &:hover {
+                text-decoration : none;
+                font-style: italic;
+            }
+        }
+    }
+}
