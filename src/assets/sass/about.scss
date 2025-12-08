@@ -1,0 +1,16 @@
+.about-page {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__description {
+        width : 60%;
+    }
+
+    &__photo {
+        width : 40%;
+        background-color : #EAE7ED;
+        border-radius : 200px;
+        height : 750px;
+    }
+}

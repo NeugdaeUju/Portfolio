@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import '../assets/sass/about.scss'
 
 function About () {
     return (
