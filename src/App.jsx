@@ -5,7 +5,7 @@ import Works from './pages/Works'
 import WorksDetails from './pages/WorksDetails'
 import About from './pages/About'
 import Contact from './pages/Contact'
-// import ErrorPage from './pages/ErrorPage'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path='/works/:id' element={<WorksDetails />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='*' element='{<ErrorPage />}' />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
