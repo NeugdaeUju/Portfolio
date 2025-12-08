@@ -1,0 +1,52 @@
+:root {
+  font-family: 'Noto Sans Displat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color : #3E2C41;
+}
+
+a {
+  color: #3E2C41;
+  text-decoration: none;
+}
+a:hover {
+  color: #3E2C41;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0 150px;
+  background-color: #B4A7BD;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+  font-family: 'Bodoni Moda', serif;
+  color : #3E2C41;
+  margin : 0;
+}
+
+p {
+  font-family : 'Noto Sans Display', sans-serif;
+  color: #281D2A;
+}
+
+
+@media (max-width: 1024px) {
+  body {
+    margin : 30px 80px;
+  }
+}
+
+@media (max-width : 768px) {
+  body {
+    margin : 20px 30px;
+  }
+}
