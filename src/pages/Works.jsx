@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import ProjectCard from '../components/ProjectCard'
 import project from '../assets/data/project.json'
+import '../assets/sass/works.scss'
 
 function Works () {
     return (
