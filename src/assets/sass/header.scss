@@ -1,0 +1,18 @@
+.header {
+    display : flex;
+    width : 50%;
+    margin : 30px 0;
+
+    &__page-title {
+        margin-right : 50px;
+    }
+
+    &__nav {
+        width : 60%;
+        display : flex;
+
+        &--link {
+            margin-right : 30px;
+        }
+    }
+}
