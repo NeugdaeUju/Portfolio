@@ -7,7 +7,10 @@ function Accueil() {
             <div className='page-accueil'>
                 <div className='page-accueil__presentation'>
                     <h1 className='page-accueil__presentation--title'>Leïla Pelletier</h1>
-                    <p className='page-accueil__presentation--description'>Description</p>
+                    <p className='page-accueil__presentation--description'>
+                        Intégrateur web passionné, je conçois des expériences en ligne fluides et
+                        accessibles, pensées pour les utilisateurs.
+                    </p>
                 </div>
                 <nav className='page-accueil__nav'>
                     <NavLink to='/works' className='page-accueil__nav--link'>Works</NavLink>

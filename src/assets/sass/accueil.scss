@@ -10,11 +10,16 @@
         &--title {
             margin-bottom : 50px;
         }
+
+        &--description {
+            padding-right : 20%
+        }
     }
 
     &__nav {
         display : flex;
         flex-direction: column;
+        width : 40%;
 
         &--link {
             font-size : 6em;
