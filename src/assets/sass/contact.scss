@@ -1,0 +1,26 @@
+.contact-page {
+
+    &__description {
+        margin-top : 50px;
+    }
+
+    &__links {
+        margin-top : 50px;
+        display : flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &--link {
+            height : 121px;
+            width : 121px;
+            padding : 5px;
+            border-radius : 20px;
+            background-color : #EAE7ED;
+        }
+
+        &--image {
+            height : 121px;
+            width : 121px;
+        }
+    }
+}

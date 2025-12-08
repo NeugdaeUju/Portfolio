@@ -1,5 +1,8 @@
 import Header from '../components/Header'
 import {Link} from 'react-router-dom'
+import '../assets/sass/contact.scss'
+import linkedinLogo from '../assets/images/linkedin.png'
+import githubLogo from '../assets/images/github-logo.png'
 
 function Contact () {
     return (
@@ -11,11 +14,11 @@ function Contact () {
                     <p className='contact-page__description--text'>Lorem ipsum</p>
                 </div>
                 <div className='contact-page__links'>
-                    <Link to="https://github.com/neugdaeUju" target="_blank">
-                        <img className="contact-page__link--image"/>
+                    <Link to="https://github.com/neugdaeUju" className='contact-page__links--link' target="_blank">
+                        <img src={githubLogo} className="contact-page__links--image"/>
                     </Link>
-                    <Link to="https://linkedin.com" target="_blank">
-                        <img className="contact-page__link--image"/>
+                    <Link to="https://linkedin.com" className='contact-page__links--link' target="_blank">
+                        <img src={linkedinLogo} className="contact-page__links--image"/>
                     </Link>
                 </div>
             </div>
