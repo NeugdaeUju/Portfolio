@@ -2,10 +2,17 @@ import { useParams } from "react-router-dom"
 import data from '../assets/data/project.json'
 import Header from '../components/Header'
 import '../assets/sass/worksDetails.scss'
+import ErrorPage from './ErrorPage'
 
 function WorksDetails () {
     const {id} = useParams();
     const project = data.find(project => project.id === id)
+
+    if(!project) {
+        return (
+            <ErrorPage />
+        )
+    }
 
     return (
         <>
