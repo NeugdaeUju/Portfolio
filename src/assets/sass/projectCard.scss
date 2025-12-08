@@ -1,0 +1,16 @@
+.works-page__card {
+    background-color: #EAE7ED;
+    margin: 0;
+    border-radius : 10px;
+    height : 100%;
+    position : relative;
+
+    &--name {
+        position : absolute;
+        bottom : 15px;
+        left : 15px;
+        border-radius : 50px;
+        background-color : #EAE7ED;;
+        padding : 10px 15px;
+    }
+}
