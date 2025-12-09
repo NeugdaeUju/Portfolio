@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import { useState } from 'react'
 import data from '../assets/data/project.json'
 import Header from '../components/Header'
 import '../assets/sass/worksDetails.scss'
@@ -14,6 +15,21 @@ function WorksDetails () {
         )
     }
 
+    const [currentImg, setCurrentImg] = useState(0)
+    const images = Array.isArray(project.images) ? project.images.filter(Boolean) : []
+    const hasImages = images.length > 0
+
+    // const prev = () => setCurrentImg(i => (i -1 + images.length))
+    // const next = () => setCurrentImg(i => (i + 1))
+    const prev = ()  => {
+        if(!hasImages) return 
+        setCurrentImg(i => (i - 1 + images.length) % images.lentgth)
+    }
+    const next = () => {
+        if (!hasImages) return
+        setCurrentImg(i => (i + 1) % images.lenght)
+    }
+
     return (
         <>
             <Header page={project.name}/>
@@ -26,7 +42,7 @@ function WorksDetails () {
                             Projet : {project.name}
                         </h2>
                         <h3 className='worksDetails-page__description__texts--subtitles'>Description : </h3>
-                        <p className='worksDetails-page__description__texts--text'>Lorem ipsum</p>
+                        <p className='worksDetails-page__description__texts--text'>{project.description}</p>
                     </div>
 
                 </div>
@@ -34,7 +50,18 @@ function WorksDetails () {
                     <h2 className='worksDetails-page__process--title  worksDetails-page__subtitles'>
                         Process :
                     </h2>
-                    <img className='worksDetails-page__process--image'/>
+                    {hasImages && (
+                        <div className='worksDetails-page__process__caroussel'>
+                            <button className='worksDetails-page__process__caroussel--prev' onClick={prev}></button>
+                            <div className='worksDetails-page__process--image'>
+                                <img
+                                     className="worksDetails-page__process--image"
+                                     src={new URL(`../assets/images/${images[currentImg]}` , import.meta.url).href}
+                                     alt='image du projet' />
+                            </div>
+                            <button className='worksDetails-page__process__caroussel--next' onClick={next}></button>
+                        </div>
+                    )}
 
                 </div>
                 <div className='worksDetails-page__skills'>
