@@ -1,41 +1,152 @@
 [
     {
         "id" : "1",
-        "name" : "Argent Bank"
+        "name" : "Argent Bank",
+        "description" : "Vous êtes intégré comme développeur front-end chez Argent Bank, une banque en ligne souhaitant moderniser son application web. Votre mission principale consiste à développer le front-end de l’application bancaire en React, tout en intégrant Redux pour gérer l’état global et en effectuant des appels API pour connecter le front-end au back-end. Les maquettes et le code existant sont fournis, ainsi que la documentation Swagger, qui vous permettra de modéliser correctement les routes nécessaires à la communication entre le client et le serveur.",
+        "cover" : "",
+        "images" : [
+            ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "React",
+            "Redux",
+            "JavaScript",
+            "Git & GitHub",
+            "Documentation API",
+            "API"
+        ]
     },
 
     {
         "id" : "2",
-        "name" : "724 events"
+        "name" : "724 events",
+        "description" : "En tant que développeur front-end freelance, j’ai été contacté par l’agence événementielle 724events pour finaliser le développement de leur site one-page. Un premier développeur avait commencé l’intégration, mais le projet présentait encore des bugs empêchant un fonctionnement optimal. Ma première mission a été d’analyser le code existant à l’aide des Chrome DevTools et de React Developer Tools afin d’identifier tous les problèmes signalés et de comprendre leur origine.",
+        "cover" : "724events-1.png",
+        "images" : [
+            ""
+        ],
+        "skills" : [
+            "JavaScript",
+            "React",
+            "Test JavaScript",
+            "Degoggage",
+            "Organisation",
+            "Outil de déboggage"
+        ]
     },
 
     {
         "id" : "3",
-        "name" : "Nina Carducci"
+        "name" : "Nina Carducci",
+        "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
+        "cover" : "NinaCarducci-1.png",
+        "images" : [
+            ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Organisation",
+            "Audit SEO",
+            "Audit d'accessibilité",
+            "SEO",
+            "Normes d'accessibilité",
+            "Format d'images"
+        ]
     },
 
     {
         "id" : "4",
-        "name" : "Kasa"
+        "name" : "Kasa",
+        "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
+        "cover" : "Kasa-1.png",
+        "images" : [
+            ""
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "JavaScript",
+            "React",
+            "Git & GitHub",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "5",
-        "name" : "Sophie Bluel"
+        "name" : "Sophie Bluel",
+        "description" : "En tant que développeur front-end au sein de l’agence ArchiWebos, j’ai été intégré à l’équipe chargée du site portfolio d’une architecte d’intérieur. Le projet consistait à transformer une page statique en une interface dynamique capable de gérer les travaux de l’architecte et les interactions avec un administrateur. Les maquettes Figma, le code back-end pour la persistance des données et le code front-end existant m’ont été fournis, ainsi qu’un Kanban pour suivre les tâches attribuées.",
+        "cover" : "Sophiebluel-1.png",
+        "images" : [
+            "Sophiebluel-2.png",
+            "Sophiebluel-3.png",
+            "Sophiebluel-4.png",
+            "Sophiebluel-5.png"
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git & GitHub",
+            "API",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "6",
-        "name" : "Print It"
+        "name" : "Print It",
+        "description" : "En tant que développeur front-end freelance, j’ai été chargé de dynamiser le site de l’imprimerie familiale Print it. Le site étant initialement statique, ma mission consistait à le rendre plus interactif en ajoutant un carrousel permettant de présenter les produits et services de manière attractive. Les instructions m’ont été communiquées par le directeur via une vidéo explicative et le code HTML existant, me permettant de travailler de manière autonome tout en respectant les besoins du client.",
+        "cover" : "PrintIt-1.png",
+        "images" : [
+            ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
     },
 
     {
         "id" : "7",
-        "name" : "Oh My Food"
+        "name" : "Oh My Food",
+        "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
+        "cover" : "Ohmyfood-1.png",
+        "images" : [
+            "Ohmyfood-2.png",
+            "Ohmyfood-3.png",
+            "Ohmyfood-4.png",
+            "Ohmyfood-5.png",
+            "Ohmyfood-6.png"
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "Git & GitHub",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "8",
-        "name" : "Booki"
+        "name" : "Booki",
+        "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
+        "cover" : "Booki-1.png",
+        "images" : [
+            "Booki-2.png",
+            "Booki-3.png"
+        ],
+        "skills" : [
+            "HTML",
+            "Git & GitHub",
+            "CSS"
+        ]
     }
 ]

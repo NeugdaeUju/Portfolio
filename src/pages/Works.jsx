@@ -17,6 +17,7 @@ function Works () {
                             id={p.id}
                             index={index}
                             name={p.name}
+                            image={new URL(`../assets/images/${p.cover}` , import.meta.url).href}
                         />)
                 })}
             </div>
