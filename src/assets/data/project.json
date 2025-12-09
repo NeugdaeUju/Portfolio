@@ -42,8 +42,108 @@
         "name" : "Nina Carducci",
         "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
         "cover" : "NinaCarducci-1.png",
-        "images" : [
-            ""
+        "steps" : [
+                    {
+                        "title" : "Audit du site",
+                        "elemnts" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit global du site avec LightHouse"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit d'accessibilité du site avec WAIM"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit de référencement du site avec Sniffer"
+                            },
+                            {
+                                "type" : "text",
+                                "content" : "J'ai commencer par réaliser un audit du site à la fois générale et sur les différents aspect demandés par la cliente (SEO et référencement)"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Optimisation des performances",
+                        "elemnts" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Minification des fichiers JS"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Minification des fichiers CSS"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Modification des images"
+                            },
+                            {
+                                "type" : "text",
+                                "contcent" : "D'après l'audit LightHouse, et les éléments qui pouvaient être modifié était, les fichiers JS et CSS en les réduisant en les clarifiant, en ajustant la taille et le poids des images en fonction des tailles d'écran et avec un type de fichier plus adapté"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Optimisation de l'accessibilité",
+                        "elemnts" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Correction de l'arborrescence du fichier"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des attribut nécessaires"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Correction des couleurs pour un meilleur contraste"
+                            },
+                            {
+                                "type" : "text",
+                                "contcent" : "Avec l'audit LightHouse et Waim, on remarque des erreur au niveau de l'arborrescence, avec les titre (H&, h2, ..), les attribut comme alt, id et for ...mais aussi des contrastes."
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Ajout de référencement",
+                        "elemnts" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Création du référencement local avec Schema.org"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des balises pour les cartes Opengraphes"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des balises pour les twitter cards"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Permettre les bots de parcourir le site et de l'indexer"
+                            },
+                            {
+                                "type" : "text",
+                                "contcent" : "Gestion du référencement local et les bots"
+                            }
+                        ]
+                    }
         ],
         "skills" : [
             "HTML",
