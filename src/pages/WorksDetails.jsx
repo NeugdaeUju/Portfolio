@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import data from '../assets/data/project.json'
 import Header from '../components/Header'
+import ProcessSteps from "../components/ProcessSteps"
 import '../assets/sass/worksDetails.scss'
 import ErrorPage from './ErrorPage'
  
@@ -34,7 +35,10 @@ function WorksDetails () {
                     <h2 className='worksDetails-page__process--title  worksDetails-page__subtitles'>
                         Process :
                     </h2>
-                    <img className='worksDetails-page__process--image'/>
+                    <ProcessSteps
+                        step="X"
+                        image=""
+                        text="lorem ipsum"/>
 
                 </div>
                 <div className='worksDetails-page__skills'>
