@@ -9,43 +9,72 @@
     {
         "id" : "2",
         "name" : "724 events",
-        "cover" : "724events-1.png"
+        "cover" : "724events-1.png",
+        "images" : [
+            ""
+        ]
     },
 
     {
         "id" : "3",
         "name" : "Nina Carducci",
-        "cover" : "NinaCarducci-1.png"
+        "cover" : "NinaCarducci-1.png",
+        "images" : [
+            ""
+        ]
     },
 
     {
         "id" : "4",
         "name" : "Kasa",
-        "cover" : "Kasa-1.png"
+        "cover" : "Kasa-1.png",
+        "images" : [
+            ""
+        ]
     },
 
     {
         "id" : "5",
         "name" : "Sophie Bluel",
-        "cover" : "Sophiebluel-1.png"
+        "cover" : "Sophiebluel-1.png",
+        "images" : [
+            "Sophiebluel-2.png",
+            "Sophiebluel-3.png",
+            "Sophiebluel-4.png",
+            "Sophiebluel-5.png"
+        ]
     },
 
     {
         "id" : "6",
         "name" : "Print It",
-        "cover" : "PrintIt-1.png"
+        "cover" : "PrintIt-1.png",
+        "images" : [
+            ""
+        ]
     },
 
     {
         "id" : "7",
         "name" : "Oh My Food",
-        "cover" : "Ohmyfood-1.png"
+        "cover" : "Ohmyfood-1.png",
+        "images" : [
+            "Ohmyfood-2.png",
+            "Ohmyfood-3.png",
+            "Ohmyfood-4.png",
+            "Ohmyfood-5.png",
+            "Ohmyfood-6.png"
+        ]
     },
 
     {
         "id" : "8",
         "name" : "Booki",
         "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
-        "cover" : "Booki-1.png"
+        "cover" : "Booki-1.png",
+        "images" : [
+            "Booki-2.png",
+            "Booki-3.png"
+        ]
     }
 ]
