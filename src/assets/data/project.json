@@ -6,6 +6,16 @@
         "cover" : "",
         "images" : [
             ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "React",
+            "Redux",
+            "JavaScript",
+            "Git & GitHub",
+            "Documentation API",
+            "API"
         ]
     },
 
@@ -16,6 +26,14 @@
         "cover" : "724events-1.png",
         "images" : [
             ""
+        ],
+        "skills" : [
+            "JavaScript",
+            "React",
+            "Test JavaScript",
+            "Degoggage",
+            "Organisation",
+            "Outil de déboggage"
         ]
     },
 
@@ -26,6 +44,17 @@
         "cover" : "NinaCarducci-1.png",
         "images" : [
             ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Organisation",
+            "Audit SEO",
+            "Audit d'accessibilité",
+            "SEO",
+            "Normes d'accessibilité",
+            "Format d'images"
         ]
     },
 
@@ -36,6 +65,15 @@
         "cover" : "Kasa-1.png",
         "images" : [
             ""
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "JavaScript",
+            "React",
+            "Git & GitHub",
+            "Organisation"
         ]
     },
 
@@ -49,6 +87,14 @@
             "Sophiebluel-3.png",
             "Sophiebluel-4.png",
             "Sophiebluel-5.png"
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git & GitHub",
+            "API",
+            "Organisation"
         ]
     },
 
@@ -59,6 +105,11 @@
         "cover" : "PrintIt-1.png",
         "images" : [
             ""
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript"
         ]
     },
 
@@ -73,6 +124,13 @@
             "Ohmyfood-4.png",
             "Ohmyfood-5.png",
             "Ohmyfood-6.png"
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "Git & GitHub",
+            "Organisation"
         ]
     },
 
@@ -84,6 +142,11 @@
         "images" : [
             "Booki-2.png",
             "Booki-3.png"
+        ],
+        "skills" : [
+            "HTML",
+            "Git & GitHub",
+            "CSS"
         ]
     }
 ]
