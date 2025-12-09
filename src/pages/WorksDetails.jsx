@@ -3,7 +3,7 @@ import data from '../assets/data/project.json'
 import Header from '../components/Header'
 import '../assets/sass/worksDetails.scss'
 import ErrorPage from './ErrorPage'
-
+ 
 function WorksDetails () {
     const {id} = useParams();
     const project = data.find(project => project.id === id)
@@ -19,7 +19,8 @@ function WorksDetails () {
             <Header page={project.name}/>
             <div className='worksDetails-page'>
                 <div className='worksDetails-page__description'>
-                    <img className='worksDetails-page__description--image'/>
+                    <img className='worksDetails-page__description--image'
+                         src={new URL(`../assets/images/${project.cover}`, import.meta.url).href}/>
                     <div className='worksDetails-page__description__texts'>
                         <h2 className='worksDetails-page__description__texts--title worksDetails-page__subtitles'>
                             Projet : {project.name}

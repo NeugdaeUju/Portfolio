@@ -13,4 +13,11 @@
         background-color : #EAE7ED;
         padding : 10px 15px;
     }
+
+    &--image {
+        object-fit: cover;
+        height :100%;
+        width : 100%;
+        border-radius : 10px;
+    }
 }
