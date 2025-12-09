@@ -40,13 +40,12 @@ function WorksDetails () {
                 <div className='worksDetails-page__skills'>
                     <h2 className='worksDetails-page__skills--title  worksDetails-page__subtitles'>Skills</h2>
                     <div className='worksDetails-page__skills__list'>
-                        <p className='worksDetails-page__skills__list--item'>React</p>
-                        <p className='worksDetails-page__skills__list--item'>HTML</p>
-                        <p className='worksDetails-page__skills__list--item'>CSS</p>
-                        <p className='worksDetails-page__skills__list--item'>Redux</p>
-                        <p className='worksDetails-page__skills__list--item'>Doc Swagger</p>
-                        <p className='worksDetails-page__skills__list--item'>API</p>
-                        <p className='worksDetails-page__skills__list--item'>Git / GitHub</p>
+                        {Array.isArray(project.skills) &&
+                            project.skills.map((skill, idx) => (
+                                <p className='worksDetails-page__skills__list--item'
+                                    key={idx}>{skill}</p>
+                            ))
+                        }
                     </div>
 
                 </div>
