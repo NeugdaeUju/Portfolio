@@ -27,7 +27,6 @@ function WorksDetails () {
                     <h2 className='worksDetails-page__process--title  worksDetails-page__subtitles'>
                         Process :
                     </h2>
-                    {/* <img className='worksDetails-page__process--image'/> */}
                     <ProcessSteps
                         step="X"
                         image=""
