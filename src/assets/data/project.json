@@ -45,7 +45,7 @@
         "steps" : [
                     {
                         "title" : "Audit du site",
-                        "elemnts" : [
+                        "elemnets" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -69,7 +69,7 @@
                     },
                     {
                         "title" : "Optimisation des performances",
-                        "elemnts" : [
+                        "elements" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -87,13 +87,13 @@
                             },
                             {
                                 "type" : "text",
-                                "contcent" : "D'après l'audit LightHouse, et les éléments qui pouvaient être modifié était, les fichiers JS et CSS en les réduisant en les clarifiant, en ajustant la taille et le poids des images en fonction des tailles d'écran et avec un type de fichier plus adapté"
+                                "content" : "D'après l'audit LightHouse, et les éléments qui pouvaient être modifié était, les fichiers JS et CSS en les réduisant en les clarifiant, en ajustant la taille et le poids des images en fonction des tailles d'écran et avec un type de fichier plus adapté"
                             }
                         ]
                     },
                     {
                         "title" : "Optimisation de l'accessibilité",
-                        "elemnts" : [
+                        "elements" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -111,13 +111,13 @@
                             },
                             {
                                 "type" : "text",
-                                "contcent" : "Avec l'audit LightHouse et Waim, on remarque des erreur au niveau de l'arborrescence, avec les titre (H&, h2, ..), les attribut comme alt, id et for ...mais aussi des contrastes."
+                                "content" : "Avec l'audit LightHouse et Waim, on remarque des erreur au niveau de l'arborrescence, avec les titre (H&, h2, ..), les attribut comme alt, id et for ...mais aussi des contrastes."
                             }
                         ]
                     },
                     {
                         "title" : "Ajout de référencement",
-                        "elemnts" : [
+                        "elements" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -140,7 +140,7 @@
                             },
                             {
                                 "type" : "text",
-                                "contcent" : "Gestion du référencement local et les bots"
+                                "content" : "Gestion du référencement local et les bots"
                             }
                         ]
                     }
@@ -239,6 +239,112 @@
         "name" : "Booki",
         "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
         "cover" : "Booki-1.png",
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Découpage de la maquette"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
+                    }
+                ]
+            },
+            {
+                "title" : "Ecriture de la première partie du code",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code écrit pour le header et hero"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer ensuite à écrire le code pour l'en-tête et la partie de présentation du site."
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout de la section des hébergements",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code écrit pour la section des hébergements."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Pour créer la section des hébergements à Marseille, j'ai réutiliser le code écrit pour la section des hébèrgements populaire, et je l'ai adapté à la nouvelle section grâce au CSS."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la section des activités",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Cature du code de la section des activités"
+                    },
+                    {
+                        "type" : "text",
+                        "contant" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout du footer",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Création du code pour le pied de page"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Enfin j'ai ajouter le pied de page du site."
+                    }
+                ]
+            },
+            {
+                "title" : "",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Creation des media queries pour tous les devices (mobiles, tablettes, desktop, ..)"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai créer les media query pour le responsive de desktop, tablette et mobile, en faisant attention aux brakpoints et en ajoutant des breakpoints intermédiaires si necessaires."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Site avant code"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "site après code"
+                    }
+                ]
+            }
+        ],
         "images" : [
             "Booki-2.png",
             "Booki-3.png"
