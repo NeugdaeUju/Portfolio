@@ -182,11 +182,108 @@
         "name" : "Sophie Bluel",
         "description" : "En tant que développeur front-end au sein de l’agence ArchiWebos, j’ai été intégré à l’équipe chargée du site portfolio d’une architecte d’intérieur. Le projet consistait à transformer une page statique en une interface dynamique capable de gérer les travaux de l’architecte et les interactions avec un administrateur. Les maquettes Figma, le code back-end pour la persistance des données et le code front-end existant m’ont été fournis, ainsi qu’un Kanban pour suivre les tâches attribuées.",
         "cover" : "Sophiebluel-1.png",
-        "images" : [
-            "Sophiebluel-2.png",
-            "Sophiebluel-3.png",
-            "Sophiebluel-4.png",
-            "Sophiebluel-5.png"
+        "steps" : [
+            {
+                "title" : "Gestion de la gallery avec JavaScritp",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Code HTML d'origine"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Appel API et création d'une fonction permettant de créer et afficher les éléments de la gallery"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Résulat de la gallery afficher grace au JS."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer ce projet en supprimant créant la gallery grâce à JavaScript et un appel API. Une boucle génère tous les travaux et en utilisant les éléments HTML utilisé auparavant et les class déjà définis, le rendu est rapidement obtenus. J'ai bien entendu supprimer le code devenu inutile dans le fichier HTML."
+                    }
+                ]
+            },
+            {
+                "title" : "Création et gestion des boutons de filtre",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Appel API et création des boutons de filtres"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Création des boutons permettant de filtrer les travaux de Sophie Bluel. Avec un appel API et une fonction je génère les boutons de filtres. Ensuite, avec je permet à chaque boutons d'afficher les catégories demandées."
+                    }
+                ]
+            },
+            {
+                "title" : "Logique de connexion",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Code de la page de connexion"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code permettant la connexion au compte utilisateur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la logique de déconnexion"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Sphie Bluel doit pouvoir se connecter à son site afin d'éditer les travaux qui seront présent sur la gallery. Pour se connecter, j'ai créer la page de connexion, et gérer les appel API et le renvoie vers la page d'accueil si la connexion fonctionne. J'ai aussi permet la déconnexion de l'utilisateur."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des modales",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code HTML des modales"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture de la logique permettant l'affichage et la fermeture des modales"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code pour supprimer un élément de la gallery"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Ici j'ai du créer des modales, une pour supprimer des travaux et une autre pour en ajouter. Avec les routes API données dans la documentation SWAGGER, j'ai simplement récupérer les informations necessaires et fait des Appel API pour ajouter ou supprimer un élément de la gallery."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site avant modification"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site après modification."
+                    }
+                ] 
+            }
         ],
         "skills" : [
             "HTML",
