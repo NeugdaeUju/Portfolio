@@ -218,12 +218,131 @@
         "name" : "Oh My Food",
         "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
         "cover" : "Ohmyfood-1.png",
-        "images" : [
-            "Ohmyfood-2.png",
-            "Ohmyfood-3.png",
-            "Ohmyfood-4.png",
-            "Ohmyfood-5.png",
-            "Ohmyfood-6.png"
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Découpage de la maquette"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
+                    }
+                ]
+            },
+            {
+                "title" : "Codage de la page d'accueil du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Rendu de la page d'accueil Ohmyfood"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer le projet et codant la page d'accueil du site en mobile first. Le découpage de la maquette ma permet de prévoir les changement qui se feront à l'affichage lorsque je passerais au responsive."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des animations sur la page d'accueil",
+                "elements" : [
+                    {
+                        "type" : "image" ,
+                        "src" : "",
+                        "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Ajout des effets et animations sur le bouton de recherche et sur les coeur des cartes de restaurants. J'ai utilisé un input type checkbox pour changer l'état du coeur de vide à plein en jouant avec un effet d'opacité."
+                    }
+                ]
+            },
+            {
+                "title" : "Création d'une page restaurant",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'une partie du code de la page de restaurants"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "La page restaurant au format mobile"
+                    },
+                    {
+                        "type": "text",
+                        "content" : "J'ai écris la page restaurant en récupérants certains éléments d'éjà réaliser de la page d'accueil (header, footer, coeur du like ..). L'affichage a aussi été fait en SCSS et correspond à maquette donnée. Les autres pages de restaurants ont simplement été dupliqués, et les texts et images modifiés. "
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout des animations de la page de restaurant",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code d'animation des cartes pour le check"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Rendu des animations"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai ensuite créer les animations sur les cartes, de leur apparitions progressives sur la page à l'icone de validations qui apparait lorsqu'on sélectionne une carte.  Pour les aniamtions sur le coeur ou l'effet sur le boutons au survol, cela à été copier de ce qui avait déjà était fait."
+                    }
+                ]
+            },
+            {
+                "title" : "Responsive du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Caputure du code des mediaqueries d'une page du site."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Le site étant coder en mobile-first (c'est-à-dire la version smartphone en premier), il a fallut utiliser les media queries pour ajuster l'affichage pour les tablettes, ordinateurs et écrans larges. Les animations ont aussi, pour certaines, dûe être adaptés."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture de la maquette du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site après code"
+                    }
+                ]
+            }
         ],
         "skills" : [
             "HTML",
@@ -344,10 +463,6 @@
                     }
                 ]
             }
-        ],
-        "images" : [
-            "Booki-2.png",
-            "Booki-3.png"
         ],
         "skills" : [
             "HTML",
