@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import '../assets/sass/about.scss'
 
@@ -6,15 +7,39 @@ function About () {
         <>
             <Header
                 page='About' />
-            <div className='about-page'>
-                <div className='about-page__descriptions'>
-                    <h2 className='about-page__description--subtitle'>Leïla Pelletier</h2>
-                    <p calssName='about-page__description--text'>Lorem ipsum</p>
-                </div>
-                <div className='about-page__photo'>
-                    <img className='about-page__photo--image'/>
-                </div>
-            </div>
+            <main className='about-page'>
+                <section className='about-page__section-who'>
+                    <h2 className='about-page__section-who--subtitle'>Qui suis-je?</h2>
+                    <p className='about-page__section-who--text'>Lorem ipsum</p>
+                    <Link to='/works' className='about-page__section-who--link'>Mon Portfolio</Link>
+                </section>
+                <section className='about-page__section-how'>
+                    <h2 className='about-page__section-how--subtitle'>Mon parcours</h2>
+                    <p className='about-page__section-how--text'>Lorem Ipsum</p>
+                </section>
+                <section className='about-page__section-skills'>
+                    <div className='about-page__section-skills__hard-skills'>
+                        <h2 className='about-page__section-skills__hard-skills--subtitle'>Hard Skills</h2>
+                        <div className='about-page__section-skills__hard-skills__list'>
+                            <p className='about-page__section-skills__hard-skills__list--item'>Lorem ipsum</p>
+                        </div> 
+                    </div>
+                    <div className='about-page__section-skills__soft-skills'>
+                        <h2 className='about-page__section-skills__soft-skills--subtitle'>Soft Skills</h2>
+                        <div className='about-page__section-skills__soft-skills__list'>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Lorem ipsum</p>
+                        </div> 
+                    </div>
+                </section>
+                <section className='about-page__section-links'>
+                    <h2 className='about-page__section-links--subtitle'>Links</h2>
+                    <div className='about-page__section-links__list'>
+                        <Link to='/works' className='about-page__section-links__list--link'>Mon portfolio</Link>
+                        <Link to='/contact' className='about-page__section-links__list--link'>Me contacter</Link>
+                        <Link to='' className='about-page__section-links__list--link'>Mon CV</Link>
+                    </div>
+                </section>
+            </main>
         </>
     )
 }
