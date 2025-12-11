@@ -163,8 +163,111 @@
         "name" : "Kasa",
         "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
         "cover" : "Kasa-1.png",
-        "images" : [
-            ""
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'ecran de la maquette Figma"
+                    },
+                    {
+                        "type": "text",
+                        "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
+                    }
+                ]
+            },
+            {
+                "title" : "Création du dossier d'application React avec vite",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture de l'application React créer avec vite"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Création de l'application avec Vite"
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la logique des routes de l'applications",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src": "",
+                        "caption" : "Capture des routes de l'applications"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la page d'accueil et de ses composants",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page d'accueil"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En me basant sur la maquette, j'ai créer la page d'accueil, et certains composant qui seront utilisée sur toutes les pages ou certaines pages, comme le header, ou le bandeau d'image."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des autres pages du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page A propos"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En suivant cette logique j'ai réaliser les différents composants et les ai intégrer aux pages du site."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la page de logement",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page logement"
+                    },
+                    {
+                        "type ": "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En utilisant le fichier JSON fournis et les informations qu'il contient j'ai lié l'id de chaque logement à une page et avec UseParams, j'ai pus récupérer cet id et afficher les informations du logement."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran de la maquette figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran du site après réalisation"
+                    }
+                ]
+            }
         ],
         "skills" : [
             "HTML",
