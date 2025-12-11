@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import data from '../assets/data/project.json'
 import Header from '../components/Header'
 import ProcessSteps from "../components/ProcessSteps"
 import '../assets/sass/worksDetails.scss'
-import ErrorPage from './ErrorPage'
- 
+import github from '../assets/images/github-logo.png'
+import site from '../assets/images/site.png'
+
 function WorksDetails () {
     const {id} = useParams();
     const project = data.find(project => project.id === id)
@@ -20,20 +21,26 @@ function WorksDetails () {
             <Header page={project.name}/>
             <div className='worksDetails-page'>
                 <div className='worksDetails-page__description'>
-                    <img className='worksDetails-page__description--image'
-                         src={new URL(`../assets/images/${project.cover}`, import.meta.url).href}/>
-                    <div className='worksDetails-page__description__texts'>
-                        <h2 className='worksDetails-page__description__texts--title worksDetails-page__subtitles'>
-                            Projet : {project.name}
-                        </h2>
-                        <h3 className='worksDetails-page__description__texts--subtitles'>Description : </h3>
-                        <p className='worksDetails-page__description__texts--text'>Lorem ipsum</p>
-                    </div>
+                    <img className='worksDetails-page__description--image'/>
+                    <div className='worksDetails-page__description__presentation'>
+                        <div className='worksDetails-page__description__presentation__header'>
+                            <h3 className='worksDetails-page__description__presentation__header--subtitles'>Description : </h3>
+                            <Link to={project.links} className='worksDetails-page__description__presentation__header__link--background'>
+                                <img src={github} className='worksDetails-page__description__presentation__header__link--image'/>
+                            </Link>
+                            <Link to={project.links}  className='worksDetails-page__description__presentation__header__link--background'>
+                                <img src={site} className='worksDetails-page__description__presentation__header__link--image'/>
+                            </Link>
+                        </div>
+                        <div className='worksDetails-page__description__presentation__text'>
+                            <p className='worksDetails-page__description__presentation__text--text'>{project.description}</p>
+                        </div>
+                    </div>                    
 
                 </div>
                 <div className='worksDetails-page__process'>
                     <h2 className='worksDetails-page__process--title  worksDetails-page__subtitles'>
-                        Process :
+                        Process
                     </h2>
                     <ProcessSteps
                         step="X"
