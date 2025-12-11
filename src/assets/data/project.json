@@ -1,43 +1,5 @@
 [
     {
-        "id" : "1",
-        "name" : "Argent Bank",
-        "description" : "Vous êtes intégré comme développeur front-end chez Argent Bank, une banque en ligne souhaitant moderniser son application web. Votre mission principale consiste à développer le front-end de l’application bancaire en React, tout en intégrant Redux pour gérer l’état global et en effectuant des appels API pour connecter le front-end au back-end. Les maquettes et le code existant sont fournis, ainsi que la documentation Swagger, qui vous permettra de modéliser correctement les routes nécessaires à la communication entre le client et le serveur.",
-        "cover" : "",
-        "images" : [
-            ""
-        ],
-        "skills" : [
-            "HTML",
-            "CSS",
-            "React",
-            "Redux",
-            "JavaScript",
-            "Git & GitHub",
-            "Documentation API",
-            "API"
-        ]
-    },
-
-    {
-        "id" : "2",
-        "name" : "724 events",
-        "description" : "En tant que développeur front-end freelance, j’ai été contacté par l’agence événementielle 724events pour finaliser le développement de leur site one-page. Un premier développeur avait commencé l’intégration, mais le projet présentait encore des bugs empêchant un fonctionnement optimal. Ma première mission a été d’analyser le code existant à l’aide des Chrome DevTools et de React Developer Tools afin d’identifier tous les problèmes signalés et de comprendre leur origine.",
-        "cover" : "724events-1.png",
-        "images" : [
-            ""
-        ],
-        "skills" : [
-            "JavaScript",
-            "React",
-            "Test JavaScript",
-            "Degoggage",
-            "Organisation",
-            "Outil de déboggage"
-        ]
-    },
-
-    {
         "id" : "3",
         "name" : "Nina Carducci",
         "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
@@ -395,21 +357,6 @@
             "Git & GitHub",
             "API",
             "Organisation"
-        ]
-    },
-
-    {
-        "id" : "6",
-        "name" : "Print It",
-        "description" : "En tant que développeur front-end freelance, j’ai été chargé de dynamiser le site de l’imprimerie familiale Print it. Le site étant initialement statique, ma mission consistait à le rendre plus interactif en ajoutant un carrousel permettant de présenter les produits et services de manière attractive. Les instructions m’ont été communiquées par le directeur via une vidéo explicative et le code HTML existant, me permettant de travailler de manière autonome tout en respectant les besoins du client.",
-        "cover" : "PrintIt-1.png",
-        "images" : [
-            ""
-        ],
-        "skills" : [
-            "HTML",
-            "CSS",
-            "JavaScript"
         ]
     },
 
