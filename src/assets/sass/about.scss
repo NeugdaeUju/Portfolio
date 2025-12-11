@@ -1,16 +1,96 @@
 .about-page {
-    display : flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top : 50px;
 
-    &__description {
-        width : 60%;
+    &__section-who {
+        position : relative;
+        margin-bottom : 50px;
+
+        &--text {
+            margin : 10px 0 0 30px;
+        }
+
+        &--link {
+            position : absolute;
+            background-color : #EAE7ED;
+            border-radius : 50px;
+            padding : 10px 0;
+            width : 20%;
+            text-align : center;
+            right : 30%;
+            top : 20%;
+            font-size : 1.5em;
+
+            &:hover {
+                text-decoration: none;
+                font-weight : bold;
+            }
+        }
     }
 
-    &__photo {
-        width : 40%;
-        background-color : #EAE7ED;
-        border-radius : 200px;
-        height : 750px;
+
+    &__section-how {
+        margin-bottom : 50px;
+
+        &--text {
+            margin : 10px 0 0 30px;
+        }
+    }
+
+
+    &__section-skills {
+        display : flex;
+        align-items: center;
+        justify-content : space-around;
+        margin-bottom : 50px;
+
+        &__soft-skills , &__hard-skills {
+            width : 45%;
+            text-align : center;
+
+            &--subtitle {
+                margin-bottom : 15px;
+            }
+
+            &__list {
+                display : flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap : 10px;
+
+                &--item {
+                    background-color: #EAE7ED;
+                    border-radius : 50px;
+                    padding : 5px 15px;
+                    margin : 0;
+                }
+            }
+        }
+    }
+
+
+    &__section-links {
+        &--subtitle {
+            margin-bottom : 15px;
+            text-align: center;
+        }
+
+        &__list {
+            display : flex;
+            justify-content: space-between;
+
+            &--link {
+                background-color : #EAE7ED;
+                border-radius : 50px;
+                width : 30%;
+                padding : 10px 0;
+                text-align : center;
+                font-size : 1.5em;
+
+                &:hover {
+                    text-decoration : none;
+                    font-weight : bold;
+                }
+            }
+        }
     }
 }
