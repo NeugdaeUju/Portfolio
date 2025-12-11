@@ -4,6 +4,16 @@
         "name" : "Nina Carducci",
         "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
         "cover" : "NinaCarducci-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
+            }
+        ],
         "steps" : [
                     {
                         "title" : "Audit du site",
@@ -125,6 +135,16 @@
         "name" : "Kasa",
         "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
         "cover" : "Kasa-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_7-Kasa"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
+            }
+        ],
         "steps" : [
             {
                 "title" : "Analyse des maquettes",
@@ -247,6 +267,16 @@
         "name" : "Sophie Bluel",
         "description" : "En tant que développeur front-end au sein de l’agence ArchiWebos, j’ai été intégré à l’équipe chargée du site portfolio d’une architecte d’intérieur. Le projet consistait à transformer une page statique en une interface dynamique capable de gérer les travaux de l’architecte et les interactions avec un administrateur. Les maquettes Figma, le code back-end pour la persistance des données et le code front-end existant m’ont été fournis, ainsi qu’un Kanban pour suivre les tâches attribuées.",
         "cover" : "Sophiebluel-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_6-Sophie_Bluel/"
+            }
+        ],
         "steps" : [
             {
                 "title" : "Gestion de la gallery avec JavaScritp",
@@ -365,6 +395,16 @@
         "name" : "Oh My Food",
         "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
         "cover" : "Ohmyfood-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Oh-My-Food"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
+            }
+        ],
         "steps" : [
             {
                 "title" : "Analyse des maquettes",
@@ -505,6 +545,16 @@
         "name" : "Booki",
         "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
         "cover" : "Booki-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Booki"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Booki/"
+            }
+        ],
         "steps" : [
             {
                 "title" : "Analyse des maquettes",
