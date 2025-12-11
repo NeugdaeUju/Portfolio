@@ -27,7 +27,7 @@ function WorksDetails () {
                             </Link>
                         </div>
                         <div className='worksDetails-page__description__presentation__text'>
-                            <p className='worksDetails-page__description__presentation__text--text'>/*{project.description}</p>
+                            <p className='worksDetails-page__description__presentation__text--text'>{project.description}</p>
                         </div>
                     </div>                    
 
