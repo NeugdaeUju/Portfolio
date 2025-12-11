@@ -1,24 +1,38 @@
 .works-page__process__step-section {
-    margin-top : 30px;
-
     &--title {
         margin-left : 30px;
     }
 
     &__container {
-        height : 110vh;
         display : flex;
-        margin-top : 30px;
+        margin-top : 20px;
 
-        &--image {
-            background-color : #EAE7ED;
-            border-radius: 20px;
-            height : 100%;
-            width : 70%;
+        &__images {
+            position : relative;
+            width : 100%;
+
+            &--gradient {
+                position : absolute;
+                top : 0;
+                left : 0;
+                background: linear-gradient(to left, #B4A7BD , transparent 35%);
+                border-radius : 20px;
+                height : 80vh;
+                width : 80%
+            }
+
+            &--image {
+                background-color: #EAE7ED;
+                border-radius : 20px;
+                height : 80vh;
+                width : 80%;
+                object-fit : cover;
+            }
         }
 
-        &--text {
-            margin-left : 40px;
+        &__description {
+            position : absolute;
+            right : 30%;
         }
     }
 }
