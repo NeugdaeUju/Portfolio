@@ -25,10 +25,10 @@ function WorksDetails () {
                     <div className='worksDetails-page__description__presentation'>
                         <div className='worksDetails-page__description__presentation__header'>
                             <h3 className='worksDetails-page__description__presentation__header--subtitles'>Description : </h3>
-                            <Link to={project.links} className='worksDetails-page__description__presentation__header__link--background'>
+                            <Link to={project.links} className='worksDetails-page__description__presentation__header__link--background' target='_blank'>
                                 <img src={github} className='worksDetails-page__description__presentation__header__link--image'/>
                             </Link>
-                            <Link to={project.links}  className='worksDetails-page__description__presentation__header__link--background'>
+                            <Link to={project.links}  className='worksDetails-page__description__presentation__header__link--background' target='_blank'>
                                 <img src={site} className='worksDetails-page__description__presentation__header__link--image'/>
                             </Link>
                         </div>
