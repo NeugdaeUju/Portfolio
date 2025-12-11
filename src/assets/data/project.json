@@ -1,41 +1,670 @@
 [
     {
         "id" : "1",
-        "name" : "Argent Bank"
+        "name" : "Nina Carducci",
+        "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
+        "cover" : "NinaCarducci-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
+            }
+        ],
+        "steps" : [
+                    {
+                        "title" : "Audit du site",
+                        "elemnets" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit global du site avec LightHouse"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit d'accessibilité du site avec WAIM"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Audit de référencement du site avec Sniffer"
+                            },
+                            {
+                                "type" : "text",
+                                "content" : "J'ai commencer par réaliser un audit du site à la fois générale et sur les différents aspect demandés par la cliente (SEO et référencement)"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Optimisation des performances",
+                        "elements" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Minification des fichiers JS"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Minification des fichiers CSS"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Modification des images"
+                            },
+                            {
+                                "type" : "text",
+                                "content" : "D'après l'audit LightHouse, et les éléments qui pouvaient être modifié était, les fichiers JS et CSS en les réduisant en les clarifiant, en ajustant la taille et le poids des images en fonction des tailles d'écran et avec un type de fichier plus adapté"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Optimisation de l'accessibilité",
+                        "elements" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Correction de l'arborrescence du fichier"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des attribut nécessaires"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Correction des couleurs pour un meilleur contraste"
+                            },
+                            {
+                                "type" : "text",
+                                "content" : "Avec l'audit LightHouse et Waim, on remarque des erreur au niveau de l'arborrescence, avec les titre (H&, h2, ..), les attribut comme alt, id et for ...mais aussi des contrastes."
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Ajout de référencement",
+                        "elements" : [
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Création du référencement local avec Schema.org"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des balises pour les cartes Opengraphes"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Ajout des balises pour les twitter cards"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "",
+                                "caption" : "Permettre les bots de parcourir le site et de l'indexer"
+                            },
+                            {
+                                "type" : "text",
+                                "content" : "Gestion du référencement local et les bots"
+                            }
+                        ]
+                    }
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Organisation",
+            "Audit SEO",
+            "Audit d'accessibilité",
+            "SEO",
+            "Normes d'accessibilité",
+            "Format d'images"
+        ]
     },
 
     {
         "id" : "2",
-        "name" : "724 events"
+        "name" : "Kasa",
+        "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
+        "cover" : "Kasa-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_7-Kasa"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
+            }
+        ],
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'ecran de la maquette Figma"
+                    },
+                    {
+                        "type": "text",
+                        "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
+                    }
+                ]
+            },
+            {
+                "title" : "Création du dossier d'application React avec vite",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture de l'application React créer avec vite"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Création de l'application avec Vite"
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la logique des routes de l'applications",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src": "",
+                        "caption" : "Capture des routes de l'applications"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la page d'accueil et de ses composants",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page d'accueil"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En me basant sur la maquette, j'ai créer la page d'accueil, et certains composant qui seront utilisée sur toutes les pages ou certaines pages, comme le header, ou le bandeau d'image."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des autres pages du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page A propos"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En suivant cette logique j'ai réaliser les différents composants et les ai intégrer aux pages du site."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la page de logement",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la page logement"
+                    },
+                    {
+                        "type ": "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "En utilisant le fichier JSON fournis et les informations qu'il contient j'ai lié l'id de chaque logement à une page et avec UseParams, j'ai pus récupérer cet id et afficher les informations du logement."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran de la maquette figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran du site après réalisation"
+                    }
+                ]
+            }
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "JavaScript",
+            "React",
+            "Git & GitHub",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "3",
-        "name" : "Nina Carducci"
+        "name" : "Sophie Bluel",
+        "description" : "En tant que développeur front-end au sein de l’agence ArchiWebos, j’ai été intégré à l’équipe chargée du site portfolio d’une architecte d’intérieur. Le projet consistait à transformer une page statique en une interface dynamique capable de gérer les travaux de l’architecte et les interactions avec un administrateur. Les maquettes Figma, le code back-end pour la persistance des données et le code front-end existant m’ont été fournis, ainsi qu’un Kanban pour suivre les tâches attribuées.",
+        "cover" : "Sophiebluel-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Projet_6-Sophie_Bluel/"
+            }
+        ],
+        "steps" : [
+            {
+                "title" : "Gestion de la gallery avec JavaScritp",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Code HTML d'origine"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Appel API et création d'une fonction permettant de créer et afficher les éléments de la gallery"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Résulat de la gallery afficher grace au JS."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer ce projet en supprimant créant la gallery grâce à JavaScript et un appel API. Une boucle génère tous les travaux et en utilisant les éléments HTML utilisé auparavant et les class déjà définis, le rendu est rapidement obtenus. J'ai bien entendu supprimer le code devenu inutile dans le fichier HTML."
+                    }
+                ]
+            },
+            {
+                "title" : "Création et gestion des boutons de filtre",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Appel API et création des boutons de filtres"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Création des boutons permettant de filtrer les travaux de Sophie Bluel. Avec un appel API et une fonction je génère les boutons de filtres. Ensuite, avec je permet à chaque boutons d'afficher les catégories demandées."
+                    }
+                ]
+            },
+            {
+                "title" : "Logique de connexion",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Code de la page de connexion"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code permettant la connexion au compte utilisateur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la logique de déconnexion"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Sphie Bluel doit pouvoir se connecter à son site afin d'éditer les travaux qui seront présent sur la gallery. Pour se connecter, j'ai créer la page de connexion, et gérer les appel API et le renvoie vers la page d'accueil si la connexion fonctionne. J'ai aussi permet la déconnexion de l'utilisateur."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des modales",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code HTML des modales"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture de la logique permettant l'affichage et la fermeture des modales"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code pour supprimer un élément de la gallery"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Ici j'ai du créer des modales, une pour supprimer des travaux et une autre pour en ajouter. Avec les routes API données dans la documentation SWAGGER, j'ai simplement récupérer les informations necessaires et fait des Appel API pour ajouter ou supprimer un élément de la gallery."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site avant modification"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site après modification."
+                    }
+                ] 
+            }
+        ],
+        "skills" : [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git & GitHub",
+            "API",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "4",
-        "name" : "Kasa"
+        "name" : "Oh My Food",
+        "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
+        "cover" : "Ohmyfood-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Oh-My-Food"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
+            }
+        ],
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Découpage de la maquette"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
+                    }
+                ]
+            },
+            {
+                "title" : "Codage de la page d'accueil du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Rendu de la page d'accueil Ohmyfood"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer le projet et codant la page d'accueil du site en mobile first. Le découpage de la maquette ma permet de prévoir les changement qui se feront à l'affichage lorsque je passerais au responsive."
+                    }
+                ]
+            },
+            {
+                "title" : "Création des animations sur la page d'accueil",
+                "elements" : [
+                    {
+                        "type" : "image" ,
+                        "src" : "",
+                        "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Ajout des effets et animations sur le bouton de recherche et sur les coeur des cartes de restaurants. J'ai utilisé un input type checkbox pour changer l'état du coeur de vide à plein en jouant avec un effet d'opacité."
+                    }
+                ]
+            },
+            {
+                "title" : "Création d'une page restaurant",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'une partie du code de la page de restaurants"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "La page restaurant au format mobile"
+                    },
+                    {
+                        "type": "text",
+                        "content" : "J'ai écris la page restaurant en récupérants certains éléments d'éjà réaliser de la page d'accueil (header, footer, coeur du like ..). L'affichage a aussi été fait en SCSS et correspond à maquette donnée. Les autres pages de restaurants ont simplement été dupliqués, et les texts et images modifiés. "
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout des animations de la page de restaurant",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "capture du code d'animation des cartes pour le check"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Rendu des animations"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai ensuite créer les animations sur les cartes, de leur apparitions progressives sur la page à l'icone de validations qui apparait lorsqu'on sélectionne une carte.  Pour les aniamtions sur le coeur ou l'effet sur le boutons au survol, cela à été copier de ce qui avait déjà était fait."
+                    }
+                ]
+            },
+            {
+                "title" : "Responsive du site",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Caputure du code des mediaqueries d'une page du site."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Le site étant coder en mobile-first (c'est-à-dire la version smartphone en premier), il a fallut utiliser les media queries pour ajuster l'affichage pour les tablettes, ordinateurs et écrans larges. Les animations ont aussi, pour certaines, dûe être adaptés."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture de la maquette du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du site après code"
+                    }
+                ]
+            }
+        ],
+        "skills" : [
+            "HTML",
+            "SCSS",
+            "Animation CSS",
+            "Git & GitHub",
+            "Organisation"
+        ]
     },
 
     {
         "id" : "5",
-        "name" : "Sophie Bluel"
-    },
-
-    {
-        "id" : "6",
-        "name" : "Print It"
-    },
-
-    {
-        "id" : "7",
-        "name" : "Oh My Food"
-    },
-
-    {
-        "id" : "8",
-        "name" : "Booki"
+        "name" : "Booki",
+        "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
+        "cover" : "Booki-1.png",
+        "links" : [
+            {
+                "type" : "repo",
+                "content" : "https://github.com/NeugdaeUju/Booki"
+            },
+            {
+                "type" : "site",
+                "content" : "https://neugdaeuju.github.io/Booki/"
+            }
+        ],
+        "steps" : [
+            {
+                "title" : "Analyse des maquettes",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture d'écran de la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Découpage de la maquette"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
+                    }
+                ]
+            },
+            {
+                "title" : "Ecriture de la première partie du code",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code écrit pour le header et hero"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai commencer ensuite à écrire le code pour l'en-tête et la partie de présentation du site."
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout de la section des hébergements",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Capture du code écrit pour la section des hébergements."
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Pour créer la section des hébergements à Marseille, j'ai réutiliser le code écrit pour la section des hébèrgements populaire, et je l'ai adapté à la nouvelle section grâce au CSS."
+                    }
+                ]
+            },
+            {
+                "title" : "Création de la section des activités",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Cature du code de la section des activités"
+                    },
+                    {
+                        "type" : "text",
+                        "contant" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
+                    }
+                ]
+            },
+            {
+                "title" : "Ajout du footer",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Création du code pour le pied de page"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "Enfin j'ai ajouter le pied de page du site."
+                    }
+                ]
+            },
+            {
+                "title" : "",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Creation des media queries pour tous les devices (mobiles, tablettes, desktop, ..)"
+                    },
+                    {
+                        "type" : "text",
+                        "content" : "J'ai créer les media query pour le responsive de desktop, tablette et mobile, en faisant attention aux brakpoints et en ajoutant des breakpoints intermédiaires si necessaires."
+                    }
+                ]
+            },
+            {
+                "title" : "Avant - Après",
+                "elements" : [
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "Site avant code"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "",
+                        "caption" : "site après code"
+                    }
+                ]
+            }
+        ],
+        "skills" : [
+            "HTML",
+            "Git & GitHub",
+            "CSS"
+        ]
     }
 ]

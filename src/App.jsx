@@ -3,9 +3,9 @@ import Footer from './components/Footer'
 import Accueil from './pages/Accueil'
 import Works from './pages/Works'
 import WorksDetails from './pages/WorksDetails'
-// import About from './pages/About'
-// import Contact from './pages/Contact'
-// import ErrorPage from './pages/ErrorPage'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
           <Route path='/' element={<Accueil />} />
           <Route path='/works' element={<Works />} />
           <Route path='/works/:id' element={<WorksDetails />} />
-          <Route path='/about' element='{<About />}' />
-          <Route path='/contact' element='{<Contact />}' />
-          <Route path='*' element='{<ErrorPage />}' />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

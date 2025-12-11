@@ -10,7 +10,14 @@
         bottom : 15px;
         left : 15px;
         border-radius : 50px;
-        background-color : #EAE7ED;;
+        background-color : #EAE7ED;
         padding : 10px 15px;
+    }
+
+    &--image {
+        object-fit: cover;
+        height :100%;
+        width : 100%;
+        border-radius : 10px;
     }
 }

@@ -10,6 +10,12 @@ function WorksDetails () {
     const {id} = useParams();
     const project = data.find(project => project.id === id)
 
+    if(!project) {
+        return (
+            <ErrorPage />
+        )
+    }
+
     return (
         <>
             <Header page={project.name}/>
