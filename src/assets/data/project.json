@@ -199,17 +199,22 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-2.png",
                         "caption" : "Capture d'ecran de la maquette Figma"
                     },
                     {
+                        "type" : "image",
+                        "src" : "K-3.png",
+                        "caption" : "Capture d'ecran des composants réaliser sur Figma"
+                    },
+                    {
                         "type" : "text",
-                        "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
+                        "content" : "J'ai commencé par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
                     }
                 ]
             },
             {
-                "title" : "Création du dossier d'application React avec vite",
+                "title" : "Création de la base de l'application React",
                 "elements" : [
                     {
                         "type" : "image",
@@ -217,22 +222,13 @@
                         "caption" : "Capture de l'application React créer avec vite"
                     },
                     {
-                        "type" : "text",
-                        "content" : "Création de l'application avec Vite"
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la logique des routes de l'applications",
-                "elements" : [
-                    {
                         "type" : "image",
                         "src": "",
                         "caption" : "Capture des routes de l'applications"
                     },
                     {
                         "type" : "text",
-                        "content" : "J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
+                        "content" : "Création de l'application avec Vite. J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
                     }
                 ]
             },
@@ -241,7 +237,17 @@
                 "elements" : [
                     {
                         "type" : "image",
+                        "src" : "K-2.png",
+                        "caption" : "Capture d'écran de la maquette de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
                         "src" : "",
+                        "caption" : "Capture d'écran du code de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-1.png",
                         "caption" : "Capture d'écran de la page d'accueil"
                     },
                     {
@@ -255,8 +261,23 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-5.png",
+                        "caption" : "Capture d'écran de la maquette de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-8.png",
                         "caption" : "Capture d'écran de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-7.png",
+                        "caption" : "Capture d'écran de la maquette de la page erreur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-10.png",
+                        "caption" : "Capture d'écran de la page Erreur"
                     },
                     {
                         "type" : "text",
@@ -269,13 +290,18 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la page logement"
+                        "src" : "K-6.png",
+                        "caption" : "Capture d'écran de la maquette de la page logement"
                     },
                     {
                         "type" : "image",
                         "src" : "",
                         "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-9.png",
+                        "caption" : "Capture d'écran de la page de logement"
                     },
                     {
                         "type" : "text",
@@ -288,12 +314,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-4.png",
                         "caption" : "capture d'écran de la maquette figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-1.png",
                         "caption" : "capture d'écran du site après réalisation"
                     }
                 ]
@@ -566,6 +592,28 @@
                         "caption" : "Caputure du code des mediaqueries d'une page du site."
                     },
                     {
+                        "type" : "image",
+                        "src" : "OMF-3.png",
+                        "caption" : "Capture da la page d'accueil-tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-4.png",
+                        "caption" : "Capture da la page de restaurant-tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-5.png",
+                        "caption" : "Capture da la page d'accueil-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-6.png",
+                        "caption" : "Capture da la page de restaurant-phone"
+                    },
+                    {
                         "type" : "text",
                         "content" : "Le site étant coder en mobile-first (c'est-à-dire la version smartphone en premier), il a fallut utiliser les media queries pour ajuster l'affichage pour les tablettes, ordinateurs et écrans larges. Les animations ont aussi, pour certaines, dûe être adaptés."
                     }
@@ -577,12 +625,41 @@
                     {
                         "type" : "image",
                         "src" : "",
-                        "caption" : "Capture de la maquette du site"
+                        "caption" : "Capture dde la maquette Figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture du site après code"
+                        "src" : "OMF-1.png",
+                        "caption" : "Capture da la page d'accueil-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-2.png",
+                        "caption" : "Capture da la page de restaurant-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-3.png",
+                        "caption" : "Capture da la page d'accueil-tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-4.png",
+                        "caption" : "Capture da la page de restaurant-tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-5.png",
+                        "caption" : "Capture da la page d'accueil-desktop"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-6.png",
+                        "caption" : "Capture da la page de restaurant-desktop"
                     }
                 ]
             }
@@ -715,8 +792,20 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "site après code"
+                        "src" : "B-1.png",
+                        "caption" : "site après code - desktop"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "B-2.png",
+                        "caption" : "site après code - tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "B-3.png",
+                        "caption" : "site après code - mobile"
                     }
                 ]
             }
