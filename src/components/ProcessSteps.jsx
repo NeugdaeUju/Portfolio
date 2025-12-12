@@ -1,20 +1,29 @@
 import '../assets/sass/processStep.scss'
 
-function ProcessSteps ({step , image , text}) {
+function ProcessSteps ({step , image , text, elements}) {
     return (
         <>
             <div className='works-page__process__step-section'>
-                <h3 className='works-page__process__step-section--title'>step</h3>
+                <h3 className='works-page__process__step-section--title'>{step}</h3>
                 <div className='works-page__process__step-section__container'>
-                    <div className='works-page__process__step-section__container__images'>
-                        <div className='works-page__process__step-section__container__images--gradient'></div>
-                        <img src=""
-                         className='works-page__process__step-section__container__images--image'/>
-                    </div>
-                    <div className='works-page__process__step-section__container__description'>
-                        <p className='works-page__process__step-section__container__description__text'>Lorem Ipsum</p>
-                    </div>
-                    
+                    {Array.isArray(elements) && elements.map((el, idx) => (
+                        el.type === 'image' && el.src ? (
+                            <div className='works-page__process__step-section__container__images'
+                                 key={idx}>
+                                <div className='works-page__process__step-section__container__images--gradient'></div>
+                                <img src={new URL(`../assets/images/${el.src}`, import.meta.url).href}
+                                     alt={el.caption} 
+                                     className='works-page__process__step-section__container__images--image'/>
+                            </div>
+                        ) : el.type === 'text' ? (
+                            <div className='works-page__process__step-section__container__description'
+                                 key={idx}>
+                                <p className='works-page__process__step-section__container__description__text'>
+                                   {el.content}
+                                </p>
+                            </div>
+                        ) : null
+                    ))}                    
                 </div>
             </div>
         </>

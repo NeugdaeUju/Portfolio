@@ -6,6 +6,7 @@ import ProcessSteps from "../components/ProcessSteps"
 import '../assets/sass/worksDetails.scss'
 import github from '../assets/images/github-logo.png'
 import site from '../assets/images/site.png'
+import ErrorPage from './ErrorPage'
 
 function WorksDetails () {
     const { id } = useParams();
@@ -32,7 +33,7 @@ function WorksDetails () {
     }
 
     const images = Array.isArray(project.images) ? project.images.filter(Boolean) : []
-    const coverURL = project.cover ? new URL(`../assets/images${project.cover}` , import.meta.url).href : null
+    const coverURL = project.cover ? new URL(`../assets/images/${project.cover}` , import.meta.url).href : null
 
     return (
         <>
@@ -50,8 +51,8 @@ function WorksDetails () {
                             {Array.isArray(project.links) && project.links.map((link, idx) => {
                                 const icon = String(link).toLowerCase().includes('github') ? github : site
                                 return (
-                                    <a key={idx} href={link} className='worksDetails-page__description__presentation__header__link--background' target='_blank' rel='nooponer noreferrer'>
-                                        <img src={icon} className='worksDetails-page__description__presentation__header__link--image'/>
+                                    <a key={idx} href={link} className='worksDetails-page__description__presentation__header__link--background' target='_blank' rel='noopener noreferrer'>
+                                        <img src={icon} className='worksDetails-page__description__presentation__header__link--image' alt='link'/>
                                     </a>
                                 )
                             })}
@@ -70,9 +71,8 @@ function WorksDetails () {
                         project.steps.map((s, i) => (
                             <ProcessSteps 
                                 key={i}
-                                step={s.title ?? `Etape${i+1}`}
-                                image={s.image ?? ''}
-                                text={s.text ?? ''}/>
+                                step={s.title ?? `Etape ${i+1}`}
+                                elements={s.elements}/>
                         ))
                     ) : (
                         <p>Aucune étape renseignée.</p>
@@ -101,7 +101,7 @@ function WorksDetails () {
                                     className='worksDetails-page__skills__list--item'>{skill}</p>
                             ))
                         ) : (
-                            <p className='worksDetails-page__skills__list--item'>Aucuns skills renseignés</p>
+                            <p className='worksDetails-page__skills__list--item'>Aucune compétences renseignée</p>
                         )}
                     </div>
 

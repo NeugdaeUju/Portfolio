@@ -17,7 +17,7 @@
         "steps" : [
                     {
                         "title" : "Audit du site",
-                        "elemnets" : [
+                        "elements" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -155,7 +155,7 @@
                         "caption" : "Capture d'ecran de la maquette Figma"
                     },
                     {
-                        "type": "text",
+                        "type" : "text",
                         "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
                     }
                 ]
@@ -225,7 +225,7 @@
                         "caption" : "Capture d'écran de la page logement"
                     },
                     {
-                        "type ": "image",
+                        "type" : "image",
                         "src" : "",
                         "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
                     },
@@ -477,7 +477,7 @@
                         "caption" : "La page restaurant au format mobile"
                     },
                     {
-                        "type": "text",
+                        "type" : "text",
                         "content" : "J'ai écris la page restaurant en récupérants certains éléments d'éjà réaliser de la page d'accueil (header, footer, coeur du like ..). L'affichage a aussi été fait en SCSS et correspond à maquette donnée. Les autres pages de restaurants ont simplement été dupliqués, et les texts et images modifiés. "
                     }
                 ]
@@ -613,7 +613,7 @@
                     },
                     {
                         "type" : "text",
-                        "contant" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
+                        "content" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
                     }
                 ]
             },
