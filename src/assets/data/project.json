@@ -6,18 +6,22 @@
         "cover" : "NinaCarducci-1.png",
         "links" : [
             {
-                "type" : "repo",
+                "type" : "github",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
             }
         ],
         "steps" : [
                     {
                         "title" : "Audit du site",
-                        "elemnets" : [
+                        "elements" : [
                             {
                                 "type" : "image",
                                 "src" : "",
@@ -138,10 +142,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_7-Kasa"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
             }
         ],
@@ -155,7 +163,7 @@
                         "caption" : "Capture d'ecran de la maquette Figma"
                     },
                     {
-                        "type": "text",
+                        "type" : "text",
                         "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
                     }
                 ]
@@ -225,7 +233,7 @@
                         "caption" : "Capture d'écran de la page logement"
                     },
                     {
-                        "type ": "image",
+                        "type" : "image",
                         "src" : "",
                         "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
                     },
@@ -270,10 +278,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_6-Sophie_Bluel/"
             }
         ],
@@ -398,10 +410,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Oh-My-Food"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
             }
         ],
@@ -477,7 +493,7 @@
                         "caption" : "La page restaurant au format mobile"
                     },
                     {
-                        "type": "text",
+                        "type" : "text",
                         "content" : "J'ai écris la page restaurant en récupérants certains éléments d'éjà réaliser de la page d'accueil (header, footer, coeur du like ..). L'affichage a aussi été fait en SCSS et correspond à maquette donnée. Les autres pages de restaurants ont simplement été dupliqués, et les texts et images modifiés. "
                     }
                 ]
@@ -548,10 +564,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Booki"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Booki/"
             }
         ],
@@ -613,7 +633,7 @@
                     },
                     {
                         "type" : "text",
-                        "contant" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
+                        "content" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
                     }
                 ]
             },
