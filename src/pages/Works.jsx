@@ -1,15 +1,24 @@
 import Header from '../components/Header'
 import ProjectCard from '../components/ProjectCard'
-import project from '../assets/data/project.json'
+import Api from '../assets/data/Api'
 import '../assets/sass/works.scss'
+import { useState , useEffect } from 'react'
 
 function Works () {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        Api.getProjects()
+            .then(data => setProjects(data))
+            .catch(err => console.error('Erreur de chargement des projets : ', err))
+    }, [])
+
     return (
         <>
             <Header 
                 page='Works'/>
             <div className='works-page'>
-                {project.map((p , i) => {
+                {projects.map((p , i) => {
                     const index = i + 1
                     return (
                         <ProjectCard 
