@@ -1,4 +1,6 @@
 .works-page__process__step-section {
+    margin-top : 30px;
+
     &--title {
         margin-left : 30px;
     }
@@ -17,7 +19,7 @@
                 inset : 0;
                 pointer-events : none;
                 z-index : 10;
-                background: linear-gradient(to left, #B4A7BD 25%, transparent);
+                background: linear-gradient(to left, #B4A7BD 25%, transparent 55%);
                 border-radius : 20px;
                 height : 90vh;
                 width : 90%
