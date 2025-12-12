@@ -14,26 +14,22 @@
 
             &--gradient {
                 position : absolute;
-                top : 0;
-                left : 0;
-                background: linear-gradient(to left, #B4A7BD , transparent 35%);
+                inset : 0;
+                pointer-events : none;
+                z-index : 10;
+                background: linear-gradient(to left, #B4A7BD 25%, transparent);
                 border-radius : 20px;
-                height : 80vh;
-                width : 80%
-            }
-
-            &--image {
-                background-color: #EAE7ED;
-                border-radius : 20px;
-                height : 80vh;
-                width : 80%;
-                object-fit : cover;
+                height : 90vh;
+                width : 90%
             }
         }
 
         &__description {
             position : absolute;
-            right : 30%;
+            right : 0;
+            width : 30%;
+            top : 5%;
+            z-index : 9999;
         }
     }
 }
