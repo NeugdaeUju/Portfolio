@@ -4,8 +4,6 @@ import Api from '../assets/data/Api'
 import Header from '../components/Header'
 import ProcessSteps from "../components/ProcessSteps"
 import '../assets/sass/worksDetails.scss'
-import github from '../assets/images/github-logo.png'
-import site from '../assets/images/site.png'
 import ErrorPage from './ErrorPage'
 
 function WorksDetails () {
@@ -49,10 +47,19 @@ function WorksDetails () {
                         <div className='worksDetails-page__description__presentation__header'>
                             <h3 className='worksDetails-page__description__presentation__header--subtitles'>Description : </h3>
                             {Array.isArray(project.links) && project.links.map((link, idx) => {
-                                const icon = String(link).toLowerCase().includes('github') ? github : site
+                                const href = link?.content ?? ''
+                                const imgSrc = link?.img ?? ''
+                                if (!href || !imgSrc) return null
+
                                 return (
-                                    <a key={idx} href={link} className='worksDetails-page__description__presentation__header__link--background' target='_blank' rel='noopener noreferrer'>
-                                        <img src={icon} className='worksDetails-page__description__presentation__header__link--image' alt='link'/>
+                                    <a key={idx}
+                                       href={href}
+                                       className='worksDetails-page__description__presentation__header__link--background'
+                                       target='_blank'
+                                       rel='noopener noreferrer'>
+                                        <img src={new URL(`../assets/images/${imgSrc}` , import.meta.url).href}
+                                             className='worksDetails-page__description__presentation__header__link--image'
+                                             alt={link.caption ?? link.type ?? 'lien'}/>
                                     </a>
                                 )
                             })}

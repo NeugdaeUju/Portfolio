@@ -6,11 +6,15 @@
         "cover" : "NinaCarducci-1.png",
         "links" : [
             {
-                "type" : "repo",
+                "type" : "github",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
             }
         ],
@@ -138,10 +142,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_7-Kasa"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
             }
         ],
@@ -270,10 +278,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_6-Sophie_Bluel/"
             }
         ],
@@ -398,10 +410,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Oh-My-Food"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
             }
         ],
@@ -548,10 +564,14 @@
         "links" : [
             {
                 "type" : "repo",
+                "img" : "github-logo.png",
+                "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Booki"
             },
             {
                 "type" : "site",
+                "img" : "site.png",
+                "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Booki/"
             }
         ],
