@@ -1,43 +1,34 @@
 import '../assets/sass/processStep.scss'
+import Caroussel from '../components/Caroussel'
 
-function ProcessSteps ({step, elements}) {
+function ProcessSteps ({step , elements = []}) {
+    const images = elements
+        .filter(el => el.type === 'image' && el.src)
+        .map(el => el.src)
+    
+    const texts = elements.filter(el => el.type === 'text' && el.content)
+
     return (
         <>
             <div className='works-page__process__step-section'>
                 <h3 className='works-page__process__step-section--title'>{step}</h3>
                 <div className='works-page__process__step-section__container'>
-                    {Array.isArray(elements) && elements.map((el, idx) => {
-                        if (el.type === 'image' && el.src) {
-                            try {
-                                const imgUrl = new URL(`../assets/images/${el.src}`, import.meta.url).href
-                                return (
-                                    <div className='works-page__process__step-section__container__images'
-                                         key={idx}>
-                                        <div className='works-page__process__step-section__container__images--gradient'></div>
-                                        <img src={imgUrl}
-                                             alt={el.caption} 
-                                             className='works-page__process__step-section__container__images--image'
-                                             onError={(e) => console.error('Image non trouvée:', el.src)}
-                                        />
-                                    </div>
-                                )
-                            } catch (err) {
-                                console.error('Erreur URL:', el.src, err)
-                                return null
-                            }
-                        }
-                        if (el.type === 'text' && el.content) {
-                            return (
-                                <div className='works-page__process__step-section__container__description'
-                                     key={idx}>
-                                    <p className='works-page__process__step-section__container__description__text'>
-                                       {el.content}
-                                    </p>
-                                </div>
-                            )
-                        }
-                        return null
-                    })}                    
+                   
+                    {images.length > 0 && (
+                        <div className='works-page__process__step-section__container__images'>
+                            <Caroussel images={images} altText={step} />
+                        </div>
+                    )} 
+                    <div className='works-page__process__step-section__container__images--gradient'></div>
+                    {texts.length > 0 && (
+                        <div className='works-page__process__step-section__container__description'>
+                            {texts.map((el, idx) => (
+                                <p key={idx}  className='works-page__process__step-section__container__description__text'>{el.content}</p>
+                            ))}
+                        </div>
+                    )
+
+                    }          
                 </div>
             </div>
         </>
@@ -46,13 +37,7 @@ function ProcessSteps ({step, elements}) {
 
 export default ProcessSteps
 
-{/* function ProcessSteps ({step , image , text, elements}) {
-    return (
-        <>
-            <div className='works-page__process__step-section'>
-                <h3 className='works-page__process__step-section--title'>{step}</h3>
-                <div className='works-page__process__step-section__container'>
-                    {Array.isArray(elements) && elements.map((el, idx) => (
+{/* {Array.isArray(elements) && elements.map((el, idx) => (
                         el.type === 'image' && el.src ? (
                             <div className='works-page__process__step-section__container__images'
                                  key={idx}>
@@ -69,9 +54,4 @@ export default ProcessSteps
                                 </p>
                             </div>
                         ) : null
-                    ))}                    
-                </div>
-            </div>
-        </>
-    )
-} */}
+                    ))} */}
