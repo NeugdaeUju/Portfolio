@@ -24,18 +24,18 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-1.png",
                                 "caption" : "Audit global du site avec LightHouse"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
-                                "caption" : "Audit d'accessibilité du site avec WAIM"
+                                "src" : "NC-2.png",
+                                "caption" : "Audit d'accessibilité du site avec Wave"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
-                                "caption" : "Audit de référencement du site avec Sniffer"
+                                "src" : "NC-3.png",
+                                "caption" : "Audit de référencement du site avec Google Rich Result"
                             },
                             {
                                 "type" : "text",
@@ -48,17 +48,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-5.png",
                                 "caption" : "Minification des fichiers JS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-4.png",
                                 "caption" : "Minification des fichiers CSS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-6.png",
                                 "caption" : "Modification des images"
                             },
                             {
@@ -72,17 +72,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-7.png",
                                 "caption" : "Correction de l'arborrescence du fichier"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-6.png",
                                 "caption" : "Ajout des attribut nécessaires"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-8.png",
                                 "caption" : "Correction des couleurs pour un meilleur contraste"
                             },
                             {
@@ -96,27 +96,67 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-9.png",
                                 "caption" : "Création du référencement local avec Schema.org"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-10.png",
                                 "caption" : "Ajout des balises pour les cartes Opengraphes"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-11.png",
                                 "caption" : "Ajout des balises pour les twitter cards"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-12.png",
                                 "caption" : "Permettre les bots de parcourir le site et de l'indexer"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-13.png",
+                                "caption" : "Ajouter un titre et une description au site"
                             },
                             {
                                 "type" : "text",
                                 "content" : "Gestion du référencement local et les bots"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Ajout de référencement",
+                        "elements" : [
+                            {
+                                "type" : "image",
+                                "src" : "NC-1.png",
+                                "caption" : "Audit LightHouse avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-14.png",
+                                "caption" : "Audit LightHouse après"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-2.png",
+                                "caption" : "Audit Wave avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-15.png",
+                                "caption" : "Audit Wave après"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-3.png",
+                                "caption" : "Audit Google Rich Result avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-16.png",
+                                "caption" : "Audit Google Rich Result après"
                             }
                         ]
                     }
