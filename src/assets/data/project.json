@@ -218,13 +218,18 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-23.png",
                         "caption" : "Capture de l'application React créer avec vite"
                     },
                     {
                         "type" : "image",
-                        "src": "",
+                        "src": "K-22.png",
                         "caption" : "Capture des routes de l'applications"
+                    },
+                    {
+                        "type" : "image",
+                        "src": "K-24.png",
+                        "caption" : "Ecriture du ReadMe pour lancer le projet"
                     },
                     {
                         "type" : "text",
@@ -242,8 +247,18 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-11.png",
                         "caption" : "Capture d'écran du code de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-13.png",
+                        "caption" : "Capture d'écran du composant header"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-12.png",
+                        "caption" : "Capture d'écran du composant des logements"
                     },
                     {
                         "type" : "image",
@@ -266,6 +281,21 @@
                     },
                     {
                         "type" : "image",
+                        "src" : "K-14.png",
+                        "caption" : "Capture d'écran du code de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-15.png",
+                        "caption" : "Capture d'écran du composant des dropdown"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-16.png",
+                        "caption" : "Capture d'écran du composant utilisant les dropdown"
+                    },
+                    {
+                        "type" : "image",
                         "src" : "K-8.png",
                         "caption" : "Capture d'écran de la page A propos"
                     },
@@ -273,6 +303,11 @@
                         "type" : "image",
                         "src" : "K-7.png",
                         "caption" : "Capture d'écran de la maquette de la page erreur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-17.png",
+                        "caption" : "Capture d'écran du code de la page erreur"
                     },
                     {
                         "type" : "image",
@@ -295,8 +330,23 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
+                        "src" : "K-18.png",
+                        "caption" : "Capture d'écran du code de la page logement"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-19.png",
+                        "caption" : "Capture d'écran du code du carroussel de la page"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-20.png",
+                        "caption" : "Capture d'écran du code de la description du logement"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-21.png",
+                        "caption" : "Capture d'écran du code des informations du logement"
                     },
                     {
                         "type" : "image",
