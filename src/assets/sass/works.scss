@@ -44,3 +44,14 @@
         grid-row : 16 / span 4;
     }
 }
+
+@media (max-width : 600px) {
+    .works-page {
+        display : flex;
+        flex-direction: column;
+
+        &__card-1 , &__card-2 , &__card-3 , &__card-4 , &__card-5 {
+            height : 250px;;
+        }
+    }
+}
