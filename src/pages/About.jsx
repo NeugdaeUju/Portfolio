@@ -28,13 +28,28 @@ Chaque projet est pour moi l’occasion d’expérimenter, d’améliorer mes pr
                     <div className='about-page__section-skills__hard-skills'>
                         <h2 className='about-page__section-skills__hard-skills--subtitle'>Hard Skills</h2>
                         <div className='about-page__section-skills__hard-skills__list'>
-                            <p className='about-page__section-skills__hard-skills__list--item'>Lorem ipsum</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>HTML</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>CSS & SCSS</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>Animations</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>JavaScript</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>React</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>Figma</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>Git & GitHub</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>SEO</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>Accessibilité</p>
+                            <p className='about-page__section-skills__hard-skills__list--item'>API</p>
                         </div> 
                     </div>
                     <div className='about-page__section-skills__soft-skills'>
                         <h2 className='about-page__section-skills__soft-skills--subtitle'>Soft Skills</h2>
                         <div className='about-page__section-skills__soft-skills__list'>
-                            <p className='about-page__section-skills__soft-skills__list--item'>Lorem ipsum</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Organisation</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Créativité</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Communication</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Autonomie</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Rigueur</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Curiosité des langage et techniques</p>
+                            <p className='about-page__section-skills__soft-skills__list--item'>Patience</p>
                         </div> 
                     </div>
                 </section>
