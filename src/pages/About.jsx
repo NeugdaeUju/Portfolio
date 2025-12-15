@@ -18,7 +18,11 @@ Mon approche repose sur une intégration propre, structurée et évolutive. Je t
                 </section>
                 <section className='about-page__section-how'>
                     <h2 className='about-page__section-how--subtitle'>Mon parcours</h2>
-                    <p className='about-page__section-how--text'>Lorem Ipsum</p>
+                    <p className='about-page__section-how--text'>Après une formation orientée vers le développement et l’intégration web, j’ai progressivement affiné ma manière de travailler à travers différents projets, allant de pages statiques à des interfaces plus dynamiques basées sur React. Ces expériences m’ont permis de consolider mes bases techniques tout en développant une méthode de travail structurée.
+<br></br>
+<br></br>
+Chaque projet est pour moi l’occasion d’expérimenter, d’améliorer mes pratiques et de renforcer ma compréhension des enjeux front-end : découpage en composants, responsive design, animations légères, maintenabilité du code. Aujourd’hui, je continue à enrichir mon portfolio avec des projets personnels et professionnels, dans une logique d’apprentissage continu et d’évolution.
+</p>
                 </section>
                 <section className='about-page__section-skills'>
                     <div className='about-page__section-skills__hard-skills'>
