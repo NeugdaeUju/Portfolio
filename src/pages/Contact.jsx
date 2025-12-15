@@ -11,13 +11,13 @@ function Contact () {
                 page='Contact' />
             <div className='contact-page'>
                 <div className='contact-page__description'>
-                    <p className='contact-page__description--text'>Lorem ipsum</p>
+                    <p className='contact-page__description--text'>Vous pouvez me retrouver et me contacter via GitHub et LinkedIn, où je partage mes projets et mon parcours professionnel.</p>
                 </div>
                 <div className='contact-page__links'>
                     <Link to="https://github.com/neugdaeUju" className='contact-page__links--link' target="_blank">
                         <img src={githubLogo} className="contact-page__links--image"/>
                     </Link>
-                    <Link to="https://linkedin.com" className='contact-page__links--link' target="_blank">
+                    <Link to="https://www.linkedin.com/in/le%C3%AFla-pelletier-672572249/" className='contact-page__links--link' target="_blank">
                         <img src={linkedinLogo} className="contact-page__links--image"/>
                     </Link>
                 </div>
