@@ -1,7 +1,7 @@
 .caroussel {
   position: relative;
   width: 100%;
-  height: 500px; // adapte
+  height: 500px;
   overflow: hidden;
 
   &__image {
@@ -26,5 +26,73 @@
     pointer-events: auto;
     border-radius : 20px;
     height : 100%;
+  }
+
+  &__button--prev , &__button--next {
+    display : none;
+  }
+}
+
+@media (max-width : 600px) {
+  .caroussel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+    &__image {
+      position: absolute;
+      background-color: #EAE7ED;
+      border-radius : 20px;
+      height : 300px;
+      width : 100%;
+      object-fit : cover;
+      inset: 0;
+      object-position: center;
+      opacity: 0;
+      transform: scale(1.02);
+      transition: opacity 500ms ease, transform 600ms cubic-bezier(.2,.8,.2,1);
+      will-change: opacity, transform;
+      pointer-events: none;
+    }
+
+    &__image.active {
+      opacity: 1;
+      transform: scale(1);
+      pointer-events: auto;
+      border-radius : 20px;
+      height : 100%;
+    }
+
+    &__button {
+
+      &--prev , &--next{
+      display : block;
+      position : absolute;
+      z-index : 10;
+      border : none;
+      background-color : transparent;
+      cursor : pointer
+      }
+
+      &--next {
+      top : 50%;
+      right : 5%;
+      
+      }
+
+      &--prev {
+      top : 50%;
+      left : 5%;
+      }
+
+      &--icon {
+        color : #EAE7ED;
+        transition : color 300ms ease-in-out
+      }
+
+      &--icon:hover {
+        color : #3E2C41; 
+      }
+    }
   }
 }
