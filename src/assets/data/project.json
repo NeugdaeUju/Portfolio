@@ -24,18 +24,18 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-1.png",
                                 "caption" : "Audit global du site avec LightHouse"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
-                                "caption" : "Audit d'accessibilité du site avec WAIM"
+                                "src" : "NC-2.png",
+                                "caption" : "Audit d'accessibilité du site avec Wave"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
-                                "caption" : "Audit de référencement du site avec Sniffer"
+                                "src" : "NC-3.png",
+                                "caption" : "Audit de référencement du site avec Google Rich Result"
                             },
                             {
                                 "type" : "text",
@@ -48,17 +48,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-5.png",
                                 "caption" : "Minification des fichiers JS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-4.png",
                                 "caption" : "Minification des fichiers CSS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-6.png",
                                 "caption" : "Modification des images"
                             },
                             {
@@ -72,17 +72,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-7.png",
                                 "caption" : "Correction de l'arborrescence du fichier"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-6.png",
                                 "caption" : "Ajout des attribut nécessaires"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-8.png",
                                 "caption" : "Correction des couleurs pour un meilleur contraste"
                             },
                             {
@@ -96,27 +96,67 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-9.png",
                                 "caption" : "Création du référencement local avec Schema.org"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-10.png",
                                 "caption" : "Ajout des balises pour les cartes Opengraphes"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-11.png",
                                 "caption" : "Ajout des balises pour les twitter cards"
                             },
                             {
                                 "type" : "image",
-                                "src" : "",
+                                "src" : "NC-12.png",
                                 "caption" : "Permettre les bots de parcourir le site et de l'indexer"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-13.png",
+                                "caption" : "Ajouter un titre et une description au site"
                             },
                             {
                                 "type" : "text",
                                 "content" : "Gestion du référencement local et les bots"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Avant - Après",
+                        "elements" : [
+                            {
+                                "type" : "image",
+                                "src" : "NC-1.png",
+                                "caption" : "Audit LightHouse avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-14.png",
+                                "caption" : "Audit LightHouse après"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-2.png",
+                                "caption" : "Audit Wave avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-15.png",
+                                "caption" : "Audit Wave après"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-3.png",
+                                "caption" : "Audit Google Rich Result avant"
+                            },
+                            {
+                                "type" : "image",
+                                "src" : "NC-16.png",
+                                "caption" : "Audit Google Rich Result après"
                             }
                         ]
                     }
@@ -159,40 +199,41 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-2.png",
                         "caption" : "Capture d'ecran de la maquette Figma"
                     },
                     {
+                        "type" : "image",
+                        "src" : "K-3.png",
+                        "caption" : "Capture d'ecran des composants réaliser sur Figma"
+                    },
+                    {
                         "type" : "text",
-                        "content" : "J'ai commencer par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
+                        "content" : "J'ai commencé par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
                     }
                 ]
             },
             {
-                "title" : "Création du dossier d'application React avec vite",
+                "title" : "Création de la base de l'application React",
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-23.png",
                         "caption" : "Capture de l'application React créer avec vite"
                     },
                     {
-                        "type" : "text",
-                        "content" : "Création de l'application avec Vite"
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la logique des routes de l'applications",
-                "elements" : [
-                    {
                         "type" : "image",
-                        "src": "",
+                        "src": "K-22.png",
                         "caption" : "Capture des routes de l'applications"
                     },
                     {
+                        "type" : "image",
+                        "src": "K-24.png",
+                        "caption" : "Ecriture du ReadMe pour lancer le projet"
+                    },
+                    {
                         "type" : "text",
-                        "content" : "J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
+                        "content" : "Création de l'application avec Vite. J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
                     }
                 ]
             },
@@ -201,7 +242,27 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-2.png",
+                        "caption" : "Capture d'écran de la maquette de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-11.png",
+                        "caption" : "Capture d'écran du code de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-13.png",
+                        "caption" : "Capture d'écran du composant header"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-12.png",
+                        "caption" : "Capture d'écran du composant des logements"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-1.png",
                         "caption" : "Capture d'écran de la page d'accueil"
                     },
                     {
@@ -215,8 +276,43 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-5.png",
+                        "caption" : "Capture d'écran de la maquette de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-14.png",
+                        "caption" : "Capture d'écran du code de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-15.png",
+                        "caption" : "Capture d'écran du composant des dropdown"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-16.png",
+                        "caption" : "Capture d'écran du composant utilisant les dropdown"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-8.png",
                         "caption" : "Capture d'écran de la page A propos"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-7.png",
+                        "caption" : "Capture d'écran de la maquette de la page erreur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-17.png",
+                        "caption" : "Capture d'écran du code de la page erreur"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-10.png",
+                        "caption" : "Capture d'écran de la page Erreur"
                     },
                     {
                         "type" : "text",
@@ -229,13 +325,33 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la page logement"
+                        "src" : "K-6.png",
+                        "caption" : "Capture d'écran de la maquette de la page logement"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran du code permettant d'afficher le logement sélectionnée"
+                        "src" : "K-18.png",
+                        "caption" : "Capture d'écran du code de la page logement"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-19.png",
+                        "caption" : "Capture d'écran du code du carroussel de la page"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-20.png",
+                        "caption" : "Capture d'écran du code de la description du logement"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-21.png",
+                        "caption" : "Capture d'écran du code des informations du logement"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "K-9.png",
+                        "caption" : "Capture d'écran de la page de logement"
                     },
                     {
                         "type" : "text",
@@ -248,12 +364,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-4.png",
                         "caption" : "capture d'écran de la maquette figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "K-1.png",
                         "caption" : "capture d'écran du site après réalisation"
                     }
                 ]
@@ -427,13 +543,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la maquette Figma"
+                        "src" : "OMF-7.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Découpage de la maquette"
+                        "src" : "OMF-8.png",
+                        "caption" : "Découpage de la maquette - desktop"
                     },
                     {
                         "type" : "text",
@@ -447,11 +563,16 @@
                     {
                         "type" : "image",
                         "src" : "",
+                        "caption" : "capture d'écran de la maquette de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-9.png",
                         "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-1.png",
                         "caption" : "Rendu de la page d'accueil Ohmyfood"
                     },
                     {
@@ -465,13 +586,18 @@
                 "elements" : [
                     {
                         "type" : "image" ,
-                        "src" : "",
+                        "src" : "OMF-12.png",
                         "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-11.png",
                         "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-10.png",
+                        "caption" : "animation du loader du site"
                     },
                     {
                         "type" : "text",
@@ -484,12 +610,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-13.png",
                         "caption" : "Capture d'une partie du code de la page de restaurants"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-4.png",
                         "caption" : "La page restaurant au format mobile"
                     },
                     {
@@ -503,13 +629,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-15.png",
                         "caption" : "capture du code d'animation des cartes pour le check"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Rendu des animations"
+                        "src" : "OMF-14.png",
+                        "caption" : "animations d'apparition des cartes"
                     },
                     {
                         "type" : "text",
@@ -522,8 +648,30 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-16.png",
                         "caption" : "Caputure du code des mediaqueries d'une page du site."
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-3.png",
+                        "caption" : "Capture da la page d'accueil-tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-4.png",
+                        "caption" : "Capture da la page de restaurant-tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-5.png",
+                        "caption" : "Capture da la page d'accueil-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-6.png",
+                        "caption" : "Capture da la page de restaurant-phone"
                     },
                     {
                         "type" : "text",
@@ -536,13 +684,47 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture de la maquette du site"
+                        "src" : "OMF-7.png",
+                        "caption" : "Capture dde la maquette Figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture du site après code"
+                        "src" : "OMF-8.png",
+                        "caption" : "Capture dde la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-1.png",
+                        "caption" : "Capture da la page d'accueil-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-2.png",
+                        "caption" : "Capture da la page de restaurant-phone"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-3.png",
+                        "caption" : "Capture da la page d'accueil-tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-4.png",
+                        "caption" : "Capture da la page de restaurant-tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-5.png",
+                        "caption" : "Capture da la page d'accueil-desktop"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "OMF-6.png",
+                        "caption" : "Capture da la page de restaurant-desktop"
                     }
                 ]
             }
@@ -581,13 +763,23 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la maquette Figma"
+                        "src" : "B-4.png",
+                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Découpage de la maquette"
+                        "src" : "B-5.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-6.png",
+                        "caption" : "Code de base du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-8.png",
+                        "caption" : "Capture d'écran du site de base"
                     },
                     {
                         "type" : "text",
@@ -600,8 +792,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-9.png",
                         "caption" : "Capture du code écrit pour le header et hero"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-10.png",
+                        "caption" : "Rendu du code"
                     },
                     {
                         "type" : "text",
@@ -614,8 +811,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-11.png",
                         "caption" : "Capture du code écrit pour la section des hébergements."
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-12.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -628,8 +830,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-13.png",
                         "caption" : "Cature du code de la section des activités"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-14.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -642,8 +849,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-15.png",
                         "caption" : "Création du code pour le pied de page"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-16.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -652,16 +864,26 @@
                 ]
             },
             {
-                "title" : "",
+                "title" : "Responsive du site",
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Creation des media queries pour tous les devices (mobiles, tablettes, desktop, ..)"
+                        "src" : "B-17.png",
+                        "caption" : "Capture d'écran du partie du responsive du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-2.png",
+                        "caption" : "Rendu du responsive - Tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-3.png",
+                        "caption" : "Rendu du responsive - Mobile"
                     },
                     {
                         "type" : "text",
-                        "content" : "J'ai créer les media query pour le responsive de desktop, tablette et mobile, en faisant attention aux brakpoints et en ajoutant des breakpoints intermédiaires si necessaires."
+                        "content" : "J'ai terminé ce projet en m'occupant du reponsive du site pour toutes les dimmension d'écran, avec les breakpoint commun (Mobile, tablet, desktop et large sreen), et en ajoutant des breakpoint intermédiaire au besoin pour le rendu visuelle soit le plus fluide et agréable pour l'utilisateur final."
                     }
                 ]
             },
@@ -675,8 +897,30 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "site après code"
+                        "src" : "B-4.png",
+                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-5.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-1.png",
+                        "caption" : "site après code - desktop"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "B-2.png",
+                        "caption" : "site après code - tablet"
+                    }
+                    ,
+                    {
+                        "type" : "image",
+                        "src" : "B-3.png",
+                        "caption" : "site après code - mobile"
                     }
                 ]
             }
