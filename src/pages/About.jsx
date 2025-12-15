@@ -10,7 +10,10 @@ function About () {
             <main className='about-page'>
                 <section className='about-page__section-who'>
                     <h2 className='about-page__section-who--subtitle'>Qui suis-je?</h2>
-                    <p className='about-page__section-who--text'>Lorem ipsum</p>
+                    <p className='about-page__section-who--text'>Intégratrice web, je conçois et développe des interfaces claires, accessibles et cohérentes, avec une attention particulière portée aux détails et à l’expérience utilisateur. J’aime transformer une intention ou une maquette en une interface fonctionnelle, fluide et maintenable.
+<br></br>
+<br></br>
+Mon approche repose sur une intégration propre, structurée et évolutive. Je travaille principalement avec des composants réutilisables, en veillant à la lisibilité du code et à la cohérence visuelle sur l’ensemble du projet. Curieuse et rigoureuse, j’accorde autant d’importance à la qualité technique qu’au rendu final.</p>
                     <Link to='/works' className='about-page__section-who--link'>Mon Portfolio</Link>
                 </section>
                 <section className='about-page__section-how'>
