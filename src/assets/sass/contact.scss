@@ -25,6 +25,25 @@
     }
 }
 
+@media (max-width : 992px) {
+    .contact-page {
+
+        &__links {
+            &--link {
+                height : 90px;
+                width : 90px;
+                border-radius : 15px;
+            }
+
+            &--image {
+                height : 90px;
+                width : 90px;
+            }
+        }
+    }
+}
+
+
 @media (max-width : 768px) {
     .contact-page {
 
