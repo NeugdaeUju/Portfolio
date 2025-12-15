@@ -96,6 +96,36 @@
     }
 }
 
+@media (max-width : 768px) {
+    .about-page {
+        margin-top : 10px;
+
+         &__section-who {
+            margin-bottom : 20px;
+
+            &--text {
+                width : 90%;
+            }
+
+            &--link {
+                display : block;
+                padding : 10px;
+                font-size : 1em;
+                position : initial;
+                margin-top : 10px;
+            }
+        }
+
+        &__section-links {
+            &__list {
+                &--link {
+                    font-size : 1em;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width : 600px) {
     .about-page {
         margin-top : 10px;
