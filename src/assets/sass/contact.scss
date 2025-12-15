@@ -24,3 +24,63 @@
         }
     }
 }
+
+@media (max-width : 992px) {
+    .contact-page {
+
+        &__links {
+            &--link {
+                height : 90px;
+                width : 90px;
+                border-radius : 15px;
+            }
+
+            &--image {
+                height : 90px;
+                width : 90px;
+            }
+        }
+    }
+}
+
+
+@media (max-width : 768px) {
+    .contact-page {
+
+        &__description {
+            margin-top : 30px;
+        }
+
+        &__links {
+            margin-top : 30px;
+
+            &--link {
+                height : 70px;
+                width : 70px;
+                border-radius : 15px;
+            }
+
+            &--image {
+                height : 70px;
+                width : 70px;
+            }
+        }
+    }
+}
+
+@media (max-width : 600px) {
+    .contact-page {
+        &__links {
+            &--link {
+                height : 50px;
+                width : 50px;
+                border-radius : 10px;
+            }
+
+            &--image {
+                height : 50px;
+                width : 50px;
+            }
+        }
+    }
+}

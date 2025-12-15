@@ -1,5 +1,6 @@
 import '../assets/sass/caroussel.scss'
 import { useState , useRef , useEffect } from 'react'
+import { FaAngleLeft , FaAngleRight } from "react-icons/fa6"
 
 function Caroussel ({ images = [], altText = '' }) {
     const [currentIdx, setCurrentIdx] = useState(0)
@@ -13,13 +14,28 @@ function Caroussel ({ images = [], altText = '' }) {
         try { return new URL(`../assets/images/${src}`, import.meta.url).href } catch { return null }
     }
 
-    // pré-calculer URLs pour éviter new URL à chaque render
     const urls = (Array.isArray(images) ? images : []).map(resolveUrl)
+
+    const throttle = (ms = 350) => {
+        setLocked(true)
+        setTimeout(() => setLocked(false), ms)
+    }
+
+    const prev = () => {
+        if (locked || urls.length === 0) return
+        setCurrentIdx(i => Math.max(0, i - 1))
+        throttle()
+    }
+
+    const next = () => {
+        if (locked || urls.length === 0) return
+        setCurrentIdx(i => Math.min(urls.length - 1, i + 1))
+        throttle()
+    }
 
     useEffect(() => {
         const container = containerRef.current
         if (!container) return
-        const throttle = () => { setLocked(true); setTimeout(() => setLocked(false), 350) }
 
         const onWheel = (e) => {
             if (!urls.length) return
@@ -56,6 +72,14 @@ function Caroussel ({ images = [], altText = '' }) {
 
     return (
         <div ref={containerRef} className='caroussel'>
+
+            <button type="button" className="caroussel__button--prev" onClick={prev} aria-label="image précedente">
+                <FaAngleLeft className="caroussel__button--icon"/>
+            </button>
+            <button type="button" className="caroussel__button--next" onClick={next} aria-label="image précedente">
+                <FaAngleRight className="caroussel__button--icon"/>
+            </button>
+
             {urls.map((u, i) => (
                 <img
                     key={i}

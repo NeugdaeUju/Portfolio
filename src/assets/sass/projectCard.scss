@@ -21,3 +21,32 @@
         border-radius : 10px;
     }
 }
+
+@media (max-width : 992px) {
+    .works-page__card{
+        &--name {
+            font-size : 0.85em;
+            padding : 5px 10px;
+        }
+    }
+}
+
+@media (max-width : 768px) {
+    .works-page__card{
+        &--name {
+            bottom : 15px;
+            left : 15px;
+        }
+    }
+}
+
+@media (max-width : 600px) {
+    .works-page__card{
+        &--name {
+            bottom : 10px;
+            left : 10px;
+            font-size : 0.75em;
+            padding : 5px 10px;
+        }
+    }
+}

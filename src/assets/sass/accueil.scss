@@ -1,6 +1,6 @@
 .page-accueil {
     display : flex;
-    height : 100vh;
+    height : 100%;
     justify-content: space-between;
     align-items: center;
 
@@ -29,6 +29,58 @@
             &:hover {
                 text-decoration : none;
                 font-style: italic;
+            }
+        }
+    }
+}
+
+@media (max-width : 992px) {
+    .page-accueil {
+        margin-right : 0;
+
+        &__presentation {
+            width : 100%;
+            margin-bottom : 2rem;
+
+            &--title {
+                margin-bottom : 20px;
+            }
+        }
+
+        &__nav {
+            width : 100%;
+
+            &--link {
+                margin-bottom : 1.25rem;
+                font-size : 5em;
+            }
+        }
+    }
+}
+
+@media (max-width : 768px) {
+    .page-accueil {
+        margin-right : 30px;
+
+        &__nav {
+            align-items: end;
+        }
+    }
+}
+
+@media (max-width : 600px ) {
+    .page-accueil {
+        display : block;
+
+        &__presentation {
+            margin-bottom : 2rem;
+        }
+
+        &__nav {
+            align-items: start;
+            
+            &--link {
+                font-size : 4em;
             }
         }
     }

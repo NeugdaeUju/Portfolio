@@ -11,7 +11,7 @@ a {
 }
 a:hover {
   color: #3E2C41;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 body {
@@ -45,8 +45,35 @@ p {
   }
 }
 
+@media (max-width: 992px) {
+  body {
+    margin : 30px;
+  }
+  p {
+    font-size : 0.85em;
+  }
+
+  h1 {
+    font-size : 2.5em
+  }
+}
+
 @media (max-width : 768px) {
   body {
     margin : 20px 30px;
+  }
+}
+
+@media (max-width : 600px) {
+  body {
+    margin-top : 40px;
+  }
+
+  p {
+    font-size : 0.75em;
+  }
+
+  h1 {
+    font-size : 2em;
   }
 }
