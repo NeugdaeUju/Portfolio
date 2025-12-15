@@ -33,3 +33,26 @@
         }
     }
 }
+
+@media (max-width : 600px ) {
+    .page-accueil {
+        display : block;
+        height : 100%;
+
+        &__presentation {
+            width : 100%;
+            margin-bottom : 2rem;
+
+            &--title {
+                margin-bottom : 20px;
+            }
+        }
+
+        &__nav {
+            &--link {
+                font-size : 4em;
+                margin-bottom : 1.25rem;
+            }
+        }
+    }
+}

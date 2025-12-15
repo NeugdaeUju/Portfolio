@@ -50,3 +50,17 @@ p {
     margin : 20px 30px;
   }
 }
+
+@media (max-width : 600px) {
+  body {
+    margin-top : 40px;
+  }
+
+  p {
+    font-size : 1em;
+  }
+
+  h1 {
+    font-size : 2em;
+  }
+}
