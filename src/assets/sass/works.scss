@@ -45,13 +45,28 @@
     }
 }
 
-@media (max-width : 600px) {
+@media (max-width : 768px) {
     .works-page {
         display : flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
 
         &__card-1 , &__card-2 , &__card-3 , &__card-4 , &__card-5 {
-            height : 250px;;
+            height : 250px;
+            width : 48%;
+            gap : 10px;
+        }
+    }
+}
+
+@media (max-width : 600px) {
+    .works-page {
+        flex-direction: column;
+        align-items: center;
+
+        &__card-1 , &__card-2 , &__card-3 , &__card-4 , &__card-5 {
+            height : 250px;
+            width : 100%;
         }
     }
 }
