@@ -126,7 +126,7 @@
                         ]
                     },
                     {
-                        "title" : "Ajout de référencement",
+                        "title" : "Avant - Après",
                         "elements" : [
                             {
                                 "type" : "image",
@@ -543,13 +543,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la maquette Figma"
+                        "src" : "OMF-7.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Découpage de la maquette"
+                        "src" : "OMF-8.png",
+                        "caption" : "Découpage de la maquette - desktop"
                     },
                     {
                         "type" : "text",
@@ -563,11 +563,16 @@
                     {
                         "type" : "image",
                         "src" : "",
+                        "caption" : "capture d'écran de la maquette de la page d'accueil"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-9.png",
                         "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-1.png",
                         "caption" : "Rendu de la page d'accueil Ohmyfood"
                     },
                     {
@@ -581,13 +586,18 @@
                 "elements" : [
                     {
                         "type" : "image" ,
-                        "src" : "",
+                        "src" : "OMF-12.png",
                         "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-11.png",
                         "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-10.png",
+                        "caption" : "animation du loader du site"
                     },
                     {
                         "type" : "text",
@@ -600,12 +610,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-13.png",
                         "caption" : "Capture d'une partie du code de la page de restaurants"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-4.png",
                         "caption" : "La page restaurant au format mobile"
                     },
                     {
@@ -619,13 +629,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-15.png",
                         "caption" : "capture du code d'animation des cartes pour le check"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Rendu des animations"
+                        "src" : "OMF-14.png",
+                        "caption" : "animations d'apparition des cartes"
                     },
                     {
                         "type" : "text",
@@ -638,7 +648,7 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-16.png",
                         "caption" : "Caputure du code des mediaqueries d'une page du site."
                     },
                     {
@@ -674,7 +684,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "OMF-7.png",
+                        "caption" : "Capture dde la maquette Figma"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "OMF-8.png",
                         "caption" : "Capture dde la maquette Figma"
                     },
                     {
@@ -748,13 +763,23 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la maquette Figma"
+                        "src" : "B-4.png",
+                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
                     },
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Découpage de la maquette"
+                        "src" : "B-5.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-6.png",
+                        "caption" : "Code de base du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-8.png",
+                        "caption" : "Capture d'écran du site de base"
                     },
                     {
                         "type" : "text",
@@ -767,8 +792,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-9.png",
                         "caption" : "Capture du code écrit pour le header et hero"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-10.png",
+                        "caption" : "Rendu du code"
                     },
                     {
                         "type" : "text",
@@ -781,8 +811,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-11.png",
                         "caption" : "Capture du code écrit pour la section des hébergements."
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-12.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -795,8 +830,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-13.png",
                         "caption" : "Cature du code de la section des activités"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-14.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -809,8 +849,13 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
+                        "src" : "B-15.png",
                         "caption" : "Création du code pour le pied de page"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-16.png",
+                        "caption" : "Rendu de la section sur le site"
                     },
                     {
                         "type" : "text",
@@ -819,16 +864,26 @@
                 ]
             },
             {
-                "title" : "",
+                "title" : "Responsive du site",
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "",
-                        "caption" : "Creation des media queries pour tous les devices (mobiles, tablettes, desktop, ..)"
+                        "src" : "B-17.png",
+                        "caption" : "Capture d'écran du partie du responsive du site"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-2.png",
+                        "caption" : "Rendu du responsive - Tablet"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-3.png",
+                        "caption" : "Rendu du responsive - Mobile"
                     },
                     {
                         "type" : "text",
-                        "content" : "J'ai créer les media query pour le responsive de desktop, tablette et mobile, en faisant attention aux brakpoints et en ajoutant des breakpoints intermédiaires si necessaires."
+                        "content" : "J'ai terminé ce projet en m'occupant du reponsive du site pour toutes les dimmension d'écran, avec les breakpoint commun (Mobile, tablet, desktop et large sreen), et en ajoutant des breakpoint intermédiaire au besoin pour le rendu visuelle soit le plus fluide et agréable pour l'utilisateur final."
                     }
                 ]
             },
@@ -839,6 +894,16 @@
                         "type" : "image",
                         "src" : "",
                         "caption" : "Site avant code"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-4.png",
+                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
+                    },
+                    {
+                        "type" : "image",
+                        "src" : "B-5.png",
+                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
                     },
                     {
                         "type" : "image",
