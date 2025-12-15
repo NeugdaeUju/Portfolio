@@ -24,3 +24,26 @@
         }
     }
 }
+
+@media (max-width : 600px) {
+    .contact-page {
+
+    &__description {
+        margin-top : 30px;
+    }
+
+    &__links {
+        margin-top : 30px;
+
+        &--link {
+            height : 50px;
+            width : 50px;
+        }
+
+        &--image {
+            height : 50px;
+            width : 50px;
+        }
+    }
+}
+}
