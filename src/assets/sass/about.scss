@@ -96,6 +96,30 @@
     }
 }
 
+@media (max-width : 992px) {
+    .about-page {
+         &__section-who {
+            &--link {
+                top : 50%;
+                padding : 10px 20px;
+                font-size : 1em;
+            }
+        }
+
+        &__section-skills {
+            align-items: start;
+        }
+
+        &__section-links {
+            &__list {
+                &--link {
+                    font-size : 1em;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width : 768px) {
     .about-page {
         margin-top : 10px;
