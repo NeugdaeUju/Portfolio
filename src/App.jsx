@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer'
 import Accueil from './pages/Accueil'
 import Works from './pages/Works'
@@ -10,7 +10,7 @@ import ErrorPage from './pages/ErrorPage'
 function App() {
   return (
     <>
-      <BrowserRouter basename='/Portfolio'>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Accueil />} />
           <Route path='/works' element={<Works />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   )
