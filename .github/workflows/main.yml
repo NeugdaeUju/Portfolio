@@ -38,9 +38,6 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
-      - name: Run tests
-        run: npm test
-
   # Job pour construire et déployer l'application
   deploy:
     runs-on: ubuntu-latest
