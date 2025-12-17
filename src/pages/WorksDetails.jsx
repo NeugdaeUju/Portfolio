@@ -45,7 +45,7 @@ function WorksDetails () {
                     )}
                     <div className='worksDetails-page__description__presentation'>
                         <div className='worksDetails-page__description__presentation__header'>
-                            <h3 className='worksDetails-page__description__presentation__header--subtitles'>Description : </h3>
+                            <h2 className='worksDetails-page__description__presentation__header--subtitles'>Description : </h2>
                             {Array.isArray(project.links) && project.links.map((link, idx) => {
                                 const href = link?.content ?? ''
                                 const imgSrc = link?.img ?? ''
