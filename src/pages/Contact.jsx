@@ -9,7 +9,7 @@ function Contact () {
         <>
             <Header 
                 page='Contact' />
-            <div className='contact-page'>
+            <main className='contact-page'>
                 <div className='contact-page__description'>
                     <p className='contact-page__description--text'>Vous pouvez me retrouver et me contacter via GitHub et LinkedIn, où je partage mes projets et mon parcours professionnel.</p>
                 </div>
@@ -21,7 +21,7 @@ function Contact () {
                         <img src={linkedinLogo} className="contact-page__links--image"/>
                     </Link>
                 </div>
-            </div>
+            </main>
         </>
     )
 }

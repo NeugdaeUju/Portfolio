@@ -4,7 +4,7 @@ import '../assets/sass/accueil.scss'
 function Accueil() {
     return (
         <>
-            <div className='page-accueil'>
+            <main className='page-accueil'>
                 <div className='page-accueil__presentation'>
                     <h1 className='page-accueil__presentation--title'>Leïla Pelletier</h1>
                     <p className='page-accueil__presentation--description'>
@@ -17,7 +17,7 @@ function Accueil() {
                     <NavLink to='/about' className='page-accueil__nav--link'>About</NavLink>
                     <NavLink to='/contact' className='page-accueil__nav--link'>Contact</NavLink>
                 </nav>
-            </div>
+            </main>
         </>
     )
 }

@@ -17,7 +17,7 @@ function Works () {
         <>
             <Header 
                 page='Works'/>
-            <div className='works-page'>
+            <main className='works-page'>
                 {projects.map((p , i) => {
                     const index = i + 1
                     return (
@@ -29,7 +29,7 @@ function Works () {
                             image={new URL(`../assets/images/${p.cover}` , import.meta.url).href}
                         />)
                 })}
-            </div>
+            </main>
         </>
     )
 }

@@ -36,8 +36,8 @@ function WorksDetails () {
     return (
         <>
             <Header page={project.name}/>
-            <div className='worksDetails-page'>
-                <div className='worksDetails-page__description'>
+            <main className='worksDetails-page'>
+                <section className='worksDetails-page__description'>
                     {coverURL && (
                         <img className='worksDetails-page__description--image'
                          src={coverURL}
@@ -68,9 +68,9 @@ function WorksDetails () {
                             <p className='worksDetails-page__description__presentation__text--text'>{project.description}</p>
                         </div>
                     </div>                    
+                </section>
 
-                </div>
-                <div className='worksDetails-page__process'>
+                <section className='worksDetails-page__process'>
                     <h2 className='worksDetails-page__process--title  worksDetails-page__subtitles'>
                         Process
                     </h2>
@@ -96,10 +96,9 @@ function WorksDetails () {
                             ))}
                         </div>
                     )}
+                </section>
 
-
-                </div>
-                <div className='worksDetails-page__skills'>
+                <section className='worksDetails-page__skills'>
                     <h2 className='worksDetails-page__skills--title  worksDetails-page__subtitles'>Skills</h2>
                     <div className='worksDetails-page__skills__list'>
                         {Array.isArray(project.skills) && project.skills.length > 0 ? (
@@ -112,8 +111,8 @@ function WorksDetails () {
                         )}
                     </div>
 
-                </div>
-            </div>
+                </section>
+            </main>
         </>
     )
 }
