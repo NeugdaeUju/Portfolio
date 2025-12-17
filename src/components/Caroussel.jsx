@@ -1,10 +1,11 @@
 import '../assets/sass/caroussel.scss'
 import { useState , useRef , useEffect } from 'react'
-import { FaAngleLeft , FaAngleRight } from "react-icons/fa6"
+import { FaAngleLeft , FaAngleRight, FaXmark } from "react-icons/fa6"
 
 function Caroussel ({ images = [], altText = '' }) {
     const [currentIdx, setCurrentIdx] = useState(0)
     const [locked, setLocked] = useState(false)
+    const [lightboxIdx, setLightboxIdx] = useState(null)
     const containerRef = useRef(null)
     const touchStartY = useRef(null)
 
@@ -33,12 +34,45 @@ function Caroussel ({ images = [], altText = '' }) {
         throttle()
     }
 
+    const openLightbox = (idx) => {
+        setLightboxIdx(idx)
+        document.body.style.overflow = 'hidden'
+    }
+
+    const closeLightbox = () => {
+        setLightboxIdx(null)
+        document.body.style.overflow = 'auto'
+    }
+
+    const lightboxPrev = (e) => {
+        e.stopPropagation()
+        if(lightboxIdx > 0) setLightboxIdx(lightboxIdx - 1)
+    }
+
+    const lightboxNext = (e) => {
+        e.stopPropagation
+        if(lightboxIdx < urls.length - 1) setLightboxIdx(lightboxIdx + 1)
+    }
+
+    useEffect(() => {
+        const onKeyDown = (e) => {
+            if (e.key === 'escape') closeLightbox()
+            if (e.key === 'ArrowLeft' && lightboxIdx !== null) lightboxPrev({stopPropagation: () => {}})
+            if (e.key === 'ArrowRight' && lightboxIdx !== null) lightboxNext({stopPropagation: () => {}}) 
+        }
+
+        if (lightboxIdx !== null) {
+            document.addEventListener('keydown', onKeyDown)
+            return () => document.removeEventListener('keydown', onKeyDown) 
+        }
+    }, [lightboxIdx])
+
     useEffect(() => {
         const container = containerRef.current
         if (!container) return
 
         const onWheel = (e) => {
-            if (!urls.length) return
+            if (!urls.length || lightboxIdx !== null) return
             const delta = e.deltaY
             if (Math.abs(delta) < 5 || locked) { if (locked) e.preventDefault(); return }
             if (delta > 0 && currentIdx < urls.length - 1) { e.preventDefault(); setCurrentIdx(i => i + 1); throttle(); return }
@@ -47,7 +81,7 @@ function Caroussel ({ images = [], altText = '' }) {
 
         const onTouchStart = (e) => { touchStartY.current = e.touches?.[0]?.clientY ?? null }
         const onTouchMove = (e) => {
-            if (locked) { e.preventDefault(); return }
+            if (locked || lightboxIdx !== null) { e.preventDefault(); return }
             const startY = touchStartY.current
             if (startY == null) return
             const currentY = e.touches?.[0]?.clientY ?? 0
@@ -66,30 +100,55 @@ function Caroussel ({ images = [], altText = '' }) {
             container.removeEventListener('touchstart', onTouchStart)
             container.removeEventListener('touchmove', onTouchMove)
         }
-    }, [urls, currentIdx, locked])
+    }, [urls, currentIdx, locked, lightboxIdx])
 
     if (!urls.length) return <p className='caroussel__empty'>Aucune image disponible</p>
 
     return (
-        <div ref={containerRef} className='caroussel'>
+        <>
+            <div ref={containerRef} className='caroussel'>
 
-            <button type="button" className="caroussel__button--prev" onClick={prev} aria-label="image précedente">
-                <FaAngleLeft className="caroussel__button--icon"/>
-            </button>
-            <button type="button" className="caroussel__button--next" onClick={next} aria-label="image précedente">
-                <FaAngleRight className="caroussel__button--icon"/>
-            </button>
+                <button type="button" className="caroussel__button--prev" onClick={prev} aria-label="image précedente">
+                    <FaAngleLeft className="caroussel__button--icon"/>
+                </button>
+                <button type="button" className="caroussel__button--next" onClick={next} aria-label="image précedente">
+                    <FaAngleRight className="caroussel__button--icon"/>
+                </button>
 
-            {urls.map((u, i) => (
-                <img
-                    key={i}
-                    src={u || ''}
-                    alt={`${altText} ${i + 1}`}
-                    className={`caroussel__image ${i === currentIdx ? 'active' : ''}`}
-                    aria-hidden={i === currentIdx ? 'false' : 'true'}
-                />
-            ))}
-        </div>
+                {urls.map((u, i) => (
+                    <img
+                        key={i}
+                        src={u || ''}
+                        alt={`${altText} ${i + 1}`}
+                        className={`caroussel__image ${i === currentIdx ? 'active' : ''}`}
+                        onClick={() => openLightbox(i)}
+                    />
+                ))}
+            </div>
+
+            {lightboxIdx !== null && (
+                <div className='modale'>
+                    <div className='modale__content'>
+                        <button type="button" className="modale__content__close" onClick={closeLightbox} aria-label="Fermer la modale">
+                            <FaXmark className="modale__content__xmark--icon"/>
+                        </button>
+
+                        <img src={urls[lightboxIdx] || ''} alt={`${altText} ${lightboxIdx + 1}`} className='modale__image'/>
+                        {urls.length > 1 && (
+                            <>
+                                <button type="button" className="modale__content__arrow--prev" onClick={lightboxPrev} aria-label="image précedente">
+                                    <FaAngleLeft className="modale__content__arrow--icon"/>
+                                </button>
+                                <button type="button" className="modale__content__arrow--next" onClick={lightboxNext} aria-label="image précedente">
+                                    <FaAngleRight className="modale__content__arrow--icon"/>
+                                </button>
+                            </>
+                        )}
+                        
+                    </div>
+                </div>
+            )}
+        </>
     )
 }
 export default Caroussel
