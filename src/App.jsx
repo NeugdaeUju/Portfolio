@@ -10,7 +10,7 @@ import ErrorPage from './pages/ErrorPage'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/Portfolio'>
         <Routes>
           <Route path='/' element={<Accueil />} />
           <Route path='/works' element={<Works />} />
