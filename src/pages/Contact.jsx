@@ -1,8 +1,8 @@
 import Header from '../components/Header'
 import {Link} from 'react-router-dom'
 import '../assets/sass/contact.scss'
-import linkedinLogo from '../assets/images/linkedin.png'
-import githubLogo from '../assets/images/github-logo.png'
+import linkedinLogo from '../assets/images/linkedin.webp'
+import githubLogo from '../assets/images/github-logo.webp'
 
 function Contact () {
     return (

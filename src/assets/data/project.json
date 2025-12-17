@@ -3,17 +3,17 @@
         "id" : "1",
         "name" : "Nina Carducci",
         "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
-        "cover" : "NinaCarducci-1.png",
+        "cover" : "NinaCarducci-1.webp",
         "links" : [
             {
                 "type" : "github",
-                "img" : "github-logo.png",
+                "img" : "github-logo.webp",
                 "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
             },
             {
                 "type" : "site",
-                "img" : "site.png",
+                "img" : "site.webp",
                 "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
             }
@@ -24,17 +24,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "NC-1.png",
+                                "src" : "NC-1.webp",
                                 "caption" : "Audit global du site avec LightHouse"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-2.png",
+                                "src" : "NC-2.webp",
                                 "caption" : "Audit d'accessibilité du site avec Wave"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-3.png",
+                                "src" : "NC-3.webp",
                                 "caption" : "Audit de référencement du site avec Google Rich Result"
                             },
                             {
@@ -48,17 +48,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "NC-5.png",
+                                "src" : "NC-5.webp",
                                 "caption" : "Minification des fichiers JS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-4.png",
+                                "src" : "NC-4.webp",
                                 "caption" : "Minification des fichiers CSS"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-6.png",
+                                "src" : "NC-6.webp",
                                 "caption" : "Modification des images"
                             },
                             {
@@ -72,17 +72,17 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "NC-7.png",
+                                "src" : "NC-7.webp",
                                 "caption" : "Correction de l'arborrescence du fichier"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-6.png",
+                                "src" : "NC-6.webp",
                                 "caption" : "Ajout des attribut nécessaires"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-8.png",
+                                "src" : "NC-8.webp",
                                 "caption" : "Correction des couleurs pour un meilleur contraste"
                             },
                             {
@@ -96,27 +96,27 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "NC-9.png",
+                                "src" : "NC-9.webp",
                                 "caption" : "Création du référencement local avec Schema.org"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-10.png",
+                                "src" : "NC-10.webp",
                                 "caption" : "Ajout des balises pour les cartes Opengraphes"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-11.png",
+                                "src" : "NC-11.webp",
                                 "caption" : "Ajout des balises pour les twitter cards"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-12.png",
+                                "src" : "NC-12.webp",
                                 "caption" : "Permettre les bots de parcourir le site et de l'indexer"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-13.png",
+                                "src" : "NC-13.webp",
                                 "caption" : "Ajouter un titre et une description au site"
                             },
                             {
@@ -130,32 +130,32 @@
                         "elements" : [
                             {
                                 "type" : "image",
-                                "src" : "NC-1.png",
+                                "src" : "NC-1.webp",
                                 "caption" : "Audit LightHouse avant"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-14.png",
+                                "src" : "NC-14.webp",
                                 "caption" : "Audit LightHouse après"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-2.png",
+                                "src" : "NC-2.webp",
                                 "caption" : "Audit Wave avant"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-15.png",
+                                "src" : "NC-15.webp",
                                 "caption" : "Audit Wave après"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-3.png",
+                                "src" : "NC-3.webp",
                                 "caption" : "Audit Google Rich Result avant"
                             },
                             {
                                 "type" : "image",
-                                "src" : "NC-16.png",
+                                "src" : "NC-16.webp",
                                 "caption" : "Audit Google Rich Result après"
                             }
                         ]
@@ -178,17 +178,17 @@
         "id" : "2",
         "name" : "Kasa",
         "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
-        "cover" : "Kasa-1.png",
+        "cover" : "Kasa-1.webp",
         "links" : [
             {
                 "type" : "repo",
-                "img" : "github-logo.png",
+                "img" : "github-logo.webp",
                 "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Projet_7-Kasa"
             },
             {
                 "type" : "site",
-                "img" : "site.png",
+                "img" : "site.webp",
                 "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
             }
@@ -199,12 +199,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-2.png",
+                        "src" : "K-2.webp",
                         "caption" : "Capture d'ecran de la maquette Figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-3.png",
+                        "src" : "K-3.webp",
                         "caption" : "Capture d'ecran des composants réaliser sur Figma"
                     },
                     {
@@ -218,17 +218,17 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-23.png",
+                        "src" : "K-23.webp",
                         "caption" : "Capture de l'application React créer avec vite"
                     },
                     {
                         "type" : "image",
-                        "src": "K-22.png",
+                        "src": "K-22.webp",
                         "caption" : "Capture des routes de l'applications"
                     },
                     {
                         "type" : "image",
-                        "src": "K-24.png",
+                        "src": "K-24.webp",
                         "caption" : "Ecriture du ReadMe pour lancer le projet"
                     },
                     {
@@ -242,27 +242,27 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-2.png",
+                        "src" : "K-2.webp",
                         "caption" : "Capture d'écran de la maquette de la page d'accueil"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-11.png",
+                        "src" : "K-11.webp",
                         "caption" : "Capture d'écran du code de la page d'accueil"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-13.png",
+                        "src" : "K-13.webp",
                         "caption" : "Capture d'écran du composant header"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-12.png",
+                        "src" : "K-12.webp",
                         "caption" : "Capture d'écran du composant des logements"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-1.png",
+                        "src" : "K-1.webp",
                         "caption" : "Capture d'écran de la page d'accueil"
                     },
                     {
@@ -276,42 +276,42 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-5.png",
+                        "src" : "K-5.webp",
                         "caption" : "Capture d'écran de la maquette de la page A propos"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-14.png",
+                        "src" : "K-14.webp",
                         "caption" : "Capture d'écran du code de la page A propos"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-15.png",
+                        "src" : "K-15.webp",
                         "caption" : "Capture d'écran du composant des dropdown"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-16.png",
+                        "src" : "K-16.webp",
                         "caption" : "Capture d'écran du composant utilisant les dropdown"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-8.png",
+                        "src" : "K-8.webp",
                         "caption" : "Capture d'écran de la page A propos"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-7.png",
+                        "src" : "K-7.webp",
                         "caption" : "Capture d'écran de la maquette de la page erreur"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-17.png",
+                        "src" : "K-17.webp",
                         "caption" : "Capture d'écran du code de la page erreur"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-10.png",
+                        "src" : "K-10.webp",
                         "caption" : "Capture d'écran de la page Erreur"
                     },
                     {
@@ -325,32 +325,32 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-6.png",
+                        "src" : "K-6.webp",
                         "caption" : "Capture d'écran de la maquette de la page logement"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-18.png",
+                        "src" : "K-18.webp",
                         "caption" : "Capture d'écran du code de la page logement"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-19.png",
+                        "src" : "K-19.webp",
                         "caption" : "Capture d'écran du code du carroussel de la page"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-20.png",
+                        "src" : "K-20.webp",
                         "caption" : "Capture d'écran du code de la description du logement"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-21.png",
+                        "src" : "K-21.webp",
                         "caption" : "Capture d'écran du code des informations du logement"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-9.png",
+                        "src" : "K-9.webp",
                         "caption" : "Capture d'écran de la page de logement"
                     },
                     {
@@ -364,12 +364,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "K-4.png",
+                        "src" : "K-4.webp",
                         "caption" : "capture d'écran de la maquette figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "K-1.png",
+                        "src" : "K-1.webp",
                         "caption" : "capture d'écran du site après réalisation"
                     }
                 ]
@@ -387,152 +387,20 @@
     },
 
     {
-        "id" : "3",
-        "name" : "Sophie Bluel",
-        "description" : "En tant que développeur front-end au sein de l’agence ArchiWebos, j’ai été intégré à l’équipe chargée du site portfolio d’une architecte d’intérieur. Le projet consistait à transformer une page statique en une interface dynamique capable de gérer les travaux de l’architecte et les interactions avec un administrateur. Les maquettes Figma, le code back-end pour la persistance des données et le code front-end existant m’ont été fournis, ainsi qu’un Kanban pour suivre les tâches attribuées.",
-        "cover" : "Sophiebluel-1.png",
-        "links" : [
-            {
-                "type" : "repo",
-                "img" : "github-logo.png",
-                "caption" : "Logo github",
-                "content" : "https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel"
-            },
-            {
-                "type" : "site",
-                "img" : "site.png",
-                "caption" : "Logo internet",
-                "content" : "https://neugdaeuju.github.io/Projet_6-Sophie_Bluel/"
-            }
-        ],
-        "steps" : [
-            {
-                "title" : "Gestion de la gallery avec JavaScritp",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Code HTML d'origine"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Appel API et création d'une fonction permettant de créer et afficher les éléments de la gallery"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Résulat de la gallery afficher grace au JS."
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencer ce projet en supprimant créant la gallery grâce à JavaScript et un appel API. Une boucle génère tous les travaux et en utilisant les éléments HTML utilisé auparavant et les class déjà définis, le rendu est rapidement obtenus. J'ai bien entendu supprimer le code devenu inutile dans le fichier HTML."
-                    }
-                ]
-            },
-            {
-                "title" : "Création et gestion des boutons de filtre",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Appel API et création des boutons de filtres"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Création des boutons permettant de filtrer les travaux de Sophie Bluel. Avec un appel API et une fonction je génère les boutons de filtres. Ensuite, avec je permet à chaque boutons d'afficher les catégories demandées."
-                    }
-                ]
-            },
-            {
-                "title" : "Logique de connexion",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Code de la page de connexion"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture du code permettant la connexion au compte utilisateur"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture d'écran de la logique de déconnexion"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Sphie Bluel doit pouvoir se connecter à son site afin d'éditer les travaux qui seront présent sur la gallery. Pour se connecter, j'ai créer la page de connexion, et gérer les appel API et le renvoie vers la page d'accueil si la connexion fonctionne. J'ai aussi permet la déconnexion de l'utilisateur."
-                    }
-                ]
-            },
-            {
-                "title" : "Création des modales",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "capture du code HTML des modales"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "capture de la logique permettant l'affichage et la fermeture des modales"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "capture du code pour supprimer un élément de la gallery"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Ici j'ai du créer des modales, une pour supprimer des travaux et une autre pour en ajouter. Avec les routes API données dans la documentation SWAGGER, j'ai simplement récupérer les informations necessaires et fait des Appel API pour ajouter ou supprimer un élément de la gallery."
-                    }
-                ]
-            },
-            {
-                "title" : "Avant - Après",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture du site avant modification"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Capture du site après modification."
-                    }
-                ] 
-            }
-        ],
-        "skills" : [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Git & GitHub",
-            "API",
-            "Organisation"
-        ]
-    },
-
-    {
         "id" : "4",
         "name" : "Oh My Food",
         "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
-        "cover" : "Ohmyfood-1.png",
+        "cover" : "Ohmyfood-1.webp",
         "links" : [
             {
                 "type" : "repo",
-                "img" : "github-logo.png",
+                "img" : "github-logo.webp",
                 "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Oh-My-Food"
             },
             {
                 "type" : "site",
-                "img" : "site.png",
+                "img" : "site.webp",
                 "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
             }
@@ -543,12 +411,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "OMF-7.png",
+                        "src" : "OMF-7.webp",
                         "caption" : "Capture d'écran de la maquette Figma - mobile"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-8.png",
+                        "src" : "OMF-8.webp",
                         "caption" : "Découpage de la maquette - desktop"
                     },
                     {
@@ -567,12 +435,12 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-9.png",
+                        "src" : "OMF-9.webp",
                         "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-1.png",
+                        "src" : "OMF-1.webp",
                         "caption" : "Rendu de la page d'accueil Ohmyfood"
                     },
                     {
@@ -586,17 +454,17 @@
                 "elements" : [
                     {
                         "type" : "image" ,
-                        "src" : "OMF-12.png",
+                        "src" : "OMF-12.webp",
                         "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-11.png",
+                        "src" : "OMF-11.webp",
                         "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-10.png",
+                        "src" : "OMF-10.webp",
                         "caption" : "animation du loader du site"
                     },
                     {
@@ -610,12 +478,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "OMF-13.png",
+                        "src" : "OMF-13.webp",
                         "caption" : "Capture d'une partie du code de la page de restaurants"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-4.png",
+                        "src" : "OMF-4.webp",
                         "caption" : "La page restaurant au format mobile"
                     },
                     {
@@ -629,12 +497,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "OMF-15.png",
+                        "src" : "OMF-15.webp",
                         "caption" : "capture du code d'animation des cartes pour le check"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-14.png",
+                        "src" : "OMF-14.webp",
                         "caption" : "animations d'apparition des cartes"
                     },
                     {
@@ -648,29 +516,29 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "OMF-16.png",
+                        "src" : "OMF-16.webp",
                         "caption" : "Caputure du code des mediaqueries d'une page du site."
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-3.png",
+                        "src" : "OMF-3.webp",
                         "caption" : "Capture da la page d'accueil-tablet"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-4.png",
+                        "src" : "OMF-4.webp",
                         "caption" : "Capture da la page de restaurant-tablet"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-5.png",
+                        "src" : "OMF-5.webp",
                         "caption" : "Capture da la page d'accueil-phone"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-6.png",
+                        "src" : "OMF-6.webp",
                         "caption" : "Capture da la page de restaurant-phone"
                     },
                     {
@@ -684,46 +552,46 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "OMF-7.png",
+                        "src" : "OMF-7.webp",
                         "caption" : "Capture dde la maquette Figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-8.png",
+                        "src" : "OMF-8.webp",
                         "caption" : "Capture dde la maquette Figma"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-1.png",
+                        "src" : "OMF-1.webp",
                         "caption" : "Capture da la page d'accueil-phone"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-2.png",
+                        "src" : "OMF-2.webp",
                         "caption" : "Capture da la page de restaurant-phone"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-3.png",
+                        "src" : "OMF-3.webp",
                         "caption" : "Capture da la page d'accueil-tablet"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-4.png",
+                        "src" : "OMF-4.webp",
                         "caption" : "Capture da la page de restaurant-tablet"
                     },
                     {
                         "type" : "image",
-                        "src" : "OMF-5.png",
+                        "src" : "OMF-5.webp",
                         "caption" : "Capture da la page d'accueil-desktop"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "OMF-6.png",
+                        "src" : "OMF-6.webp",
                         "caption" : "Capture da la page de restaurant-desktop"
                     }
                 ]
@@ -742,17 +610,17 @@
         "id" : "5",
         "name" : "Booki",
         "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
-        "cover" : "Booki-1.png",
+        "cover" : "Booki-1.webp",
         "links" : [
             {
                 "type" : "repo",
-                "img" : "github-logo.png",
+                "img" : "github-logo.webp",
                 "caption" : "Logo github",
                 "content" : "https://github.com/NeugdaeUju/Booki"
             },
             {
                 "type" : "site",
-                "img" : "site.png",
+                "img" : "site.webp",
                 "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Booki/"
             }
@@ -763,22 +631,22 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-4.png",
+                        "src" : "B-4.webp",
                         "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-5.png",
+                        "src" : "B-5.webp",
                         "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-6.png",
+                        "src" : "B-6.webp",
                         "caption" : "Code de base du site"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-8.png",
+                        "src" : "B-8.webp",
                         "caption" : "Capture d'écran du site de base"
                     },
                     {
@@ -792,12 +660,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-9.png",
+                        "src" : "B-9.webp",
                         "caption" : "Capture du code écrit pour le header et hero"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-10.png",
+                        "src" : "B-10.webp",
                         "caption" : "Rendu du code"
                     },
                     {
@@ -811,12 +679,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-11.png",
+                        "src" : "B-11.webp",
                         "caption" : "Capture du code écrit pour la section des hébergements."
                     },
                     {
                         "type" : "image",
-                        "src" : "B-12.png",
+                        "src" : "B-12.webp",
                         "caption" : "Rendu de la section sur le site"
                     },
                     {
@@ -830,12 +698,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-13.png",
+                        "src" : "B-13.webp",
                         "caption" : "Cature du code de la section des activités"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-14.png",
+                        "src" : "B-14.webp",
                         "caption" : "Rendu de la section sur le site"
                     },
                     {
@@ -849,12 +717,12 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-15.png",
+                        "src" : "B-15.webp",
                         "caption" : "Création du code pour le pied de page"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-16.png",
+                        "src" : "B-16.webp",
                         "caption" : "Rendu de la section sur le site"
                     },
                     {
@@ -868,17 +736,17 @@
                 "elements" : [
                     {
                         "type" : "image",
-                        "src" : "B-17.png",
+                        "src" : "B-17.webp",
                         "caption" : "Capture d'écran du partie du responsive du site"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-2.png",
+                        "src" : "B-2.webp",
                         "caption" : "Rendu du responsive - Tablet"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-3.png",
+                        "src" : "B-3.webp",
                         "caption" : "Rendu du responsive - Mobile"
                     },
                     {
@@ -897,29 +765,29 @@
                     },
                     {
                         "type" : "image",
-                        "src" : "B-4.png",
+                        "src" : "B-4.webp",
                         "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-5.png",
+                        "src" : "B-5.webp",
                         "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
                     },
                     {
                         "type" : "image",
-                        "src" : "B-1.png",
+                        "src" : "B-1.webp",
                         "caption" : "site après code - desktop"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "B-2.png",
+                        "src" : "B-2.webp",
                         "caption" : "site après code - tablet"
                     }
                     ,
                     {
                         "type" : "image",
-                        "src" : "B-3.png",
+                        "src" : "B-3.webp",
                         "caption" : "site après code - mobile"
                     }
                 ]
