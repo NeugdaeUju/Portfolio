@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+images_origines
 
 # Editor directories and files
 .vscode/*
