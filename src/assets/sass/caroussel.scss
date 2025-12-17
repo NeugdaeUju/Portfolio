@@ -10,7 +10,7 @@
     border-radius : 20px;
     height : 80vh;
     width : 80%;
-    object-fit : cover;
+    object-fit : contain;
     inset: 0;
     object-position: center;
     opacity: 0;
@@ -40,7 +40,7 @@
     &__image {
       height : 300px;
       width : 100%;
-      object-fit : cover;
+      object-fit : contain;
       transition: opacity 500ms ease, transform 600ms cubic-bezier(.2,.8,.2,1);
       will-change: initial;
     }
