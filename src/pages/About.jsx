@@ -14,7 +14,7 @@ function About () {
 <br></br>
 <br></br>
 Mon approche repose sur une intégration propre, structurée et évolutive. Je travaille principalement avec des composants réutilisables, en veillant à la lisibilité du code et à la cohérence visuelle sur l’ensemble du projet. Curieuse et rigoureuse, j’accorde autant d’importance à la qualité technique qu’au rendu final.</p>
-                    <Link to='/works' className='about-page__section-who--link'>Mon Portfolio</Link>
+                    <Link to='/works' className='about-page__section-who--link' aria-label="Lien vers la page des réalisations">Mon Portfolio</Link>
                 </section>
                 <section className='about-page__section-how'>
                     <h2 className='about-page__section-how--subtitle'>Mon parcours</h2>
@@ -56,9 +56,9 @@ Chaque projet est pour moi l’occasion d’expérimenter, d’améliorer mes pr
                 <section className='about-page__section-links'>
                     <h2 className='about-page__section-links--subtitle'>Links</h2>
                     <div className='about-page__section-links__list'>
-                        <Link to='/works' className='about-page__section-links__list--link'>Mon portfolio</Link>
-                        <Link to='/contact' className='about-page__section-links__list--link'>Me contacter</Link>
-                        <Link to='' className='about-page__section-links__list--link'>Mon CV</Link>
+                        <Link to='/works' className='about-page__section-links__list--link' aria-label="Lien vers la page des réalisations">Mon portfolio</Link>
+                        <Link to='/contact' className='about-page__section-links__list--link' aria-label="Lien vers la page de contact">Me contacter</Link>
+                        {/*<Link to='' className='about-page__section-links__list--link' aria-label="Lien pour télécharger mon CV">Mon CV</Link>*/}
                     </div>
                 </section>
             </main>

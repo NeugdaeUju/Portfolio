@@ -9,7 +9,8 @@ function ProjectCard ({id , index, name, image}) {
             <Link to={`/works/${id}`} className={cardClass}>
                 <figure className='works-page__card'>
                     <img className='works-page__card--image'
-                         src={image}/>
+                         src={image}
+                         alt={`Image du site ${name}`}/>
                     <figcaption className='works-page__card--name'>{name}</figcaption>
                 </figure>
             </Link>
