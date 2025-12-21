@@ -1,6 +1,8 @@
 import '../assets/sass/caroussel.scss'
 import { useState , useRef , useEffect } from 'react'
 import { FaAngleLeft , FaAngleRight, FaXmark } from "react-icons/fa6"
+import CarousselDots from './CarousselDots'
+
 
 function Caroussel ({ images = [], altText = '' }) {
     const [currentIdx, setCurrentIdx] = useState(0)
@@ -124,6 +126,11 @@ function Caroussel ({ images = [], altText = '' }) {
                         onClick={() => openLightbox(i)}
                     />
                 ))}
+                <CarousselDots
+                    length={urls.length}
+                    currentIndex={currentIdx}
+                    onChange={setCurrentIdx}
+                    className="caroussel"/>
             </div>
 
             {lightboxIdx !== null && (
@@ -144,7 +151,12 @@ function Caroussel ({ images = [], altText = '' }) {
                                 </button>
                             </>
                         )}
-                        
+                        <CarousselDots
+                            length={urls.length}
+                            currentIndex={lightboxIdx}
+                            onChange={setLightboxIdx}
+                            className="modale"/>
+                                
                     </div>
                 </div>
             )}

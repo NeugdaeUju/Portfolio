@@ -1,0 +1,50 @@
+.caroussel_dots {
+    display : flex;
+    justify-content: center;
+    gap : 15px;
+    position : relative;
+    z-index : 30;
+    padding : 15px;
+    bottom : -90%;
+
+    &__button {
+        height : 10px;
+        width : 10px;
+        border-radius : 50%;
+        border : 2px #3E2C41 solid;
+        cursor : pointer;
+
+        &__active {
+            height : 10px;
+            width : 10px;
+            border-radius : 50%;
+            border : 2px #3E2C41 solid;
+            background-color: #3E2C41;
+        }
+    }
+}
+
+.modale_dots {
+    display : flex;
+    justify-content: center;gap : 15px;
+    position : relative;
+    z-index : 30;
+    padding : 15px;
+    top : -50px;
+
+    &__button {
+        height : 10px;
+        width : 10px;
+        border-radius : 50%;
+        border : 2px #3E2C41 solid;
+        cursor : pointer;
+
+        &__active {
+            height : 10px;
+            width : 10px;
+            border-radius : 50%;
+            border : 2px #3E2C41 solid;
+            background-color: #3E2C41;
+        }
+    }
+}
