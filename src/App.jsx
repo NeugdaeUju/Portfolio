@@ -1,5 +1,5 @@
 import {HashRouter, Routes, Route} from 'react-router-dom'
-import Footer from './components/Footer'
+import Layout from './components/Layout'
 import Accueil from './pages/Accueil'
 import Works from './pages/Works'
 import WorksDetails from './pages/WorksDetails'
@@ -11,16 +11,17 @@ function App() {
   return (
     <>
       <HashRouter>
-        <Routes>
-          <Route path='/' element={<Accueil />} />
-          <Route path='/works' element={<Works />} />
-          <Route path='/works/:id' element={<WorksDetails />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='*' element={<ErrorPage />} />
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path='/' element={<Accueil />} />
+            <Route path='/works' element={<Works />} />
+            <Route path='/works/:id' element={<WorksDetails />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='*' element={<ErrorPage />} />
+          </Routes>
+        </Layout>
       </HashRouter>
-      <Footer />
     </>
   )
 }
