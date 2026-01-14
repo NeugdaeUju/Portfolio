@@ -1,18 +1,17 @@
-.header {
-    display : flex;
-    width : 100%;
-    margin : 1.875rem 0;
+@use 'variables';
 
-    &__page-title {
-        margin-right : 50px;
-    }
+.header {
+    // display : flex;
+    width : 100%;
+    padding : 1.25rem 9.375rem;
+    border-bottom : 1px solid variables.$main-color;
 
     &__nav {
-        width : 60%;
         display : flex;
+        gap : 1.875rem;
 
         &--link {
-            margin-right : 30px;
+            font-size : 1.25rem;
         }
     }
 }
