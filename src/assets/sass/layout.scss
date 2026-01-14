@@ -9,8 +9,28 @@
 
 .container {
     margin : 0 9.375rem;
-    width : 100%;
     flex: 1;
     display : flex;
     align-items: center;
+    justify-content: center;
+}
+
+/*** Responsive ***/
+
+@media (max-width : 1150px) {
+    .container {
+        margin : 0 6rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin : 0 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin : 0 3rem;
+    }
 }

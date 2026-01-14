@@ -1,7 +1,6 @@
 @use 'variables';
 
 .header {
-    // display : flex;
     width : 100%;
     padding : 1.25rem 9.375rem;
     border-bottom : 1px solid variables.$main-color;
@@ -22,13 +21,33 @@
     }
 }
 
-@media (max-width : 600px) {
+/*** Responsive ***/
+
+
+@media (max-width : 1150px) {
     .header {
-        flex-wrap: wrap;
-        margin : 0;
+        padding : 1rem 6rem;
 
         &__nav {
-            margin : 20px 10px;;
+            &--link {
+                font-size : 1rem;
+
+                &-active {
+                    font-size : 1rem;
+                }
+            }
         }
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding : 1rem 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding : 0.75rem 3rem;
     }
 }
