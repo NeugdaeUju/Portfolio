@@ -12,6 +12,12 @@
 
         &--link {
             font-size : 1.25rem;
+
+            &-active {
+                font-weight: bold;
+                font-style: italic;
+                font-size : 1.25rem;
+            }
         }
     }
 }
