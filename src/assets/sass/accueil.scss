@@ -3,27 +3,40 @@
     height : 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom : 3rem;
 
     &__presentation {
-        width : 60%;
+        width : 50%;
 
         &--title {
-            margin-bottom : 50px;
+            margin-bottom : 3rem;
+            line-height: 1.3;
+            font-weight: normal;
+        }
+
+        &--role {
+            margin-bottom : 2.75rem;
+            font-weight: normal;
+            font-style: normal;
+
+            &-span {
+                font-weight : bold;
+            }
         }
 
         &--description {
-            padding-right : 20%
+            padding-right : 20%;
         }
     }
 
     &__nav {
         display : flex;
         flex-direction: column;
+        justify-content: center;
         width : 40%;
 
         &--link {
-            font-size : 6em;
-            font-family : 'Bodoni Moda', serif;
+            font-size : 4.313rem;
             margin-bottom : 3rem;
 
             &:hover {
