@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom'
-import Header from '../components/Header'
 import '../assets/sass/about.scss'
 
 function About () {
     return (
         <>
-            <Header
-                page='About' />
             <main className='about-page'>
                 <section className='about-page__section-who'>
                     <h2 className='about-page__section-who--subtitle'>Qui suis-je?</h2>

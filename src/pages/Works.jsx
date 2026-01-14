@@ -1,4 +1,3 @@
-import Header from '../components/Header'
 import ProjectCard from '../components/ProjectCard'
 import Api from '../assets/data/Api'
 import '../assets/sass/works.scss'
@@ -15,8 +14,6 @@ function Works () {
 
     return (
         <>
-            <Header 
-                page='Works'/>
             <main className='works-page'>
                 {projects.map((p , i) => {
                     const index = i + 1

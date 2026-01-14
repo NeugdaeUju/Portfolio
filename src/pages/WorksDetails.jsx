@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom"
 import { useState , useEffect } from 'react'
 import Api from '../assets/data/Api'
-import Header from '../components/Header'
 import ProcessSteps from "../components/ProcessSteps"
 import '../assets/sass/worksDetails.scss'
 import ErrorPage from './ErrorPage'
@@ -35,7 +34,6 @@ function WorksDetails () {
 
     return (
         <>
-            <Header page={project.name}/>
             <main className='worksDetails-page'>
                 <section className='worksDetails-page__description'>
                     {coverURL && (
