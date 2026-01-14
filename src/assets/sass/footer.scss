@@ -1,4 +1,14 @@
 .footer {
     text-align : center;
     padding : 20px 0;
+    position : relative;
+    width : 100%;
+
+    &__contact-links {
+        position : absolute;
+        display : flex;
+        gap: 20px;
+        top : 25%;
+        right : -4rem;
+    }
 }
