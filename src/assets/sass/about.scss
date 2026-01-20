@@ -1,193 +1,67 @@
-.about-page {
-    margin-top : 50px;
+@use 'variables';
+@use 'animations/animation-jauges';
 
-    &__section-who {
-        position : relative;
-        margin-bottom : 50px;
+.about {
+    &__title {
+        margin-top : 9.813rem;
+        font-weight: normal;
+    }
 
-        &--text {
-            margin : 10px 0 0 30px;
-            width : 60%;
+    &-section__presentation {
+        margin : 4.25rem 14.688rem 3rem 7.813rem;
+
+        &__text {
+            margin-bottom : 2.125rem;
         }
 
-        &--link {
-            position : absolute;
-            background-color : #EAE7ED;
-            border-radius : 50px;
-            padding : 10px 40px;
-            text-align : center;
-            right : 15%;
-            top : 20%;
-            font-size : 1.5em;
-
-            &:hover {
-                text-decoration: none;
+        &__contact-text {
+            &__link{
+                font-weight : bold;
             }
         }
     }
 
-
-    &__section-how {
-        margin-bottom : 50px;
-
-        &--text {
-            margin : 10px 0 0 30px;
-            width : 80%
-        }
-    }
-
-
-    &__section-skills {
-        display : flex;
-        align-items: center;
-        justify-content : space-around;
-        margin-bottom : 50px;
-
-        &__soft-skills , &__hard-skills {
-            width : 45%;
-            text-align : center;
-
-            &--subtitle {
-                margin-bottom : 15px;
-            }
-
-            &__list {
-                display : flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap : 10px;
-
-                &--item {
-                    background-color: #EAE7ED;
-                    border-radius : 50px;
-                    padding : 5px 15px;
-                    margin : 0;
-                }
-            }
-        }
-    }
-
-
-    &__section-links {
-        &--subtitle {
-            margin-bottom : 15px;
-            text-align: center;
+    &-section__competences {
+        &__title {
+            margin-left : 10.5rem;
+            font-weight: normal;
+            font-size : 4rem;
         }
 
-        &__list {
+        &__skills {
             display : flex;
             justify-content: space-between;
-
-            &--link {
-                background-color : #EAE7ED;
-                border-radius : 50px;
-                width : 30%;
-                padding : 10px 0;
-                text-align : center;
-                font-size : 1.5em;
-
-                &:hover {
-                    text-decoration : none;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width : 992px) {
-    .about-page {
-         &__section-who {
-            &--link {
-                top : 50%;
-                padding : 10px 20px;
-                font-size : 1em;
-            }
+            margin-top : 2.688rem;
+            margin-bottom: 8rem;
+            width : 100%;
         }
 
-        &__section-skills {
-            align-items: start;
-        }
+        &__division {
+            width : 30%;
 
-        &__section-links {
-            &__list {
-                &--link {
-                    font-size : 1em;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width : 768px) {
-    .about-page {
-        margin-top : 10px;
-
-         &__section-who {
-            margin-bottom : 20px;
-
-            &--text {
-                width : 90%;
+            &__title {
+                margin-bottom : 1.375rem;
+                font-size : 3rem;
+                font-weight: normal;
             }
 
-            &--link {
-                display : block;
-                padding : 10px;
-                font-size : 1em;
-                position : initial;
-                margin-top : 10px;
-            }
-        }
+            &__lists {
+                display : flex;
+                gap : 3.563rem;
+                align-items: center;
 
-        &__section-links {
-            &__list {
-                &--link {
-                    font-size : 1em;
-                }
-            }
-        }
-    }
-}
+                 &__jauge-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap : 0.95rem;
 
-@media (max-width : 600px) {
-    .about-page {
-        margin-top : 10px;
-
-         &__section-who {
-            margin-bottom : 20px;
-
-            &--text {
-                width : 90%;
-            }
-
-            &--link {
-                display : block;
-                padding : 10px;
-                font-size : 1em;
-                position : initial;
-                margin-top : 10px;
-            }
-        }
-
-        &__section-skills {
-            flex-direction: column;
-
-            &__soft-skills , &__hard-skills {
-                width : 100%;
-            }
-        }
-
-        &__section-links {
-            &__list {
-                flex-direction: column;
-                gap : 10px;
-
-                &--link {
-                    font-size : 1em;
-                    width : 100%;
-
-                    &:hover {
-                        text-decoration : none;
-                        font-weight : bold;
+                    &--bg {
+                        background-color: variables.$main-color;
+                        width : 6.5rem;
+                        height : 0.5rem;
+                        border-radius: 3.125rem;
+                        margin-left : 1.25;
+                        padding : 0.125rem;
                     }
                 }
             }
