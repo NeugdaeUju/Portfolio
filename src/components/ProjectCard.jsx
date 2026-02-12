@@ -1,19 +1,15 @@
 import { Link } from 'react-router-dom'
 import '../assets/sass/projectCard.scss'
 
-function ProjectCard ({id , index, name, image}) {
-    const cardClass = `works-page__card-${index}`
+function ProjectCard ({id, name, description}) {
 
     return (
         <>
-            <Link to={`/works/${id}`} className={cardClass}>
-                <figure className='works-page__card'>
-                    <img className='works-page__card--image'
-                         src={image}
-                         alt={`Image du site ${name}`}/>
-                    <figcaption className='works-page__card--name'>{name}</figcaption>
-                </figure>
+            <Link to={`/works/${id}`} className="works-page__card">
+                <h2 className="works-page__card--title">{name}</h2>
+                <p className="works-page__card--description">{description}</p>
             </Link>
+            <div className="works-page__card--seperateur"></div>
         </>
     )
 }

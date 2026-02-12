@@ -1,48 +1,14 @@
 .works-page {
-    display : grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 110px 110px 110px 110px 110px 110px 110px 110px 110px;
-    gap : 10px 20px;
+    display : flex;
+    justify-content: space-between;
 
-    &__card-1 {
-        grid-column : 1 / span 5;
-        grid-row :  1 / span 5;
+    &__card-container {
+        display : flex;
+        flex-direction: column;;
+        gap : 10px;
+
     }
 
-    &__card-2 {
-        grid-column : 6 / span 6;
-        grid-row :  1 / span 3;
-    }
-
-    &__card-3 {
-        grid-column : 7 / span 4;
-        grid-row :  4 / span 3;
-    }
-
-    &__card-4 {
-        grid-column : 2 / span 5;
-        grid-row : 7 / span 3;
-    }
-
-        &__card-5 {
-        grid-column : 8 / span 4;
-        grid-row : 8 / span 7;
-    }
-
-    &__card-6 {
-        grid-column : 1/ span 7;
-        grid-row : 10 / span 3;
-    }
-
-    &__card-7 {
-        grid-column : 1 / span  5;
-        grid-row : 14 / span 5;
-    }
-
-    &__card-8 {
-        grid-column : 6 / span 5;
-        grid-row : 16 / span 4;
-    }
 }
 
 @media (max-width : 768px) {
@@ -50,12 +16,7 @@
         display : flex;
         flex-wrap: wrap;
         justify-content: center;
-
-        &__card-1 , &__card-2 , &__card-3 , &__card-4 , &__card-5 {
-            height : 250px;
-            width : 48%;
-            gap : 10px;
-        }
+        
     }
 }
 
@@ -64,9 +25,5 @@
         flex-direction: column;
         align-items: center;
 
-        &__card-1 , &__card-2 , &__card-3 , &__card-4 , &__card-5 {
-            height : 250px;
-            width : 100%;
-        }
     }
 }

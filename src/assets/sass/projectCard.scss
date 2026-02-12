@@ -1,52 +1,25 @@
 .works-page__card {
-    background-color: #EAE7ED;
     margin: 0;
     border-radius : 10px;
     height : 100%;
     position : relative;
+    display : flex;
+    flex-direction: column;
+    text-align: end;
 
-    &--name {
-        position : absolute;
-        bottom : 15px;
-        left : 15px;
-        border-radius : 50px;
-        background-color : #EAE7ED;
-        padding : 10px 15px;
-    }
+    &--title {
+        font-style: normal;
 
-    &--image {
-        object-fit: cover;
-        height :100%;
-        width : 100%;
-        border-radius : 10px;
-    }
-}
-
-@media (max-width : 992px) {
-    .works-page__card{
-        &--name {
-            font-size : 0.85em;
-            padding : 5px 10px;
+        &:hover {
+            font-style : italic;
         }
     }
-}
 
-@media (max-width : 768px) {
-    .works-page__card{
-        &--name {
-            bottom : 15px;
-            left : 15px;
-        }
+    &--seperateur {
+        height : 20px;
+        width : 400px;
+        background-color: black;
+        border-radius: 50px;
     }
-}
 
-@media (max-width : 600px) {
-    .works-page__card{
-        &--name {
-            bottom : 10px;
-            left : 10px;
-            font-size : 0.75em;
-            padding : 5px 10px;
-        }
-    }
 }

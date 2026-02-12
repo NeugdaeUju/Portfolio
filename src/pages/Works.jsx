@@ -15,6 +15,8 @@ function Works () {
     return (
         <>
             <main className='works-page'>
+                <h1 className='works-page--title'>Works</h1>
+                <div className='works-page__card-container'>
                 {projects.map((p , i) => {
                     const index = i + 1
                     return (
@@ -26,6 +28,7 @@ function Works () {
                             image={new URL(`../assets/images/${p.cover}` , import.meta.url).href}
                         />)
                 })}
+                </div>
             </main>
         </>
     )
