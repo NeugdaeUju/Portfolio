@@ -1,0 +1,213 @@
+@use '../variables';
+
+.about-section__competences__division__lists__jauge-list{
+    &--jauge-10 {
+        animation : jauge-10 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-9 {
+        animation : jauge-9 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-8 {
+        animation : jauge-8 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-7 {
+        animation : jauge-7 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-6 {
+        animation : jauge-6 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-5 {
+        animation : jauge-5 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-4 {
+        animation : jauge-4 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-3 {
+        animation : jauge-3 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-2 {
+        animation : jauge-2 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+
+    &--jauge-1 {
+        animation : jauge-1 both ease-in-out;
+        animation-delay : 600ms;
+        animation-duration : 2s;
+    }
+}
+
+@keyframes jauge-10 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 6.25rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-9 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 5.625rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-8 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 5rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-7 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 4.375rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-6 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 3.75rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-5 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 3.125rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-4 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width :2.5rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-3 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 1.875rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-2 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 1.25rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
+
+@keyframes jauge-1 {
+  0% {
+    width : 0px;
+    background-color: variables.$light-color;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+  100% {
+    background-color: variables.$light-color;
+    width : 0.625rem;
+    height : 0.25rem;
+    border-radius: 3.125rem;
+  }
+}
