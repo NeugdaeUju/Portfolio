@@ -17,9 +17,13 @@
 
     &--seperateur {
         height : 20px;
-        width : 400px;
+        display : flex;
+        justify-content: end;
+        width : 50%;
         background-color: black;
         border-radius: 50px;
+        margin-top : 20px;
+        margin-left : auto;
     }
 
 }
