@@ -7,160 +7,18 @@
         "cover" : "NC-0.avif",
         "links" : [
             {
-                "type" : "github",
-                "img" : "github-logo.webp",
-                "caption" : "Logo github",
-                "content" : "https://github.com/NeugdaeUju/Projet_8-Nina_Carducci"
-            },
-            {
                 "type" : "site",
                 "img" : "site.webp",
                 "caption" : "Logo internet",
                 "content" : "https://neugdaeuju.github.io/Projet_8-Nina_Carducci/"
             }
         ],
-        "steps" : [
-                    {
-                        "title" : "Audit du site",
-                        "elements" : [
-                            {
-                                "type" : "image",
-                                "src" : "NC-1.avif",
-                                "caption" : "Audit global du site avec LightHouse"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-2.avif",
-                                "caption" : "Audit d'accessibilité du site avec Wave"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-3.avif",
-                                "caption" : "Audit de référencement du site avec Google Rich Result"
-                            },
-                            {
-                                "type" : "text",
-                                "content" : "J'ai commencer par réaliser un audit du site à la fois générale et sur les différents aspect demandés par la cliente (SEO et référencement)"
-                            }
-                        ]
-                    },
-                    {
-                        "title" : "Optimisation des performances",
-                        "elements" : [
-                            {
-                                "type" : "image",
-                                "src" : "NC-5.avif",
-                                "caption" : "Minification des fichiers JS"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-4.avif",
-                                "caption" : "Minification des fichiers CSS"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-6.avif",
-                                "caption" : "Modification des images"
-                            },
-                            {
-                                "type" : "text",
-                                "content" : "D'après l'audit LightHouse, et les éléments qui pouvaient être modifié était, les fichiers JS et CSS en les réduisant en les clarifiant, en ajustant la taille et le poids des images en fonction des tailles d'écran et avec un type de fichier plus adapté"
-                            }
-                        ]
-                    },
-                    {
-                        "title" : "Optimisation de l'accessibilité",
-                        "elements" : [
-                            {
-                                "type" : "image",
-                                "src" : "NC-7.avif",
-                                "caption" : "Correction de l'arborrescence du fichier"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-6.avif",
-                                "caption" : "Ajout des attribut nécessaires"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-8.avif",
-                                "caption" : "Correction des couleurs pour un meilleur contraste"
-                            },
-                            {
-                                "type" : "text",
-                                "content" : "Avec l'audit LightHouse et Waim, on remarque des erreur au niveau de l'arborrescence, avec les titre (H&, h2, ..), les attribut comme alt, id et for ...mais aussi des contrastes."
-                            }
-                        ]
-                    },
-                    {
-                        "title" : "Ajout de référencement",
-                        "elements" : [
-                            {
-                                "type" : "image",
-                                "src" : "NC-9.avif",
-                                "caption" : "Création du référencement local avec Schema.org"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-10.avif",
-                                "caption" : "Ajout des balises pour les cartes Opengraphes"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-11.avif",
-                                "caption" : "Ajout des balises pour les twitter cards"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-12.avif",
-                                "caption" : "Permettre les bots de parcourir le site et de l'indexer"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-13.avif",
-                                "caption" : "Ajouter un titre et une description au site"
-                            },
-                            {
-                                "type" : "text",
-                                "content" : "Gestion du référencement local et les bots"
-                            }
-                        ]
-                    },
-                    {
-                        "title" : "Avant - Après",
-                        "elements" : [
-                            {
-                                "type" : "image",
-                                "src" : "NC-1.avif",
-                                "caption" : "Audit LightHouse avant"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-14.avif",
-                                "caption" : "Audit LightHouse après"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-2.avif",
-                                "caption" : "Audit Wave avant"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-15.avif",
-                                "caption" : "Audit Wave après"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-3.avif",
-                                "caption" : "Audit Google Rich Result avant"
-                            },
-                            {
-                                "type" : "image",
-                                "src" : "NC-16.avif",
-                                "caption" : "Audit Google Rich Result après"
-                            }
-                        ]
-                    }
+        "analyse" : "Le site de Nina Carducci était correct dans son aspect, cependant, le code n'était pas optimisé ni en terme de performance, ni en terme de référencement (SEO), c'est pourquoi, j'ai porposé à Nina de retravailler son site afin quelle est de meilleures performance, un SEO plus optimisée dans un objectif d'avoir plus de traffic sur son site et donc conlure plus de contrat. ",
+        "improvement" :"Pour atteindre l'objectif, nous avons convenu qu'il faudrait retravailler ces points : ",
+        "improvementPoints": [
+            "Performance : Optimiser la taille et le poids des images, réduire les fichiers CSS et JS, charger les éléments non essentiels de manière asynchrone.",
+            "SEO : Corriger les erreurs dans les balises HTML tel que les titres, ajouter des texts aux images, et implémenter dans meta donné (titre, description) et des balises Opengraph (Facebook), Twitter Card (X) et de référencement local.",
+            "Accessibilité : Ajouter des attribut Aria et text altenatif, corriger les contraste et erreurs dans l'odre des titres."
         ],
         "skills" : [
             "HTML",
