@@ -1,6 +1,6 @@
 [
     {
-        "id" : "1",
+        "id" : "4",
         "name" : "Nina Carducci",
         "description" : "En tant que développeur freelance, j’ai été contacté pour améliorer le référencement et les performances du site de Nina Carducci, une photographe professionnelle. Mon rôle consistait à analyser le site existant, identifier les problèmes de chargement et d’accessibilité, et proposer des recommandations concrètes pour optimiser le site. Pour cela, j’ai utilisé des outils d’audit comme Lighthouse et Wave, et j’ai préparé un document détaillant les points à améliorer afin de convaincre la cliente de l’importance de cette optimisation.",
         "presentation": "[Projet fictif] Optimiser les performances et le référencement du site de Nina Carducci",
@@ -34,7 +34,7 @@
     },
 
     {
-        "id" : "2",
+        "id" : "3",
         "name" : "Kasa",
         "description" : "En tant que développeur front-end freelance, j’ai été intégré à l’équipe en charge de la refonte du site Kasa, une plateforme de location d’appartements entre particuliers. L’entreprise, déjà leader sur le marché français avec plus de 500 annonces postées chaque jour, souhaitait moderniser son site historique en ASP.NET pour le transformer en une application React complète et responsive. Les maquettes Figma, des données simulées au format JSON et un brief détaillé sur les fonctionnalités attendues m’ont été fournis, me permettant de démarrer le projet de manière structurée tout en respectant les contraintes de design et d’expérience utilisateur.",
         "presentation" : "[Projet fictif] Renfonte complète du site de Casa en React pour une expérience utilisateur moderne et responsive",
@@ -53,187 +53,12 @@
                 "content" : "https://neugdaeuju.github.io/Projet_7-Kasa/"
             }
         ],
-        "steps" : [
-            {
-                "title" : "Analyse des maquettes",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-2.avif",
-                        "caption" : "Capture d'ecran de la maquette Figma"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-3.avif",
-                        "caption" : "Capture d'ecran des composants réaliser sur Figma"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencé par regarder comment était la maquette et voir les animations faite sur le protype. La personne chargée du design avait créer les composant du site ce qui donne déjà une idée des composants React à faire lors de l'écriture du code."
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la base de l'application React",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-23.avif",
-                        "caption" : "Capture de l'application React créer avec vite"
-                    },
-                    {
-                        "type" : "image",
-                        "src": "K-22.avif",
-                        "caption" : "Capture des routes de l'applications"
-                    },
-                    {
-                        "type" : "image",
-                        "src": "K-24.avif",
-                        "caption" : "Ecriture du ReadMe pour lancer le projet"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Création de l'application avec Vite. J'ai utilisé React router dom pour créer les routes de l'application, en préparant ainsi le terrain pour les différentes pages."
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la page d'accueil et de ses composants",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-2.avif",
-                        "caption" : "Capture d'écran de la maquette de la page d'accueil"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-11.avif",
-                        "caption" : "Capture d'écran du code de la page d'accueil"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-13.avif",
-                        "caption" : "Capture d'écran du composant header"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-12.avif",
-                        "caption" : "Capture d'écran du composant des logements"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-1.avif",
-                        "caption" : "Capture d'écran de la page d'accueil"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "En me basant sur la maquette, j'ai créer la page d'accueil, et certains composant qui seront utilisée sur toutes les pages ou certaines pages, comme le header, ou le bandeau d'image."
-                    }
-                ]
-            },
-            {
-                "title" : "Création des autres pages du site",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-5.avif",
-                        "caption" : "Capture d'écran de la maquette de la page A propos"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-14.avif",
-                        "caption" : "Capture d'écran du code de la page A propos"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-15.avif",
-                        "caption" : "Capture d'écran du composant des dropdown"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-16.avif",
-                        "caption" : "Capture d'écran du composant utilisant les dropdown"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-8.avif",
-                        "caption" : "Capture d'écran de la page A propos"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-7.avif",
-                        "caption" : "Capture d'écran de la maquette de la page erreur"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-17.avif",
-                        "caption" : "Capture d'écran du code de la page erreur"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-10.avif",
-                        "caption" : "Capture d'écran de la page Erreur"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "En suivant cette logique j'ai réaliser les différents composants et les ai intégrer aux pages du site."
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la page de logement",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-6.avif",
-                        "caption" : "Capture d'écran de la maquette de la page logement"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-18.avif",
-                        "caption" : "Capture d'écran du code de la page logement"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-19.avif",
-                        "caption" : "Capture d'écran du code du carroussel de la page"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-20.avif",
-                        "caption" : "Capture d'écran du code de la description du logement"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-21.avif",
-                        "caption" : "Capture d'écran du code des informations du logement"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-9.avif",
-                        "caption" : "Capture d'écran de la page de logement"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "En utilisant le fichier JSON fournis et les informations qu'il contient j'ai lié l'id de chaque logement à une page et avec UseParams, j'ai pus récupérer cet id et afficher les informations du logement."
-                    }
-                ]
-            },
-            {
-                "title" : "Avant - Après",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "K-4.avif",
-                        "caption" : "capture d'écran de la maquette figma"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "K-1.avif",
-                        "caption" : "capture d'écran du site après réalisation"
-                    }
-                ]
-            }
+        "analyse" : "",
+        "improvement" :"Pour atteindre l'objectif, nous avons convenu qu'il faudrait retravailler ces points : ",
+        "improvementPoints": [
+            "",
+            "",
+            ""
         ],
         "skills" : [
             "HTML",
@@ -247,7 +72,7 @@
     },
 
     {
-        "id" : "4",
+        "id" : "2",
         "name" : "Oh My Food",
         "description" : "Au sein de la start-up **OhMyFood**, j’ai développé l’interface complète d’un site mobile-first référençant des menus de restaurants gastronomiques. L’objectif était d’intégrer l’ensemble des pages à partir des maquettes Figma mobile et desktop, en construisant une expérience fluide sur toutes les tailles d’écran. J’ai conçu l’intégralité des écrans en **mobile-first**, puis adapté la mise en page pour tablette et desktop en respectant scrupuleusement le brief créatif. Le projet m’a conduit à structurer mon code avec **Sass**, en tirant parti de ses fonctionnalités (partiels, variables, mixins) pour produire une feuille de style modulaire et maintenable. J’ai également mis en place des **animations CSS** visant à enrichir l’expérience utilisateur, notamment pour les effets de chargement et l’interaction avec les cartes de menus. Tout au long du développement, j’ai assuré le **versionnage Git** et la publication sur GitHub, en adoptant une organisation propre et réutilisable pour les projets front-end. Ce projet m’a permis de consolider des compétences clés : intégration mobile-first, création d’interfaces animées, structuration avancée du CSS via Sass, compréhension d’un prototype interactif et travail rigoureux à partir de maquettes.",
         "presentation" : "[Projet fictif] Intégration mobile-first du site de la start-up américaine OhMyFood, référençant des menus de restaurants gastronomiques",
@@ -266,197 +91,12 @@
                 "content" : "https://neugdaeuju.github.io/Oh-My-Food/"
             }
         ],
-        "steps" : [
-            {
-                "title" : "Analyse des maquettes",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "OMF-7.avif",
-                        "caption" : "Capture d'écran de la maquette Figma - mobile"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-8.avif",
-                        "caption" : "Découpage de la maquette - desktop"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
-                    }
-                ]
-            },
-            {
-                "title" : "Codage de la page d'accueil du site",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "capture d'écran de la maquette de la page d'accueil"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-9.avif",
-                        "caption" : "capture d'écran d'une partie du code de la page d'accueil du site Ohmyfood"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-1.avif",
-                        "caption" : "Rendu de la page d'accueil Ohmyfood"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencer le projet et codant la page d'accueil du site en mobile first. Le découpage de la maquette ma permet de prévoir les changement qui se feront à l'affichage lorsque je passerais au responsive."
-                    }
-                ]
-            },
-            {
-                "title" : "Création des animations sur la page d'accueil",
-                "elements" : [
-                    {
-                        "type" : "image" ,
-                        "src" : "OMF-12.avif",
-                        "caption" : "Ajout d'un effet de survol sur le bouton de recherche"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-11.avif",
-                        "caption" : "ajout d'un changement sur le coeur des cartes de restaurants"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-10.avif",
-                        "caption" : "animation du loader du site"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Ajout des effets et animations sur le bouton de recherche et sur les coeur des cartes de restaurants. J'ai utilisé un input type checkbox pour changer l'état du coeur de vide à plein en jouant avec un effet d'opacité."
-                    }
-                ]
-            },
-            {
-                "title" : "Création d'une page restaurant",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "OMF-13.avif",
-                        "caption" : "Capture d'une partie du code de la page de restaurants"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-4.avif",
-                        "caption" : "La page restaurant au format mobile"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai écris la page restaurant en récupérants certains éléments d'éjà réaliser de la page d'accueil (header, footer, coeur du like ..). L'affichage a aussi été fait en SCSS et correspond à maquette donnée. Les autres pages de restaurants ont simplement été dupliqués, et les texts et images modifiés. "
-                    }
-                ]
-            },
-            {
-                "title" : "Ajout des animations de la page de restaurant",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "OMF-15.avif",
-                        "caption" : "capture du code d'animation des cartes pour le check"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-14.avif",
-                        "caption" : "animations d'apparition des cartes"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai ensuite créer les animations sur les cartes, de leur apparitions progressives sur la page à l'icone de validations qui apparait lorsqu'on sélectionne une carte.  Pour les aniamtions sur le coeur ou l'effet sur le boutons au survol, cela à été copier de ce qui avait déjà était fait."
-                    }
-                ]
-            },
-            {
-                "title" : "Responsive du site",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "OMF-16.avif",
-                        "caption" : "Caputure du code des mediaqueries d'une page du site."
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-3.avif",
-                        "caption" : "Capture da la page d'accueil-tablet"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-4.avif",
-                        "caption" : "Capture da la page de restaurant-tablet"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-5.avif",
-                        "caption" : "Capture da la page d'accueil-phone"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-6.avif",
-                        "caption" : "Capture da la page de restaurant-phone"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Le site étant coder en mobile-first (c'est-à-dire la version smartphone en premier), il a fallut utiliser les media queries pour ajuster l'affichage pour les tablettes, ordinateurs et écrans larges. Les animations ont aussi, pour certaines, dûe être adaptés."
-                    }
-                ]
-            },
-            {
-                "title" : "Avant - Après",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "OMF-7.avif",
-                        "caption" : "Capture dde la maquette Figma"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-8.avif",
-                        "caption" : "Capture dde la maquette Figma"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-1.avif",
-                        "caption" : "Capture da la page d'accueil-phone"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-2.avif",
-                        "caption" : "Capture da la page de restaurant-phone"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-3.avif",
-                        "caption" : "Capture da la page d'accueil-tablet"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-4.avif",
-                        "caption" : "Capture da la page de restaurant-tablet"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "OMF-5.avif",
-                        "caption" : "Capture da la page d'accueil-desktop"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "OMF-6.avif",
-                        "caption" : "Capture da la page de restaurant-desktop"
-                    }
-                ]
-            }
+        "analyse" : "",
+        "improvement" :"Pour atteindre l'objectif, nous avons convenu qu'il faudrait retravailler ces points : ",
+        "improvementPoints": [
+            "",
+            "",
+            ""
         ],
         "skills" : [
             "HTML",
@@ -468,7 +108,7 @@
     },
 
     {
-        "id" : "5",
+        "id" : "1",
         "name" : "Booki",
         "description" : "Lors de mon alternance fictive au sein de la start-up **Booki**, j’ai été chargé d’intégrer la page d’accueil du site à partir des maquettes Figma fournies pour mobile, tablette et desktop. L’objectif était de transformer une base de code existante en une interface complète, fidèle au design et entièrement responsive. J’ai structuré et stylisé l’ensemble de la page en HTML et CSS : création du header et de sa navigation avec effets au survol, intégration des différentes sections de contenu (dont une partie déjà amorcée dans le starter code), construction du footer, et mise en place de media queries pour toutes les tailles d’écran. Le travail incluait également la création de composants d’interface cohérents avec la charte Booki, en évitant les pièges d’un code Figma non optimisé. Ce projet m’a permis de consolider des compétences essentielles en intégration front-end : compréhension de maquettes multi-supports, respect strict d’un design system, création d’interfaces modulaires, gestion fine de la responsivité et organisation d’un environnement de développement complet. Une expérience formatrice pour appréhender le travail quotidien entre UI design et développement.",
         "presentation" : "[Projet fictif] Intégration responsive d'un site de réservation d'hébergements et d'activités à Marseille" ,
@@ -487,173 +127,12 @@
                 "content" : "https://neugdaeuju.github.io/Booki/"
             }
         ],
-        "steps" : [
-            {
-                "title" : "Analyse des maquettes",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-4.avif",
-                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-5.avif",
-                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-6.avif",
-                        "caption" : "Code de base du site"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-8.avif",
-                        "caption" : "Capture d'écran du site de base"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencer par regarder la maquette figma et l'ai découper en section et div pour avoir une idéee globale de comment obtenir le rendu finale."
-                    }
-                ]
-            },
-            {
-                "title" : "Ecriture de la première partie du code",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-9.avif",
-                        "caption" : "Capture du code écrit pour le header et hero"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-10.avif",
-                        "caption" : "Rendu du code"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai commencer ensuite à écrire le code pour l'en-tête et la partie de présentation du site."
-                    }
-                ]
-            },
-            {
-                "title" : "Ajout de la section des hébergements",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-11.avif",
-                        "caption" : "Capture du code écrit pour la section des hébergements."
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-12.avif",
-                        "caption" : "Rendu de la section sur le site"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Pour créer la section des hébergements à Marseille, j'ai réutiliser le code écrit pour la section des hébèrgements populaire, et je l'ai adapté à la nouvelle section grâce au CSS."
-                    }
-                ]
-            },
-            {
-                "title" : "Création de la section des activités",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-13.avif",
-                        "caption" : "Cature du code de la section des activités"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-14.avif",
-                        "caption" : "Rendu de la section sur le site"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai ensuite ajouter la section des activité en me basant encore une fois sur ce qui avait été fait pour les sections précedente et en ajustant avec le CSS pour coller au visuel de la maquette."
-                    }
-                ]
-            },
-            {
-                "title" : "Ajout du footer",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-15.avif",
-                        "caption" : "Création du code pour le pied de page"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-16.avif",
-                        "caption" : "Rendu de la section sur le site"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "Enfin j'ai ajouter le pied de page du site."
-                    }
-                ]
-            },
-            {
-                "title" : "Responsive du site",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "B-17.avif",
-                        "caption" : "Capture d'écran du partie du responsive du site"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-2.avif",
-                        "caption" : "Rendu du responsive - Tablet"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-3.avif",
-                        "caption" : "Rendu du responsive - Mobile"
-                    },
-                    {
-                        "type" : "text",
-                        "content" : "J'ai terminé ce projet en m'occupant du reponsive du site pour toutes les dimmension d'écran, avec les breakpoint commun (Mobile, tablet, desktop et large sreen), et en ajoutant des breakpoint intermédiaire au besoin pour le rendu visuelle soit le plus fluide et agréable pour l'utilisateur final."
-                    }
-                ]
-            },
-            {
-                "title" : "Avant - Après",
-                "elements" : [
-                    {
-                        "type" : "image",
-                        "src" : "",
-                        "caption" : "Site avant code"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-4.avif",
-                        "caption" : "Capture d'écran de la maquette Figma - desktop & large screen"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-5.avif",
-                        "caption" : "Capture d'écran de la maquette Figma - mobile & tablette"
-                    },
-                    {
-                        "type" : "image",
-                        "src" : "B-1.avif",
-                        "caption" : "site après code - desktop"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "B-2.avif",
-                        "caption" : "site après code - tablet"
-                    }
-                    ,
-                    {
-                        "type" : "image",
-                        "src" : "B-3.avif",
-                        "caption" : "site après code - mobile"
-                    }
-                ]
-            }
+        "analyse" : "",
+        "improvement" :"Pour atteindre l'objectif, nous avons convenu qu'il faudrait retravailler ces points : ",
+        "improvementPoints": [
+            "",
+            "",
+            ""
         ],
         "skills" : [
             "HTML",

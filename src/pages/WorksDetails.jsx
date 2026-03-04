@@ -92,8 +92,8 @@ function WorksDetails () {
                 </section>
 
                 <section className='worksDetails-page__navigation'>
-                    <Link to={`/works/${projectPrevious?.id}`} className='worksDetails-page__navigation__link' ><FaChevronLeft className='worksDetails-page__navigation__icon'/>Projet précédent</Link>
-                    <Link to={`/works/${projectNext?.id}`} className='worksDetails-page__navigation__link'>Projet suivant  <FaChevronRight className='worksDetails-page__navigation__icon'/></Link>
+                    <Link to={`/works/${projectPrevious?.id}`} className='worksDetails-page__navigation__link' ><FaChevronLeft className='worksDetails-page__navigation__icon'/>Projet {projectPrevious?.id}</Link>
+                    <Link to={`/works/${projectNext?.id}`} className='worksDetails-page__navigation__link'>Projet {projectNext?.id}  <FaChevronRight className='worksDetails-page__navigation__icon'/></Link>
                 </section>
             </main>
         </>
