@@ -11,10 +11,6 @@ function WorksDetails () {
     const [loading, setLoading] = useState(true)
     const [error, setError] =useState(null)
 
-    // We'll compute previous/next after we know which project is current.
-    // Using string IDs from JSON so convert to number and rely on array indices
-    // for proper wrap-around behavior.
-    // (initial values kept for linter; will be replaced later)
     let projectPrevious = null;
     let projectNext = null;
 
@@ -37,7 +33,6 @@ function WorksDetails () {
         )
     }
 
-    // calc prev/next using position in array so navigation wraps correctly
     const currentIndex = projects.findIndex(p => parseInt(p.id, 10) === numericId);
     if (currentIndex !== -1) {
         const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
@@ -60,7 +55,9 @@ function WorksDetails () {
                     {coverURL && (
                         <img className='worksDetails-page__description--image'
                          src={coverURL}
-                         alt={project.name}/>
+                         alt={project.name}
+                         aria-hidden='true'
+                         role="presentation" />
                     )}
                 </section>
 
@@ -87,8 +84,8 @@ function WorksDetails () {
                 
                 <section className='worksDetails-page__before-after'>
                     <h2>Avant - Après</h2>
-                    <img src=''></img>
-                    <img src=''></img>
+                    <img src='' aria-hidden='true' role="presentation"></img>
+                    <img src='' aria-hidden='true' role="presentation"></img>
                 </section>
 
                 <section className='worksDetails-page__navigation'>
