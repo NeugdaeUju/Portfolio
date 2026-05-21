@@ -1,29 +1,67 @@
+@use 'variables';
+
 .header {
     display : flex;
-    width : 100%;
-    margin : 30px 0;
-
-    &__page-title {
-        margin-right : 50px;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 1.25rem 4rem;
+    border-bottom : 1px solid rgba(45,27,105,0.12);
+    background: rgba(247,245,240,0.88);
+    backdrop-filter: blur(12px);
 
     &__nav {
-        width : 60%;
         display : flex;
+        flex-direction : row;
+        gap : 10px;
 
-        &--link {
-            margin-right : 30px;
+        &__item {
+            color : variables.$gris;
+            font-size : 13px;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            transition : color 0.2S;
         }
+
+        &__button {
+            padding : 7px 18px;
+            background-color: variables.$violet;
+            color : variables.$blanc;
+            font-size : 12px;
+            font-weight : 500;
+            letter-spacing : 0.04em;
+            border-radius : 4px;
+        }
+    }
+
+    &__logo {
+        font-family : variables.$serif;
+        color : variables.$violet;
+        font-size : 22px;
+        font-weight : 400;
+        letter-spacing: -0.02rem;
+        margin : 0;
+        padding : 0;
+        display : flex;
+        flex-direction : column;
+        gap : 3px;
     }
 }
 
-@media (max-width : 600px) {
-    .header {
-        flex-wrap: wrap;
-        margin : 0;
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+}
 
-        &__nav {
-            margin : 20px 10px;;
-        }
-    }
+span {
+    font-style : normal;
+    font-family : variables.$mono;
+    font-size : 8px;
+    letter-spacing: 0.8em;
+    color : variables.$gris;
+    text-transform: uppercase;
+    font-weight : 400;
 }

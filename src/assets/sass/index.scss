@@ -1,11 +1,12 @@
 @use 'variables';
 
-html {
-  margin : 0 auto;
+body {
+  margin : 0;
   box-sizing: border-box;
   background: variables.$bg-color;
   color : variables.$noir;
   font-family : variables.$sans;
+  font-size : 15px;
 }
 
 h1 , h1, h3, h4, h5, h6 {
@@ -13,7 +14,6 @@ h1 , h1, h3, h4, h5, h6 {
   color : variables.$violet;
 }
 
-a {
-  text-decoration : none;
-  color : variables.$noir;
+a{
+  text-decoration: none;
 }
