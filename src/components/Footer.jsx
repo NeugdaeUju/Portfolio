@@ -3,7 +3,8 @@ import '../assets/sass/footer.scss'
 function Footer () {
     return (
         <footer className='footer'>
-            <p className='footer_text'>@2025 - Leïla Pelletier</p>
+            <a className='footer__link' href="#">LP</a>
+            <p className='footer__text'>Portfolio 2025 - Développeuse Frontend & RH</p>
         </footer>
     )
 }
