@@ -1,79 +1,19 @@
-:root {
-  font-family: 'Noto Sans Displat', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color : #3E2C41;
+@use 'variables';
+
+html {
+  margin : 0 auto;
+  box-sizing: border-box;
+  background: variables.$bg-color;
+  color : variables.$noir;
+  font-family : variables.$sans;
+}
+
+h1 , h1, h3, h4, h5, h6 {
+  font-family : variables.$serif;
+  color : variables.$violet;
 }
 
 a {
-  color: #3E2C41;
-  text-decoration: none;
-}
-a:hover {
-  color: #3E2C41;
-  font-weight: bold;
-}
-
-body {
-  margin: 30px 150px;
-  background-color: #B4A7BD;
-  display : flex;
-  flex-direction : column;
-  justify-content: center;
-}
-
-h1 {
-  font-size: 3em;
-  line-height: 1.1;
-}
-
-h1 , h2 , h3 , h4 , h5 , h6 {
-  font-family: 'Bodoni Moda', serif;
-  color : #3E2C41;
-  margin : 0;
-}
-
-p {
-  font-family : 'Noto Sans Display', sans-serif;
-  color: #281D2A;
-}
-
-
-@media (max-width: 1024px) {
-  body {
-    margin : 30px 80px;
-  }
-}
-
-@media (max-width: 992px) {
-  body {
-    margin : 30px;
-  }
-  p {
-    font-size : 0.85em;
-  }
-
-  h1 {
-    font-size : 2.5em
-  }
-}
-
-@media (max-width : 768px) {
-  body {
-    margin : 20px 30px;
-  }
-}
-
-@media (max-width : 600px) {
-  body {
-    margin-top : 40px;
-  }
-
-  p {
-    font-size : 0.75em;
-  }
-
-  h1 {
-    font-size : 2em;
-  }
+  text-decoration : none;
+  color : variables.$noir;
 }
