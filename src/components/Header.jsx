@@ -6,7 +6,7 @@ function Header () {
     return (
         <>
             <header className='header'>
-                <a href="#" className='header__logo'>LP<span>Développeuse RH</span></a>
+                <a href="#" className='header__logo'>LP<span className='span'>Développeuse RH</span></a>
                 <nav className='header__nav'>
                     <ul>
                         <li><a className='header__nav__item' href='#about'>A propos</a></li>

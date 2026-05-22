@@ -1,87 +1,120 @@
-.page-accueil {
+@use 'variables';
+
+.hero {
     display : flex;
-    height : 100%;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width : 100%;
+    gap : 10px;
+}
 
-    &__presentation {
-        width : 60%;
+.hero-prez {
+    width : 50%;
+    padding : 6rem 4rem;
 
-        &--title {
-            margin-bottom : 50px;
-        }
-
-        &--description {
-            padding-right : 20%
-        }
-    }
-
-    &__nav {
+    &-text {
+        font-family : variables.$sans;
+        font-size : 11px;
+        color : variables.$violet-mid;
+        text-transform: uppercase;
+        font-weight : 500;
+        letter-spacing: 0.15em;
+        margin : 0 1.5rem 0 20px;
         display : flex;
-        flex-direction: column;
-        width : 40%;
+        align-items: center;
+        gap : 10px;
+    }
 
-        &--link {
-            font-size : 6em;
-            font-family : 'Bodoni Moda', serif;
-            margin-bottom : 3rem;
+    &-title {
+        font-family : variables.$serif;
+        font-size : clamp(48px, 6vw, 80px);
+        color : variables.$noir;
+        line-height : 1.05;
+        font-weight : 300;
+        margin-bottom : 1.5rem;
+        letter-spacing : -0.02em;
 
-            &:hover {
-                text-decoration : none;
-                font-style: italic;
-            }
+        & em {
+            color : variables.$violet;
+            font-style : italic;
+        }
+    }
+
+    &-description {
+        font-family : variables.$sans;
+        font-size : 15px;
+        font-weight : 300;
+        color : variables.$gris;
+        line-height: 1.7;
+        margin-bottom : 2.5rem;
+        max-width : 420px;
+
+        & strong {
+            font-weight : 500;
+            color : variables.$noir;
+        }
+    }
+
+    &-tags {
+        display : flex;
+        gap : 8px;
+        flex-wrap: wrap;
+        margin-bottom : 3rem;
+
+        &-badge {
+            font-size : 11px;
+            font-weight : 500;
+            padding : 4px 12px;
+            border-radius: 999px;;
+        }
+    }
+
+    &-links {
+        display: flex;
+        gap : 12px;
+        align-items: center;
+
+        &-button {
+            padding : 12px 28px;
+            font-size : 13px;
+            font-weight : 500px;
+            border-radius: 5px;
+            cursor : pointer;
+            letter-spacing: 0.04em;
+            transition : background-color 0.2s;
         }
     }
 }
 
-@media (max-width : 992px) {
-    .page-accueil {
-        margin-right : 0;
+.hero-visual {
+    width : 50%;
+}
 
-        &__presentation {
-            width : 100%;
-            margin-bottom : 2rem;
+.badge {
+    &-dev {
+        background-color: variables.$violet-soft;
+        color : variables.$violet;
+    }
 
-            &--title {
-                margin-bottom : 20px;
-            }
-        }
+    &-rh {
+        background-color: variables.$vert-light;
+        color : variables.$vert;
+    }
 
-        &__nav {
-            width : 100%;
-
-            &--link {
-                margin-bottom : 1.25rem;
-                font-size : 5em;
-            }
-        }
+    &-neutre {
+        background-color: variables.$blanc;
+        color : variables.$gris;
+        border: 0.5px solid rgba(0,0,0, 0.12);
     }
 }
 
-@media (max-width : 768px) {
-    .page-accueil {
-        margin-right : 30px;
-
-        &__nav {
-            align-items: end;
-        }
-    }
+.project {
+    background-color : variables.$violet;
+    color : variables.$blanc;
 }
 
-@media (max-width : 600px ) {
-    .page-accueil {
-        display : block;
-
-        &__presentation {
-            margin-bottom : 2rem;
-        }
-
-        &__nav {
-            align-items: start;
-            
-            &--link {
-                font-size : 4em;
-            }
-        }
-    }
+.contact {
+    background-color : variables.$blanc;
+    color : variables.$violet;
+    border : 0.5px solid variables.$violet;
 }
