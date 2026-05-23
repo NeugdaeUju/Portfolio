@@ -1,0 +1,100 @@
+@use 'variables';
+
+.hero-visual {
+    width : 50%;
+    position : relative;
+    background-color : variables.$blanc;
+    padding : 6rem 4rem;
+
+    &-content {
+        z-index : 999;
+        position : absolute;
+        top : 0%;
+        left : 0%;
+        width : 100%;
+        height : 100%;
+        display : flex;
+        flex-direction : column;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+
+        &-grid {
+            display : grid;
+            grid-template-columns : 1fr 1fr;
+            position : relative;
+            gap: 12px;
+        }
+    }
+}
+
+.monogram {
+    font-size : 10rem;
+    font-weight : 400;
+    color : variables.$violet-light;
+    font-family : variables.$serif;
+    z-index : 1;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin :0;
+    margin-top : 1rem;
+    height : 100%;
+    width : 100%;
+}
+
+.block {
+    border-radius : 12px;
+    padding : 1.25rem;
+    text-align: center;
+
+    &-1 {
+        display : flex;
+        flex-direction : column;
+        align-items: center;
+        justify-content: center;
+        grid-column: 1 /-1;
+        background-color: variables.$violet;
+        color : variables.$blanc;
+
+        & h2 {
+            font-family : variables.$serif;
+            font-size : 36px;
+            font-weight : 300;
+            margin : 0;
+            margin-bottom : 4px;
+            color : variables.$violet-light;
+        }
+
+        & h3 {
+            font-family : variables.$sans;
+            font-size : 13px;
+            color : variables.$violet-light;
+            font-weight : 300;
+            margin : 0;
+        }
+
+        & p {
+            font-family : variables.$serif;
+            font-size : 18px;
+            font-style : italic;
+            text-wrap: wrap;
+        }
+    }
+
+    &-2 , &-3 {
+        background-color: variables.$bg-color;
+        color : variables.$noir;
+
+        & span {
+            font-family : variables.$serif;
+            font-size : 35px;
+            margin : 0;
+        }
+
+        & p {
+            margin : 0;
+            font-size : 14px;
+        }
+    }
+}

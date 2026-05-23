@@ -1,7 +1,10 @@
 import {NavLink} from 'react-router-dom'
 import '../assets/sass/accueil.scss'
 
-import Hero_left from '../components/Hero_Left';
+import Hero_left from '../components/Hero_left';
+import Hero_right from '../components/Hero_right'
+import Section_title from '../components/Section_title';
+import About from '../components/about';
 
 function Accueil() {
     return (
@@ -9,24 +12,13 @@ function Accueil() {
             <main className='page-accueil'>
                 <section className='hero'>
                     <Hero_left />
-                    <div className='hero-visual'>
-                        <div>
-                            <h2>LP</h2>
-                            <h3>profil</h3>
-                            <p>La rigueur du code, la vision du terrain.</p>
-                        </div>
-                        <div>
-                            <div>
-                                <h3>6</h3>
-                                <p>Mois en RH</p>
-                            </div>
-                            <div>
-                                <h3>5+</h3>
-                                <p>Projets web</p>
-                            </div>
-                        </div>
-                    </div>
+                    <Hero_right />
+                </section>
 
+                <section className='presentation' id="about">
+                   <Section_title num='01' title='Qui' sec_title='suis' italic_title='-je' point=' ?' />
+                   <About />
+                    
                 </section>
             </main>
         </>
