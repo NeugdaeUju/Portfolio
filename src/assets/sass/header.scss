@@ -48,7 +48,7 @@
     }
 }
 
-ul {
+.header ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,7 +56,7 @@ ul {
     list-style: none;
 }
 
-.span {
+.header .span {
     font-style : normal;
     font-family : variables.$mono;
     font-size : 8px;
