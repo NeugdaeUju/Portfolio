@@ -1,31 +1,38 @@
 @use 'variables';
 
 .header {
-    display : flex;
-    // flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding : 1.25rem 4rem;
-    border-bottom : 1px solid rgba(45,27,105,0.12);
-    background: rgba(247,245,240,0.88);
-    backdrop-filter: blur(12px);
     position : fixed;
     top : 0;
     left: 0;
     right: 0;
     z-index : 100;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 1.25rem 4rem;
+    background: rgba(247,245,240,0.88);
+    backdrop-filter: blur(12px);
+    border-bottom : 1px solid rgba(45,27,105,0.12);
+    
 
     &__nav {
         display : flex;
         flex-direction : row;
-        gap : 10px;
+
+        & ul {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+            list-style: none;
+            margin : 0;
+        }
 
         &__item {
             color : variables.$gris;
             font-size : 13px;
-            font-weight: 400;
             letter-spacing: 0.04em;
             transition : color 0.2S;
+            text-decoration: none;
         }
 
         &__button {
@@ -34,39 +41,32 @@
             color : variables.$blanc;
             font-size : 12px;
             font-weight : 500;
-            letter-spacing : 0.04em;
+            letter-spacing : 0.06em;
             border-radius : 4px;
         }
     }
 
     &__logo {
         font-family : variables.$serif;
-        color : variables.$violet;
         font-size : 22px;
         font-weight : 400;
+        color : variables.$violet;
         letter-spacing: -0.02rem;
-        margin : 0;
-        padding : 0;
+        text-decoration: none;
         display : flex;
         flex-direction : column;
         gap : 3px;
+        line-height: 1;
+
+        & .span {
+            font-style : normal;
+            font-family : variables.$sans;
+            font-size : 8px;
+            letter-spacing: 0.18em;
+            color : variables.$gris;
+            text-transform: uppercase;
+            font-weight : 400;
+            color : variables.$gris;
+        }
     }
-}
-
-.header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.2rem;
-    list-style: none;
-}
-
-.header .span {
-    font-style : normal;
-    font-family : variables.$mono;
-    font-size : 8px;
-    letter-spacing: 0.8em;
-    color : variables.$gris;
-    text-transform: uppercase;
-    font-weight : 400;
 }
