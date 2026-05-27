@@ -84,6 +84,10 @@ function Accueil() {
                         />
                     </div>
                 </section>
+
+                <section id='contact'>
+                     <Contact />
+                </section>
             </main>
         </>
     )

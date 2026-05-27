@@ -60,3 +60,15 @@
     gap : 1px;
     margin-top : 4rem;
 }
+
+
+// section contact
+
+#contact {
+    background-color: variables.$violet;
+    color : variables.$blanc;
+    position : relative;
+    padding : 8rem 4rem;
+    text-align : center;
+    overflow: hidden;
+}
