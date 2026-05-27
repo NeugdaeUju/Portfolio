@@ -46,3 +46,17 @@
 }
 
 
+// Section projets
+
+#projects {
+    padding : 8rem 4rem;
+    max-width : 1200px;
+    margin : 0 auto
+}
+
+.projet_cards {
+    display : flex;
+    flex-direction: column;
+    gap : 1px;
+    margin-top : 4rem;
+}

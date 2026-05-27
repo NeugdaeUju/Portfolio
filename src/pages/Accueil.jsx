@@ -69,6 +69,21 @@ function Accueil() {
                         </div>
                     </div>
                 </section>
+
+                <section id='projects'>
+                    <Section_title num='03' title='Mes ' italic_title='projets'/>
+                    <div className='project_cards'>
+                        <Project_card 
+                        num='01'
+                        title='Ici le nom du projet - Le but du projet'
+                        description='Ecrire ici la description du projet'
+                        compétence1='Skill 1'
+                        compétence2='skill 2'
+                        compétence3='skill 3'
+                        compétence4='skill 4'
+                        />
+                    </div>
+                </section>
             </main>
         </>
     )
