@@ -2,13 +2,18 @@
 
 .header {
     display : flex;
-    flex-direction: row;
+    // flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding : 1.25rem 4rem;
     border-bottom : 1px solid rgba(45,27,105,0.12);
     background: rgba(247,245,240,0.88);
     backdrop-filter: blur(12px);
+    position : fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+    z-index : 100;
 
     &__nav {
         display : flex;
