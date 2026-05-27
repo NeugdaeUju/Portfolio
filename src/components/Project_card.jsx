@@ -22,9 +22,9 @@ const handleClick = () => {
                     </div>
                 </div>
                 <div className='links'>
-                    <a href="#" className='link' target='_blank'>GitHub</a>
-                    <a href="#" className='link' target='_blank'>Démo</a>
-                    <p className='more'>{showDetails ? "Masquer" : "Voir le détail"}</p>
+                    <a href="#" className='link' target='_blank'>↗ GitHub</a>
+                    <a href="#" className='link' target='_blank'>↗ Démo</a>
+                    <p className='more'>{showDetails ? "Masquer ↑" : "Voir le détail ↓"}</p>
                 </div>
             </div>
 
