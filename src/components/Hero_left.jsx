@@ -14,7 +14,7 @@ function Hero_left () {
                 <span className='hero-prez-tags-badge badge-neutre'>Full remote</span>
             </div>
             <div className='hero-prez-links'>
-                <a href='#project' className='hero-prez-links-button project'>Voir mes projets</a>
+                <a href='#projects' className='hero-prez-links-button project'>Voir mes projets</a>
                 <a href='#contact' className='hero-prez-links-button contact'>Me contacter</a>
             </div>
         </div>
