@@ -3,7 +3,7 @@ import '../assets/sass/hero_left.scss';
 function Hero_left () {
     return (
         <div className='hero-prez'>
-            <p className='hero-prez-text'>Disponible Full Remote</p>
+            <p className='hero-prez-text'>Disponible · Full Remote</p>
             <h1 className='hero-prez-title'>Développeuse <br/> <em>frontend</em><br/> & RH</h1>
             <p className='hero-prez-description'>Je construit des <strong>interfaces qui résolvent de vrais problèmes métier</strong> - avec une compréhension opérationnelle des enjeux humains et organisationnels que peu de devs ont.</p>
             <div className='hero-prez-tags'>

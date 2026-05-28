@@ -10,10 +10,19 @@
         text-transform: uppercase;
         font-weight : 500;
         letter-spacing: 0.15em;
-        margin : 0 1.5rem 0 20px;
+        margin-bottom : 1.5rem;
+        margin-top : 0;
         display : flex;
         align-items: center;
         gap : 10px;
+
+        &::before {
+            display : block;
+            width : 24px;
+            content : '';
+            height : 0.5px;
+            background-color: variables.$violet-mid;
+        }
     }
 
     &-title {
@@ -23,6 +32,7 @@
         line-height : 1.05;
         font-weight : 300;
         margin-bottom : 1.5rem;
+        margin-top : 0;
         letter-spacing : -0.02em;
 
         & em {
@@ -32,9 +42,7 @@
     }
 
     &-description {
-        font-family : variables.$sans;
         font-size : 15px;
-        font-weight : 300;
         color : variables.$gris;
         line-height: 1.7;
         margin-bottom : 2.5rem;
@@ -64,22 +72,12 @@
         display: flex;
         gap : 12px;
         align-items: center;
-
-        &-button {
-            padding : 12px 28px;
-            font-size : 13px;
-            font-weight : 500px;
-            border-radius: 5px;
-            cursor : pointer;
-            letter-spacing: 0.04em;
-            transition : background-color 0.2s;
-        }
     }
 }
 
 .badge {
     &-dev {
-        background-color: variables.$violet-soft;
+        background-color: variables.$violet-light;
         color : variables.$violet;
     }
 
@@ -96,12 +94,30 @@
 }
 
 .project {
-    background-color : variables.$violet;
-    color : variables.$blanc;
+    padding: 12px 28px;
+  background: variables.$violet;
+  color: variables.$blanc;
+  border: none;
+  border-radius: 5px;
+  font-family: variables.$sans;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  // transition: background 0.2s;
 }
 
 .contact {
-    background-color : transparent;
-    color : variables.$violet;
-    border : 0.5px solid variables.$violet;
+    padding: 11px 28px;
+  background: transparent;
+  color: variables.$violet;
+  border: 1px solid variables.$violet;
+  border-radius: 5px;
+  font-family: variables.$sans;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  // transition: all 0.2s;
 }
