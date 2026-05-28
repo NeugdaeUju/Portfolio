@@ -7,9 +7,9 @@ function Hero_right () {
                         <div className='hero-visual-content'>
                             <div className='hero-visual-content-grid'>
                                 <div className='block block-1'>
-                                    <h2>LP</h2>
-                                    <h3>Profil</h3>
-                                    <p>La rigueur du code,<br/> la vision du terrain.</p>
+                                    <span>01</span>
+                                    <p className='profile'>Profil</p>
+                                    <p className='text'>La rigueur du code,<br/> la vision du terrain.</p>
                                 </div>
                                 <div className='block block-2'>
                                     <span>6</span>
