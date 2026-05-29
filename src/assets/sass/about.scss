@@ -35,7 +35,6 @@
 
             &.side-rh {
                 background-color: variables.$vert-light;
-                border-left : 0.5px solid rgba(45,27, 105, 0.15);
             }
 
             &-title {
@@ -44,7 +43,6 @@
             letter-spacing: 0.12em;
             text-transform : uppercase;
             margin-bottom : 10px;
-            font-family : variables.$mono;
 
                 &.dev {
                     color : variables.$violet;
@@ -66,12 +64,10 @@
 .item {
     color : variables.$gris;
     font-size : 13px;
-    display : flex;
-    gap : 6px;
+    margin-bottom : 6px;
 }
 
-.item::before {
-    content: '→';
+.item em {
     font-size : 11px;
     opacity : 0.5;
 }

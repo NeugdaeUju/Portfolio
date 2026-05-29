@@ -7,6 +7,14 @@
     letter-spacing: 0.1em;
     margin-bottom : 12px;
 
+    &-nb {
+        font-family : variables.$mono;
+        font-size : 11px;
+        color : variables.$violet-mid;
+        letter-spacing:  0.1em;
+        margin-bottom : 12px;
+    }
+
     &-header {
         font-family : variables.$serif;
         font-size : clamp(32px, 4vw, 52px);
