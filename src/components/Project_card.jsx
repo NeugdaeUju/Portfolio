@@ -12,7 +12,7 @@ const handleClick = () => {
             <div div className='project_card_presentation'>
                 <p className='project-num'>{num}</p>
                 <div className='project-description'>
-                    <h2>{title}</h2>
+                    <h3>{title}</h3>
                     <p>{description}</p>
                     <div className='project-skills'>
                         <p className='skill'>{compétence1}</p>
