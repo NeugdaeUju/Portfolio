@@ -7,20 +7,18 @@
     align-items: center;
     padding : 2rem 4rem;
     background-color : variables.$noir;
-    color : variables.$gris;
 
     &__link {
-        color : variables.$gris;
+        color : rgba(255, 255, 255, 0.4);
         text-decoration: none;
         font-family : variables.$serif;
         font-size : 18px;
-        font-weight : 500;
         letter-spacing: -0.02em;
     }
 
     &__text {
         font-size : 12px;
-        font-weight : 300;
         letter-spacing : 0.04em;
+        color : rgba(255, 255, 255, 0.25);
     }
 }
