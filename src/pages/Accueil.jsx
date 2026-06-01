@@ -96,6 +96,30 @@ function Accueil() {
                         modification=''
                         modif_Explication="Mieux anticiper la structure des slices dès le départ. J'ai dû refactoriser après avoir constaté que certaines données se chevauchaient entre les deux."
                         />
+
+                        <Project_card 
+                        num='02'
+                        title='Sophie Bluel - Portfolio dynamique & auth'
+                        description="Transformation d'une galerie HTML statique en interface dynamique pilotée par API. Gestion complète de l'authentification, ajout et suppression d'éléments via formulaire, mise à jour de l'affichage sans rechargement de page."
+                        competence1='JavaScript ES6+'
+                        skill1_cat='dev'
+                        competence2='API REST'
+                        skill2_cat='dev'
+                        competence3='Auth JWT'
+                        skill3_cat='dev'
+                        competence4='DOM dynamique'
+                        skill4_cat='dev'
+                        competence5='CRUD complet'
+                        skill5_cat='neutre'
+                        GitLink='https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel'
+                        DemoLink='#'
+                        decision1='Deux div distinctes pour les modals'
+                        decision1_text=" — Plutôt qu'une modal imbriquée dans une autre, deux conteneurs indépendants. Chacun a son cycle d'ouverture/fermeture propre, sans interférence."
+                        decision2='Centralisation des appels API'
+                        decision2_text='Centralisation des appels API — Tous les appels sont regroupés dans un seul fichier. Modifier un endpoint ne nécessite pas de chercher dans tout le projet, et le risque de régression est limité.'
+                        modification2='Migrer vers React ou Vue'
+                        modif2_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
+                        />
                     </div>
                 </section>
 

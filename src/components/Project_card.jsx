@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import '../assets/sass/project_card.scss';
 
-function Project_card ({num, title, description, competence1, competence2, competence3, competence4, competence5, GitLink, DemoLink, decision1, decision2, decision1_text, decision2_text, modification, modif_Explication, skill1_cat, skill2_cat, skill3_cat, skill4_cat, skill5_cat}) {
+function Project_card ({num, title, description, competence1, competence2, competence3, competence4, competence5, GitLink, DemoLink, decision1, decision2, decision1_text, decision2_text, modification, modif_Explication, modification2, modif2_Explication, skill1_cat, skill2_cat, skill3_cat, skill4_cat, skill5_cat}) {
 const [showDetails, setShowDetails] = useState(false);
 const handleClick = () => {
     setShowDetails(!showDetails);
@@ -48,6 +48,10 @@ const handleClick = () => {
                     <div className='decision'>
                         <span>!</span>
                         <span><strong>{modification}</strong>{modif_Explication}</span>
+                    </div>
+                    <div className='decision'>
+                        <span>!</span>
+                        <span><strong>{modification2}</strong>{modif2_Explication}</span>
                     </div>
                 </div>
             </div>
