@@ -8,6 +8,7 @@ import About from '../components/about';
 import Skills_card from '../components/Skills_card';
 import Project_card from '../components/Project_card';
 import Contact from '../components/Contact';
+import Experience_card from '../components/Experience_card';
 
 function Accueil() {
     return (
@@ -120,6 +121,13 @@ function Accueil() {
                         modification2='Migrer vers React ou Vue'
                         modif2_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
                         />
+                    </div>
+                </section>
+
+                <section id='experience'>
+                    <div className='inner-section'>
+                    <Section_title num='04' title='Expé' italic_title='-riences'/>
+                        <Experience_card/>
                     </div>
                 </section>
 
