@@ -11,6 +11,7 @@ function Header () {
                         <li><a className='header__nav__item' href='#about'>A propos</a></li>
                         <li><a className='header__nav__item' href='#skills'>Compétences </a></li>
                         <li><a className='header__nav__item' href='#projects'>Projets</a></li>
+                        <li><a className='header__nav__item' href='#experience'>Expérience</a></li>
                         <li><a className='header__nav__button' href='#contact'>Me contacter</a></li>
                     </ul>
                 </nav>
