@@ -75,24 +75,26 @@ function Accueil() {
                     <div className='project_cards'>
                         <Project_card 
                         num='01'
-                        title='Ici le nom du projet - Le but du projet'
-                        description='Ecrire ici la description du projet'
-                        competence1='Skill 1'
+                        title='ArgentBank - Migration React & Redux'
+                        description="Reprise d'un site bancaire codé en HTML statique, migré intégralement vers React. Mise en place d'un store Redux, connexion à une API existante et rédaction de nouvelles routes dans la documentation Swagger pour le développement futur."
+                        competence1='React'
                         skill1_cat='dev'
-                        competence2='skill 2'
+                        competence2='Redux Toolkit'
                         skill2_cat='dev'
-                        competence3='skill 3'
+                        competence3='API REST'
                         skill3_cat='dev'
-                        competence4='skill 4'
-                        skill4_cat='neutre'
-                        GitLink='#'
+                        competence4='Swagger'
+                        skill4_cat='dev'
+                        competence5='Migration codebase'
+                        skill5_cat='neutre'
+                        GitLink='https://github.com/NeugdaeUju/ArgentBank-Frontend'
                         DemoLink='#'
-                        decision1='Decision 1'
-                        decision1_text='Ici les explication de la décision'
-                        decision2='Decision 2'
-                        decision2_text='Ici les explication de la décision'
-                        modification='La modification'
-                        modif_Explication='Ici l explication de la modification envisagée'
+                        decision1='Deux slices Redux distincts'
+                        decision1_text=' — Séparation de la logique de connexion et des informations utilisateur dans deux parties indépendantes du store. Chaque slice a sa responsabilité claire.'
+                        decision2='Centralisation des appels API'
+                        decision2_text='Centralisation des appels API — Tous les appels sont regroupés dans un seul fichier. Modifier un endpoint ne nécessite pas de chercher dans tout le projet, et le risque de régression est limité.'
+                        modification=''
+                        modif_Explication="Mieux anticiper la structure des slices dès le départ. J'ai dû refactoriser après avoir constaté que certaines données se chevauchaient entre les deux."
                         />
                     </div>
                 </section>
