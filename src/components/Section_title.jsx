@@ -1,4 +1,4 @@
-import '../sass/section_title.scss';
+import '../assets/sass/section_title.scss';
 
 function Section_title ({num, title, italic_title}) {
     return (

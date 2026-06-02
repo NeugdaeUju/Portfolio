@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom'
-import '../sass/accueil.scss'
+import '../assets/sass/accueil.scss'
 
 import Hero_left from '../components/Hero_left';
 import Hero_right from '../components/Hero_right'
@@ -9,6 +9,7 @@ import Skills_card from '../components/Skills_card';
 import Project_card from '../components/Project_card';
 import Contact from '../components/Contact';
 import Experience_card from '../components/Experience_card';
+import FadeIn from '../components/FadeIn';
 
 function Accueil() {
     return (
@@ -19,15 +20,15 @@ function Accueil() {
                     <Hero_right />
                 </section>
 
-                <section className='presentation' id="about">
+                <FadeIn delay={600}><section className='presentation' id="about">
                    <div className='section-title' style={{marginBottom: 0}}>
                         <p className='section-title-nb fade-in visible'>// 01</p>
                         <h2 className='section-title-header fade-in visible'>Qui <br/>suis<i>-je</i>?</h2>
                     </div>
                    <About />
-                </section>
+                </section></FadeIn>
 
-                <section id='skills'>
+                <FadeIn delay={600}><section id='skills'>
                     <div className='inner-section'>
                         <Section_title num='02' title='Compé' italic_title='-tences' />
                         <div className='skills_cards fade-in visible'>
@@ -69,9 +70,9 @@ function Accueil() {
                             />
                         </div>
                     </div>
-                </section>
+                </section></FadeIn>
 
-                <section id='projects'>
+                <FadeIn delay={600}><section id='projects'>
                     <Section_title num='03' title='Mes ' italic_title='projets'/>
                     <div className='project_cards'>
                         <Project_card 
@@ -122,9 +123,9 @@ function Accueil() {
                         modif2_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
                         />
                     </div>
-                </section>
+                </section></FadeIn>
 
-                <section id='experience'>
+                <FadeIn delay={600}><section id='experience'>
                     <div className='inner-section'>
                     <Section_title num='04' title='Expé' italic_title='-riences'/>
                         <Experience_card
@@ -158,11 +159,11 @@ function Accueil() {
                         retour="la polyvalence du poste m'a appris à jongler entre des urgences RH, des tâches administratives et des projets de fond — souvent en parallèle. C'est exactement ce que je cherche à retrouver dans un rôle hybride."
                         />
                     </div>
-                </section>
+                </section></FadeIn>
 
-                <section id='contact'>
+                <FadeIn delay={600}><section id='contact'>
                      <Contact />
-                </section>
+                </section></FadeIn>
             </main>
         </>
     )

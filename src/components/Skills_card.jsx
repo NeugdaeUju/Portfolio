@@ -1,4 +1,4 @@
-import '../sass/skills_card.scss'
+import '../assets/sass/skills_card.scss'
 
 function Skills_card ({domaine_sk, domaine, skill1, skill2, skill3, skill4, skill5}) {
     return (

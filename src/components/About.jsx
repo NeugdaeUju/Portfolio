@@ -1,4 +1,4 @@
-import '../sass/about.scss';
+import '../assets/sass/about.scss';
 
 function About () {
     return(
