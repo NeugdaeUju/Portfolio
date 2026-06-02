@@ -105,19 +105,60 @@
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 0.04em;
-  // transition: background 0.2s;
 }
 
 .contact {
     padding: 11px 28px;
-  background: transparent;
-  color: variables.$violet;
-  border: 1px solid variables.$violet;
-  border-radius: 5px;
-  font-family: variables.$sans;
-  font-size: 13px;
-  cursor: pointer;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  // transition: all 0.2s;
+    background: transparent;
+    color: variables.$violet;
+    border: 1px solid variables.$violet;
+    border-radius: 5px;
+    font-family: variables.$sans;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+}
+
+@media (max-width : 768px) {
+    .hero-prez {
+        padding : 4rem 2rem;
+
+        &-text {
+            font-size : 9px;
+
+            &::before {
+                width : 16px;
+            }
+        }
+
+        &-title {
+            font-size : clam(32px, 8vw, 48px);
+        }
+
+        &-description {
+            font-size : 14px;
+            max-width : 100%;
+            margin-bottom : 1.5rem;
+        }
+
+        &-tags {
+            gap : 6px;
+            margin-bottom : 1.5rem;
+
+            &-badge {
+                font-size : 9px;
+                padding : 3px 10px;
+            }
+        }
+
+        &-links {
+            gap : 8px;
+        }
+    }
+
+    .project , .contact{
+        padding : 9px 24px;
+        font-size : 11px;
+    }
 }

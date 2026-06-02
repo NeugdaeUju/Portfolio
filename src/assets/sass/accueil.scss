@@ -1,5 +1,23 @@
 @use 'variables';
 
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition : opacity 0.6s ease, transform 0.6s ease;
+
+    &.visible {
+        opacity : 1;
+        transform: translateY(0)
+    }
+}
+
+.inner-section {
+    margin : 0 auto;
+    max-width : 1200px;
+}
+
+// Hero
+
 .hero {
     display : grid;
     grid-template-columns: 1fr 1fr;
@@ -16,29 +34,14 @@
     padding : 8rem 4rem;
 }
 
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition : opacity 0.6s ease, transform 0.6s ease;
-
-    &.visible {
-        opacity : 1;
-        transform: translateY(0)
-    }
-}
+// Compétences
 
 #skills {
     background-color : variables.$blanc;
     padding : 6rem 4rem;
 }
 
-.inner-section {
-    margin : 0 auto;
-    max-width : 1200px;
-}
 
-
-// Compétences
 .skills_cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -78,4 +81,15 @@
     padding : 8rem 4rem;
     text-align : center;
     overflow: hidden;
+}
+
+
+// RESPONSIVE
+
+@media (max-width : 768px) {
+    .hero {
+        grid-template-columns : 1fr;
+        gap : 2rem;
+        min-height : auto;
+    }
 }

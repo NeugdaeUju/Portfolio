@@ -101,3 +101,35 @@
         }
     }
 }
+
+@media (max-width : 768px) {
+    .hero-visual {
+        padding : 4rem 2rem;
+    }
+
+    .monogram {
+        font-size : 120px;
+    }
+
+    .block {
+        &-1 {
+            & span {
+                font-size : 28px;
+            }
+
+            & .text {
+                font-size : 16px;
+            }
+        }
+
+        &-2, &-3 {
+            & span {
+                font-size : 28px;
+            }
+            
+            & p {
+                font-size : 10px;
+            }
+        }
+    }
+}
