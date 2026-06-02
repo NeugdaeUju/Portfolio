@@ -159,3 +159,29 @@
         }
     }
 }
+
+@media (max-width : 768px) {
+    .expe_card {
+        & .top {
+            grid-template-columns : 1fr;
+            gap : 2rem;
+
+            & .duration {
+                text-align : left;
+            }
+        }
+
+        & .missions {
+            grid-template-columns : 1fr;
+
+            &_block {
+                border-right : none;
+                border-bottom : 0.5px solid rgba(45, 27, 105, 0.1);
+
+                &:last-child {
+                    border-bottom : none;
+                }
+            }
+        }
+    }
+}
