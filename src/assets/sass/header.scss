@@ -13,6 +13,10 @@
     background: rgba(247,245,240,0.88);
     backdrop-filter: blur(12px);
     border-bottom : 1px solid rgba(45,27,105,0.12);
+
+    & .hamburger {
+        display : none;
+    }
     
 
     &__nav {
@@ -67,6 +71,71 @@
             text-transform: uppercase;
             font-weight : 400;
             color : variables.$gris;
+        }
+    }
+}
+
+@media (max-width : 768px) {
+    .header {
+        padding : 1rem 1.5rem;
+
+        & ul {
+            gap : 1.5rem;
+
+            
+        }
+
+        & .hamburger {
+            display : block;
+            font-size : 2rem;
+            background: none;
+            border : none;
+            cursor : pointer;
+            color : variables.$gris;
+            font-weight : 300;
+        }
+
+        &_nav {
+            position : fixed;
+            top : 0;
+            right : 0;
+            width : 75%;
+            height : 100vh;
+            transform: translateX(100%);
+            background: variables.$bg-color;
+
+            & .menu_close {
+                position : absolute;
+                top : 1.5rem;
+                right : 1.5rem;
+                font-size : 2rem;
+                background: none;
+                border : none;
+                cursor : pointer;
+                color : variables.$gris;
+                font-weight : 300;
+            }
+
+            & ul {
+                padding : 4rem 2rem;
+                border-left : 0.5px solid rgba(45, 27, 105, 0.12);
+
+                & li {
+                    margin-bottom : 0.5rem;
+
+                    &:last-child {
+                        margin-top : 1rem;
+                    }
+                }
+
+                & li::marker {
+                content: '';
+                }
+            }
+        }
+
+        &_nav.active {
+            transform : translateX(0);
         }
     }
 }
