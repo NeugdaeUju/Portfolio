@@ -71,3 +71,16 @@
     font-size : 11px;
     opacity : 0.5;
 }
+
+
+@media (max-width : 768px) {
+    .about-content {
+        &-block {
+            grid-template-columns : 1fr;
+            & .side-dev {
+                border-right : none;
+                border-bottom : 0.5px solid rgba(45,27, 105, 0.15);
+            }
+        }
+    }
+}

@@ -25,6 +25,8 @@
     padding-top : 80px;
 }
 
+//A propos
+
 .presentation {
     display : grid;
     grid-template-columns : 1fr 2fr;
@@ -92,4 +94,11 @@
         gap : 2rem;
         min-height : auto;
     }
+
+    .presentation {
+        grid-template-columns : 1fr;
+        gap : 2rem;
+        padding : 4rem 2rem;
+    }
+
 }
