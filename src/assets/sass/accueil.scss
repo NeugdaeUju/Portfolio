@@ -101,4 +101,16 @@
         padding : 4rem 2rem;
     }
 
+    #skills {
+        padding : 4rem 2rem;
+
+        & .skills_cards {
+            grid-template-columns : repeat(2, 1fr);
+        }
+    }
+
+    .inner-section {
+        max-width : 100%;
+    }
+
 }
