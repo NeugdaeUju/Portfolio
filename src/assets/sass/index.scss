@@ -1,15 +1,17 @@
 @use 'variables';
 
-* {
+*, ::before, ::after {
+  box-sizing : border-box;
   margin : 0;
+  padding : 0;
 }
 
+
+
 body {
-  margin : 0;
-  box-sizing: border-box;
-  background: variables.$bg-color;
-  color : variables.$noir;
   font-family : variables.$sans;
+  color : variables.$noir;
+  line-height : 1.65;
   font-size : 15px;
 }
 

@@ -127,7 +127,36 @@ function Accueil() {
                 <section id='experience'>
                     <div className='inner-section'>
                     <Section_title num='04' title='Expé' italic_title='-riences'/>
-                        <Experience_card/>
+                        <Experience_card
+                        company='TELEGRAFIK'
+                        Expe_title='Stagiaire RH, Admin & Gestion'
+                        desc_place='Entreprise de maintient à domicile des personnes âgées · Colomiers'
+                        tag1='RH opérationnel'
+                        tag2='Administration'
+                        tag3='Gestion'
+                        tag4='Polyvalance'
+                        tag1_cat='rh'
+                        tag2_cat='rh'
+                        tag3_cat='rh'
+                        tag4_cat='neutre'
+                        date='Fév — Juil'
+                        duration='6 mois · 2026'
+                        missions1_title='Administration RH'
+                        mission1='Gestion des arrêts de travail'
+                        mission2='Suspension de contrats'
+                        mission3='Liaison avec le cabinet RH externe'
+                        mission4='Suivi administratif des salariés'
+                        missions2_title='Recrutement & RH terrain'
+                        mission5="Recrutement d'alternants et stagiaires"
+                        mission6="Gestion des départs"
+                        mission7="Rédaction des contrats"
+                        missions3_title='Gestion & Admin générale'
+                        mission8='Saisie de factures fournisseurs'
+                        mission9='Envoie des factures aux clients'
+                        mission10='Achat véhicule de société'
+                        mission11='Migration facturation électronique'
+                        retour="la polyvalence du poste m'a appris à jongler entre des urgences RH, des tâches administratives et des projets de fond — souvent en parallèle. C'est exactement ce que je cherche à retrouver dans un rôle hybride."
+                        />
                     </div>
                 </section>
 
