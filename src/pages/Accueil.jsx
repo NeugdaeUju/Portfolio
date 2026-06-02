@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom'
-import '../assets/sass/accueil.scss'
+import '../sass/accueil.scss'
 
 import Hero_left from '../components/Hero_left';
 import Hero_right from '../components/Hero_right'

@@ -1,4 +1,4 @@
-import '../assets/sass/hero_right.scss';
+import '../sass/hero_right.scss';
 
 function Hero_right () {
     return (

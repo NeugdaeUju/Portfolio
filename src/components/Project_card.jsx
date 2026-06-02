@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import '../assets/sass/project_card.scss';
+import '../sass/project_card.scss';
 
 function Project_card ({num, title, description, competence1, competence2, competence3, competence4, competence5, GitLink, DemoLink, decision1, decision2, decision1_text, decision2_text, modification, modif_Explication, modification2, modif2_Explication, skill1_cat, skill2_cat, skill3_cat, skill4_cat, skill5_cat}) {
 const [showDetails, setShowDetails] = useState(false);

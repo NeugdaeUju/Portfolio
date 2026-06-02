@@ -1,4 +1,4 @@
-import '../assets/sass/experience_card.scss'
+import '../sass/experience_card.scss'
 
 function Experience_card ({company, Expe_title, desc_place, tag1, tag2, tag3, tag4, tag1_cat, tag2_cat, tag3_cat, tag4_cat, date, duration, missions1_title, mission1, missions2_title, mission2, missions3_title, mission3, mission4, mission5, mission6, mission7, mission8, mission9, mission10, mission11, retour}) {
     return(
