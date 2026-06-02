@@ -52,6 +52,10 @@
     font-weight : 500;
     letter-spacing : 0.06em;
     border-radius : 4px;
+    
+    &:hover {
+        background-color : variables.$violet-mid;
+    }
 }
 
     &__logo {

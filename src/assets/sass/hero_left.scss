@@ -105,6 +105,10 @@
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 0.04em;
+
+  &:hover {
+    background: variables.$violet-mid;
+  }
 }
 
 .contact {
@@ -118,6 +122,10 @@
     cursor: pointer;
     text-decoration: none;
     letter-spacing: 0.04em;
+
+    &:hover {
+        background: variables.$violet-light;
+    }
 }
 
 @media (max-width : 768px) {

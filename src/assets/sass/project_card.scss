@@ -8,7 +8,10 @@
     overflow : hidden;
     margin-bottom : 12px;
     transition : box-shadow 0.2s;
-    // transition au hover sur la card
+
+    &:hover {
+        box-shadow : 0 4px 12px rgba(45, 27, 105, 0.15);
+    }
 
         &_presentation {
             display : grid;
@@ -95,6 +98,11 @@
                     transition : all 0.15s;
                     // faire l'animation au hover
                     color : variables.$gris;
+
+                    &:hover {
+                        border-color : variables.$violet;
+                        color: variables.$violet;
+                    }
                 }
 
                 & .more {
