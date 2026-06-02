@@ -9,7 +9,7 @@
     background-color : variables.$noir;
 
     &__link {
-        color : rgba(255, 255, 255, 0.4);
+        color : #858585;
         text-decoration: none;
         font-family : variables.$serif;
         font-size : 18px;
@@ -19,7 +19,7 @@
     &__text {
         font-size : 12px;
         letter-spacing : 0.04em;
-        color : rgba(255, 255, 255, 0.25);
+        color : #7D7D7D;
     }
 }
 

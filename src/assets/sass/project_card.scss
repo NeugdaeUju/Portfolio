@@ -8,6 +8,7 @@
     overflow : hidden;
     margin-bottom : 12px;
     transition : box-shadow 0.2s;
+    width : 100%;
 
     &:hover {
         box-shadow : 0 4px 12px rgba(45, 27, 105, 0.15);
@@ -30,6 +31,8 @@
             }
 
             & .project-description {
+                text-align : left;
+                
                 & h3 {
                     font-family : variables.$serif;
                     font-size : 22px;
@@ -112,6 +115,8 @@
                     font-family: variables.$sans;
                     padding: 0;
                     margin-top : 4px;
+                    border : none;
+                    background : none;
                 }
             }
         }

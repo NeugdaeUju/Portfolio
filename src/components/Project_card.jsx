@@ -8,7 +8,7 @@ const handleClick = () => {
 };
 
     return (
-        <div className='project_card fade-in visible' onClick={handleClick}>
+        <article className='project_card fade-in visible' onClick={handleClick}>
             <div className='project_card_presentation'>
                 <p className='project-num'>{num}</p>
                 <div className='project-description'>
@@ -23,9 +23,9 @@ const handleClick = () => {
                     </div>
                 </div>
                 <div className='links'>
-                    <a href={GitLink} className='link' target='_blank'>↗ GitHub</a>
-                    <a href={DemoLink} className='link' target='_blank'>↗ Démo</a>
-                    <p className='more'>{showDetails ? "Masquer ↑" : "Voir le détail ↓"}</p>
+                    <a href={GitLink} className='link' target='_blank' aria-label='Lien vers le dépot GitHub'>↗ GitHub</a>
+                    <a href={DemoLink} className='link' target='_blank' aria-label='Lien vers la démo'>↗ Démo</a>
+                    <button className='more'>{showDetails ? "Masquer ↑" : "Voir le détail ↓"}</button>
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ const handleClick = () => {
             </div>
             ) }
             
-        </div>
+        </article>
     )
 }
 

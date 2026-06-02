@@ -109,6 +109,7 @@
             opacity : 0;
             transition : transform 0.35s ease, opacity 0.35s ease;
             pointer-events : none;
+            visibility: hidden;
 
             & .menu_close {
                 display : block;
@@ -149,6 +150,7 @@
             transform : translateX(0);
             opacity : 1;
             pointer-events : auto;
+            visibility : visible;
         }
     }
 }
