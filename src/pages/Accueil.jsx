@@ -21,7 +21,7 @@ function Accueil() {
                 </section>
 
                 <FadeIn delay={600}><section className='presentation' id="about">
-                   <div className='section-title' style={{marginBottom: 0}}>
+                   <div className='section-title'>
                         <p className='section-title-nb fade-in visible'>// 01</p>
                         <h2 className='section-title-header fade-in visible'>Qui <br/>suis<i>-je</i>?</h2>
                     </div>

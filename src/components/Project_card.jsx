@@ -9,7 +9,7 @@ const handleClick = () => {
 
     return (
         <div className='project_card fade-in visible' onClick={handleClick}>
-            <div div className='project_card_presentation'>
+            <div className='project_card_presentation'>
                 <p className='project-num'>{num}</p>
                 <div className='project-description'>
                     <h3>{title}</h3>

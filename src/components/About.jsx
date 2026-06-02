@@ -9,19 +9,19 @@ function About () {
                 <div className='about-content-block-side side-dev'>
                     <p className='about-content-block-side-title dev'>Côté Dev</p>
                     <div className='about-content-block-side-list'>
-                        <div className='about-content-block-side-list item'><em>→ </em>Interfaces React & Vue</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>TypeScript & état global</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>API REST, mocking</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>Backend en apprentissage</div>
+                        <p className='about-content-block-side-list item'><em>→ </em>Interfaces React & Vue</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>TypeScript & état global</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>API REST, mocking</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>Backend en apprentissage</p>
                         </div>
                     </div>
                     <div className='about-content-block-side side-rh'>
                         <p className='about-content-block-side-title rh'>Côté RH</p>
                         <div className='about-content-block-side-list'>
-                            <div className='about-content-block-side-list item'><em>→ </em>Stage 6 mois opérationnel</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>Admin & gestion d'entreprise</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>Process de recrutement</div>
-                            <div className='about-content-block-side-list item'><em>→ </em>Outils de suivi interne</div>
+                            <p className='about-content-block-side-list item'><em>→ </em>Stage 6 mois opérationnel</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>Admin & gestion d'entreprise</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>Process de recrutement</p>
+                            <p className='about-content-block-side-list item'><em>→ </em>Outils de suivi interne</p>
                         </div>
                     </div>
                 </div>
