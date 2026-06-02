@@ -33,6 +33,7 @@
                     color : variables.$noir;
                     margin-bottom : 6px;
                     letter-spacing: -0.01em;
+                    font-weight : 400;
                 }
 
                 & p {
@@ -191,4 +192,21 @@
                 }
             }
         }
+}
+
+
+@media (max-width : 768px) {
+    .project_card {
+        &_presentation {
+            grid-template-columns : 15px 1fr;
+        }
+
+        & .links {
+            display : none;
+        }
+
+        &_details {
+            grid-template-columns : 1fr;
+        }
+    }
 }
