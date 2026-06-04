@@ -10,7 +10,7 @@ const handleClick = () => {
     return (
         <article className='project_card fade-in visible' onClick={handleClick}>
             <div className='project_card_presentation'>
-                <p className='project-num'>{num}</p>
+                <p className='project-num' aria-hidden='true'>{num}</p>
                 <div className='project-description'>
                     <h3>{title}</h3>
                     <p>{description}</p>

@@ -15,12 +15,12 @@ function Accueil() {
     return (
         <>
             <main className='page-accueil'>
-                <section className='hero'>
+                <section className='hero' aria-label='Introduction'>
                     <Hero_left />
                     <Hero_right />
                 </section>
 
-                <FadeIn delay={600}><section className='presentation' id="about">
+                <FadeIn delay={600}><section className='presentation' id="about" aria-label='A propos'>
                    <div className='section-title'>
                         <p className='section-title-nb fade-in visible'>// 01</p>
                         <h2 className='section-title-header fade-in visible'>Qui <br/>suis<i>-je</i>?</h2>
@@ -72,7 +72,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='projects'>
+                <FadeIn delay={600}><section id='projects' aria-label='Projets'>
                     <Section_title num='03' title='Mes ' italic_title='projets'/>
                     <div className='project_cards'>
                         <Project_card 
@@ -125,7 +125,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='experience'>
+                <FadeIn delay={600}><section id='experience' aria-label='Expérience'>
                     <div className='inner-section'>
                     <Section_title num='04' title='Expé' italic_title='-riences'/>
                         <Experience_card
@@ -161,7 +161,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='contact'>
+                <FadeIn delay={600}><section id='contact' aria-label='Contact'>
                      <Contact />
                 </section></FadeIn>
             </main>
