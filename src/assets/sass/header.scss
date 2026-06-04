@@ -35,11 +35,14 @@
             margin : 0;
 
             & li {
-                color : variables.$gris;
-                font-size : 13px;
-                letter-spacing: 0.04em;
-                transition : color 0.2S;
-                text-decoration: none;
+
+                & a {
+                    color : variables.$gris;
+                    font-size : 13px;
+                    letter-spacing: 0.04em;
+                    transition : color 0.2S;
+                    text-decoration: none;
+                }
             }
         }
     }
