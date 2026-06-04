@@ -20,7 +20,7 @@ function Accueil() {
                     <Hero_right />
                 </section>
 
-                <FadeIn delay={600}><section className='presentation' id="about" aria-label='A propos'>
+                <FadeIn delay={60}><section className='presentation' id="about" aria-label='A propos'>
                    <div className='section-title'>
                         <p className='section-title-nb fade-in visible'>// 01</p>
                         <h2 className='section-title-header fade-in visible'>Qui <br/>suis<i>-je</i>?</h2>
@@ -28,7 +28,7 @@ function Accueil() {
                    <About />
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='skills'>
+                <FadeIn delay={120}><section id='skills'>
                     <div className='inner-section'>
                         <Section_title num='02' title='Compé' italic_title='-tences' />
                         <div className='skills_cards fade-in visible'>
@@ -72,7 +72,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='projects' aria-label='Projets'>
+                <FadeIn delay={180}><section id='projects' aria-label='Projets'>
                     <Section_title num='03' title='Mes ' italic_title='projets'/>
                     <div className='project_cards'>
                         <Project_card 
@@ -125,7 +125,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='experience' aria-label='Expérience'>
+                <FadeIn delay={240}><section id='experience' aria-label='Expérience'>
                     <div className='inner-section'>
                     <Section_title num='04' title='Expé' italic_title='-riences'/>
                         <Experience_card
@@ -161,7 +161,7 @@ function Accueil() {
                     </div>
                 </section></FadeIn>
 
-                <FadeIn delay={600}><section id='contact' aria-label='Contact'>
+                <FadeIn delay={300}><section id='contact' aria-label='Contact'>
                      <Contact />
                 </section></FadeIn>
             </main>
