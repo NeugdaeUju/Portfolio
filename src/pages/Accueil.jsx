@@ -23,7 +23,7 @@ function Accueil() {
                 <FadeIn delay={60}><section className='presentation' id="about" aria-label='A propos'>
                    <div className='section-title'>
                         <p className='section-title-nb fade-in visible'>// 01</p>
-                        <h2 className='section-title-header fade-in visible'>Qui <br/>suis<i>-je</i>?</h2>
+                        <h2 className='section-title-header fade-in visible'>Qui<br/>suis<i>-je</i>?</h2>
                     </div>
                    <About />
                 </section></FadeIn>
@@ -35,7 +35,7 @@ function Accueil() {
                             <Skills_card 
                             domaine_sk='dev'
                             domaine='frontend'
-                            skill1='HTLM5'
+                            skill1='HTML5'
                             skill2='CSS3'
                             skill3='JavaScript'
                             skill4='React'
@@ -54,7 +54,7 @@ function Accueil() {
                             domaine_sk='rh'
                             domaine='rh & admin'
                             skill1='Recrutement'
-                            skill2='Administation RH'
+                            skill2='Administration RH'
                             skill3="Gestion d'entreprise"
                             skill4='Suivi & reporting'
                             skill5='Process internes'
@@ -118,9 +118,9 @@ function Accueil() {
                         decision1='Deux div distinctes pour les modals'
                         decision1_text=" — Plutôt qu'une modal imbriquée dans une autre, deux conteneurs indépendants. Chacun a son cycle d'ouverture/fermeture propre, sans interférence."
                         decision2='Centralisation des appels API'
-                        decision2_text='Centralisation des appels API — Tous les appels sont regroupés dans un seul fichier. Modifier un endpoint ne nécessite pas de chercher dans tout le projet, et le risque de régression est limité.'
-                        modification2='Migrer vers React ou Vue'
-                        modif2_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
+                        decision2_text=' — Tous les appels sont regroupés dans un seul fichier. Modifier un endpoint ne nécessite pas de chercher dans tout le projet, et le risque de régression est limité.'
+                        modification='Migrer vers React ou Vue'
+                        modif_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
                         />
                     </div>
                 </section></FadeIn>
