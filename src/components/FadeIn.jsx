@@ -1,4 +1,4 @@
-import useInView from '../assets/hooks/useInView';
+import useInView from '../hooks/UseInVIew';
 
 function FadeIn({children, className='', delay=0}) {
     const [ref, isVisible] = useInView();
