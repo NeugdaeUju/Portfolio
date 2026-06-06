@@ -4,7 +4,7 @@ import '../assets/sass/accueil.scss'
 import Hero_left from '../components/Hero_left';
 import Hero_right from '../components/Hero_right'
 import Section_title from '../components/Section_title';
-import About from '../components/about';
+import About from '../components/About';
 import Skills_card from '../components/Skills_card';
 import Project_card from '../components/Project_card';
 import Contact from '../components/Contact';
