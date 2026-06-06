@@ -1,0 +1,48 @@
+@use 'variables';
+
+.skills_card {
+    background-color : variables.$bg-color;
+    border-radius : 10px;
+    padding : 1.25rem;
+    border : 0.5px solid rgba(0, 0, 0, 0.08);
+
+    &.dev {
+        border-top : 2px solid variables.$violet;
+
+        & h3 {
+        color : variables.$violet;
+        }
+    }
+
+    &.rh {
+        border-top : 2px solid variables.$vert;
+
+        & h3 {
+        color : variables.$vert;
+        }
+    }
+
+    & h3 {
+        text-transform : uppercase;
+        font-family : variables.$sans;
+        font-size : 12px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        margin-bottom : 12px;
+    }
+
+    & .tags {
+        display : flex;
+        flex-direction: column;
+        gap : 5px;
+
+        &-items {
+            font-family : variables.$mono;
+            font-size : 12px;
+            color : variables.$gris;
+            padding : 6px 0;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.06);
+        }
+    }
+    
+}

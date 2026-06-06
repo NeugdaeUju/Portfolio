@@ -1,29 +1,159 @@
-.header {
-    display : flex;
-    width : 100%;
-    margin : 30px 0;
+@use 'variables';
 
-    &__page-title {
-        margin-right : 50px;
+.header {
+    position : fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+    z-index : 100;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 1.25rem 4rem;
+    background: rgba(247,245,240,0.88);
+    backdrop-filter: blur(12px);
+    border-bottom : 1px solid rgba(45,27,105,0.12);
+
+    & .hamburger {
+        display : none;
+    }
+    
+
+    &_nav {
+        display : flex;
+        flex-direction : row;
+
+        & .menu_close {
+            display : none;
+        }
+
+        & ul {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+            list-style: none;
+            margin : 0;
+
+            & li {
+
+                & a {
+                    color : variables.$gris;
+                    font-size : 13px;
+                    letter-spacing: 0.04em;
+                    transition : color 0.2S;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 
-    &__nav {
-        width : 60%;
-        display : flex;
+.header__nav__button{
+    padding : 7px 18px;
+    background-color: variables.$violet;
+    color : variables.$blanc;
+    font-size : 12px;
+    font-weight : 500;
+    letter-spacing : 0.06em;
+    border-radius : 4px;
+    
+    &:hover {
+        background-color : variables.$violet-mid;
+    }
+}
 
-        &--link {
-            margin-right : 30px;
+    &__logo {
+        font-family : variables.$serif;
+        font-size : 22px;
+        font-weight : 400;
+        color : variables.$violet;
+        letter-spacing: -0.02rem;
+        text-decoration: none;
+        display : flex;
+        flex-direction : column;
+        gap : 3px;
+        line-height: 1;
+
+        & .span {
+            font-style : normal;
+            font-family : variables.$sans;
+            font-size : 8px;
+            letter-spacing: 0.18em;
+            color : variables.$gris;
+            text-transform: uppercase;
+            font-weight : 400;
+            color : variables.$gris;
         }
     }
 }
 
-@media (max-width : 600px) {
+@media (max-width : 768px) {
     .header {
-        flex-wrap: wrap;
-        margin : 0;
+        padding : 1rem 1.5rem;
 
-        &__nav {
-            margin : 20px 10px;;
+        & .hamburger {
+            display : block;
+            font-size : 2rem;
+            background: none;
+            border : none;
+            cursor : pointer;
+            color : variables.$gris;
+            font-weight : 300;
+        }
+
+        &_nav {
+            position : fixed;
+            top : 0;
+            right : 0;
+            width : 230px;
+            height : 100vh;
+            transform: translateX(100%);
+            background: variables.$bg-color;
+            transform : translateX(100%);
+            opacity : 0;
+            transition : transform 0.35s ease, opacity 0.35s ease;
+            pointer-events : none;
+            visibility: hidden;
+
+            & .menu_close {
+                display : block;
+                position : absolute;
+                top : 1.5rem;
+                right : 1.5rem;
+                font-size : 2rem;
+                background: none;
+                border : none;
+                cursor : pointer;
+                color : variables.$gris;
+                font-weight : 300;
+            }
+
+            & ul {
+                padding : 4rem 2rem;
+                border-left : 0.5px solid rgba(45, 27, 105, 0.12);
+                height : 100%;
+                flex-direction : column;
+                align-items : flex-start;
+                gap : 1.5rem;
+
+                & li {
+                    margin-bottom : 0.5rem;
+
+                    &:last-child {
+                        margin-top : 1rem;
+                    }
+                }
+
+                & li::marker {
+                content: '';
+                }
+            }
+        }
+
+        &_nav.active {
+            transform : translateX(0);
+            opacity : 1;
+            pointer-events : auto;
+            visibility : visible;
         }
     }
 }

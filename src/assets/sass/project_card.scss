@@ -1,0 +1,225 @@
+@use 'variables';
+
+// Project card
+.project_card {
+    background-color: variables.$blanc;
+    border-radius : 12px;
+    border : 0.5px solid rgba(45, 27, 105, 0.1);
+    overflow : hidden;
+    margin-bottom : 12px;
+    transition : box-shadow 0.2s;
+    width : 100%;
+
+    &:hover {
+        box-shadow : 0 4px 12px rgba(45, 27, 105, 0.15);
+    }
+
+        &_presentation {
+            display : grid;
+            grid-template-columns: auto 1fr auto;
+            padding : 1.75rem 2rem;
+            align-items: start;
+            gap : 2rem;
+            cursor: pointer;
+
+            & .project-num {
+                font-family : variables.$mono;
+                font-size : 11px;
+                color : variables.$violet-mid;
+                padding-top : 4px;
+                letter-spacing: 0.05em;
+            }
+
+            & .project-description {
+                text-align : left;
+                
+                & h3 {
+                    font-family : variables.$serif;
+                    font-size : 22px;
+                    color : variables.$noir;
+                    margin-bottom : 6px;
+                    letter-spacing: -0.01em;
+                    font-weight : 400;
+                }
+
+                & p {
+                    font-size : 13px;
+                    color : variables.$gris;
+                    line-height : 1.6;
+                    max-width : 500px;
+                    margin-bottom : 12px;
+                }
+            }
+
+            & .project-skills {
+                display : flex;
+                flex-wrap: wrap;
+                gap : 6px;
+
+                & .skill {
+                    padding : 4px 12px;
+                    border-radius : 999px;
+                    font-size : 11px;
+                    font-weight : 500;
+
+                    &.dev {
+                    background-color: variables.$violet-light;
+                    color : variables.$violet;
+                    }
+
+                    &.neutre {
+                    background: variables.$blanc;
+                    color : variables.$gris;
+                    border: 0.5px solid rgba(0, 0, 0, 0.1);
+                    }
+
+                    &.rh {
+                    background-color: variables.$vert-light;
+                    color : variables.$vert;
+                    }
+                }
+            }
+
+            & .links {
+                display :flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap : 8px;
+
+                & .link {
+                    font-size : 12px;
+                    background-color: variables.$bg-color;
+                    border-radius: 4px;
+                    padding : 6px 14px;
+                    text-decoration : none;
+                    font-family : variables.$sans;
+                    white-space: nowrap;
+                    display : inline-flex;
+                    align-items: center;
+                    gap : 5px;
+                    border: 0.5px solid rgba(0, 0, 0, 0.15);
+                    transition : all 0.15s;
+                    // faire l'animation au hover
+                    color : variables.$gris;
+
+                    &:hover {
+                        border-color : variables.$violet;
+                        color: variables.$violet;
+                    }
+                }
+
+                & .more {
+                    font-size : 11px;
+                    color : variables.$violet-mid;
+                    cursor: pointer;
+                    font-family: variables.$sans;
+                    padding: 0;
+                    margin-top : 4px;
+                    border : none;
+                    background : none;
+                }
+            }
+        }
+
+        &_details {
+            background-color: variables.$bg-color;
+            padding : 1.5rem 2rem;
+            border-top : 0.5px solid rgba(45, 27, 105, 0.1);
+            display : grid;
+            grid-template-columns : 1fr 1fr;
+            gap : 2rem;
+
+            & .decisions-techniques {
+
+                & h4 {
+                    text-transform: uppercase;
+                    font-family : variables.$sans;
+                    color : variables.$violet-mid;
+                    font-size : 10px;
+                    font-weight : 500;
+                    letter-spacing : 0.12em;
+                    margin-bottom : 12px;
+                }
+
+                & .decision {
+                    display : flex;
+                    gap : 10px;
+                    padding : 9px 12px;
+                    background: variables.$blanc;
+                    border-radius : 6px;
+                    margin-bottom : 7px;
+                    font-size : 13px;
+                    color : variables.$gris;
+                    line-height : 1.5;
+                    border : 0.5px solid rgba(45, 27, 105, 0.07);
+
+                    & .arrow {
+                        color : variables.$violet-mid;
+                        font-size : 14px;
+                        flex-shrink: 0;
+                        margin-top : 1px;
+                    }
+
+                    & strong {
+                        color : variables.$noir;
+                        font-weight : 500;
+                    }
+                }
+            }
+
+            & .revoir {
+
+                & h4 {
+                    text-transform: uppercase;
+                    font-family : variables.$sans;
+                    color : variables.$violet-mid;
+                    font-size : 10px;
+                    font-weight : 500;
+                    letter-spacing : 0.12em;
+                    margin-bottom : 12px;
+                }
+
+                & .decision {
+                    display : flex;
+                    gap : 10px;
+                    padding : 9px 12px;
+                    background: variables.$blanc;
+                    border-radius : 6px;
+                    margin-bottom : 7px;
+                    font-size : 12px;
+                    color : variables.$gris;
+                    line-height : 1.5;
+                    border : 0.5px solid rgba(186, 117, 23, 0.2);
+
+                    & .arrow {
+                        color : #BA7517;
+                        font-size : 14px;
+                        flex-shrink: 0;
+                        margin-top : 1px;
+                    }
+
+                     & strong {
+                        color : variables.$noir;
+                        font-weight : 500;
+                    }
+                }
+            }
+        }
+}
+
+
+@media (max-width : 768px) {
+    .project_card {
+        &_presentation {
+            grid-template-columns : 15px 1fr;
+        }
+
+        & .links {
+            display : none;
+        }
+
+        &_details {
+            grid-template-columns : 1fr;
+        }
+    }
+}

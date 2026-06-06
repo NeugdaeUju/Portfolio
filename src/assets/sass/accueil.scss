@@ -1,87 +1,128 @@
-.page-accueil {
+@use 'variables';
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition : opacity 0.6s ease, transform 0.6s ease;
+
+    &.visible {
+        opacity : 1;
+        transform: translateY(0)
+    }
+}
+
+.inner-section {
+    margin : 0 auto;
+    max-width : 1200px;
+}
+
+// Hero
+
+.hero {
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top : 80px;
+}
+
+//A propos
+
+.presentation {
+    display : grid;
+    grid-template-columns : 1fr 2fr;
+    gap : 6rem;
+    margin : 0 auto;
+    max-width : 1200px;
+    padding : 8rem 4rem;
+}
+
+// Compétences
+
+#skills {
+    background-color : variables.$blanc;
+    padding : 6rem 4rem;
+}
+
+
+.skills_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 12px;
+}
+
+
+// Section projets
+
+#projects {
+    padding : 8rem 4rem;
+    max-width : 1200px;
+    margin : 0 auto
+}
+
+.projet_cards {
     display : flex;
-    height : 100%;
-    justify-content: space-between;
-    align-items: center;
-
-    &__presentation {
-        width : 60%;
-
-        &--title {
-            margin-bottom : 50px;
-        }
-
-        &--description {
-            padding-right : 20%
-        }
-    }
-
-    &__nav {
-        display : flex;
-        flex-direction: column;
-        width : 40%;
-
-        &--link {
-            font-size : 6em;
-            font-family : 'Bodoni Moda', serif;
-            margin-bottom : 3rem;
-
-            &:hover {
-                text-decoration : none;
-                font-style: italic;
-            }
-        }
-    }
+    flex-direction: column;
+    gap : 1px;
 }
 
-@media (max-width : 992px) {
-    .page-accueil {
-        margin-right : 0;
+// section expériences
 
-        &__presentation {
-            width : 100%;
-            margin-bottom : 2rem;
-
-            &--title {
-                margin-bottom : 20px;
-            }
-        }
-
-        &__nav {
-            width : 100%;
-
-            &--link {
-                margin-bottom : 1.25rem;
-                font-size : 5em;
-            }
-        }
-    }
+#experience {
+    background-color : variables.$blanc;
+    padding : 6rem 4rem;
 }
+
+
+
+// section contact
+
+#contact {
+    background-color: variables.$violet;
+    color : variables.$blanc;
+    position : relative;
+    padding : 8rem 4rem;
+    text-align : center;
+    overflow: hidden;
+}
+
+
+// RESPONSIVE
 
 @media (max-width : 768px) {
-    .page-accueil {
-        margin-right : 30px;
+    .hero {
+        grid-template-columns : 1fr;
+        gap : 2rem;
+        min-height : auto;
+    }
 
-        &__nav {
-            align-items: end;
+    .presentation {
+        grid-template-columns : 1fr;
+        gap : 2rem;
+        padding : 4rem 2rem;
+    }
+
+    #skills {
+        padding : 4rem 2rem;
+
+        & .skills_cards {
+            grid-template-columns : repeat(2, 1fr);
         }
     }
-}
 
-@media (max-width : 600px ) {
-    .page-accueil {
-        display : block;
-
-        &__presentation {
-            margin-bottom : 2rem;
-        }
-
-        &__nav {
-            align-items: start;
-            
-            &--link {
-                font-size : 4em;
-            }
-        }
+    .inner-section {
+        max-width : 100%;
     }
+
+    #projects {
+        padding : 4rem 2rem;
+
+    }
+
+    #experience {
+        padding : 4rem 2rem;
+    }
+
+    #contact {
+        padding : 5rem 2rem;
+    }
+
 }
