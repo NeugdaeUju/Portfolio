@@ -114,13 +114,37 @@ function Accueil() {
                         competence5='CRUD complet'
                         skill5_cat='neutre'
                         GitLink='https://github.com/NeugdaeUju/Projet_6-Sophie_Bluel'
-                        DemoLink='#'
+                        DemoLink=''
                         decision1='Deux div distinctes pour les modals'
                         decision1_text=" — Plutôt qu'une modal imbriquée dans une autre, deux conteneurs indépendants. Chacun a son cycle d'ouverture/fermeture propre, sans interférence."
                         decision2='Centralisation des appels API'
                         decision2_text=' — Tous les appels sont regroupés dans un seul fichier. Modifier un endpoint ne nécessite pas de chercher dans tout le projet, et le risque de régression est limité.'
                         modification='Migrer vers React ou Vue'
                         modif_Explication=" — En JS pur, la gestion du DOM devient vite fastidieuse à maintenir. Ce projet m'a convaincu de la valeur réelle des frameworks."
+                        />
+
+                        <Project_card 
+                        num='03'
+                        title='Equisium - Application de gestion équestre'
+                        description="Application web privée de gestion d'élevage pour le jeu Equideow. Permet de suivre la progression de chaque cheval de sa naissance jusqu'au BLUP 100 en vue de la reproduction. Comprend une authentification JWT, un tableau de bord avec KPIs dynamiques, et une fiche individuelle par cheval."
+                        competence1='React'
+                        skill1_cat='dev'
+                        competence2='Redux Toolkit'
+                        skill2_cat='dev'
+                        competence3='Node.js / Express'
+                        skill3_cat='dev'
+                        competence4='MongoDB / Mongoose'
+                        skill4_cat='dev'
+                        competence5='TypeScript'
+                        skill5_cat='dev'
+                        GitLink='https://github.com/NeugdaeUju/Equisium_Frontend'
+                        DemoLink=''
+                        decision1='Redux pour la gestion du state global'
+                        decision1_text=" — Utilisation de Redux Toolkit avec des slices distincts pour l'authentification et les chevaux. Le token JWT est persisté en localStorage et rechargé automatiquement au refresh."
+                        decision2='Édition inline sans modale'
+                        decision2_text=' — Les champs fréquemment mis à jour (BLUP, étape, âge) sont éditables directement dans la fiche via des contrôles +/− et des selects, avec sauvegarde automatique au changement. Les informations générales passent par une modale dédiée.'
+                        modification='Architecture back/front séparée'
+                        modif_Explication="J'aurais dû définir les types TypeScript partagés entre frontend et backend dès le départ. Plusieurs allers-retours ont été nécessaires pour aligner les valeurs d'enum (HorseSex, HorseStep) entre le modèle Mongoose et les types React."
                         />
                     </div>
                 </section></FadeIn>
@@ -132,10 +156,11 @@ function Accueil() {
                         company='TELEGRAFIK'
                         Expe_title='Stagiaire RH, Admin & Gestion'
                         desc_place='Entreprise de maintient à domicile des personnes âgées · Colomiers'
+                        promesse="↗ Promesse CDD à l'issue"
                         tag1='RH opérationnel'
                         tag2='Administration'
                         tag3='Gestion'
-                        tag4='Polyvalance'
+                        tag4='Polyvalence'
                         tag1_cat='rh'
                         tag2_cat='rh'
                         tag3_cat='rh'
@@ -143,20 +168,78 @@ function Accueil() {
                         date='Fév — Juil'
                         duration='6 mois · 2026'
                         missions1_title='Administration RH'
+                        tiret1='— '
                         mission1='Gestion des arrêts de travail'
+                        tireté='— '
                         mission2='Suspension de contrats'
+                        tiret3='— '
                         mission3='Liaison avec le cabinet RH externe'
+                        tiret4='— '
                         mission4='Suivi administratif des salariés'
                         missions2_title='Recrutement & RH terrain'
+                        tiret5='— '
                         mission5="Recrutement d'alternants et stagiaires"
+                        tiret6='— '
                         mission6="Gestion des départs"
+                        tiret7='— '
                         mission7="Rédaction des contrats"
+                        tiret8=''
+                        mission8=""
                         missions3_title='Gestion & Admin générale'
-                        mission8='Saisie de factures fournisseurs'
-                        mission9='Envoie des factures aux clients'
-                        mission10='Achat véhicule de société'
-                        mission11='Migration facturation électronique'
+                        tiret9='— '
+                        mission9='Saisie de factures fournisseurs'
+                        tiret10='— '
+                        mission10='Envoie des factures aux clients'
+                        tiret11='— '
+                        mission11='Achat véhicule de société'
+                        tiret12='— '
+                        mission12='Migration facturation électronique'
                         retour="la polyvalence du poste m'a appris à jongler entre des urgences RH, des tâches administratives et des projets de fond — souvent en parallèle. C'est exactement ce que je cherche à retrouver dans un rôle hybride."
+                        />
+
+                        <Experience_card
+                        company='TELEGRAFIK'
+                        Expe_title='Assistant RH, Admin & Gestion'
+                        desc_place='Entreprise de maintien à domicile des personnes âgées · Colomiers'
+                        promesse="Lettre de recommandation"
+                        tag1='RH opérationnel'
+                        tag2='Administration'
+                        tag3='Gestion'
+                        tag4='Polyvalence'
+                        tag1_cat='rh'
+                        tag2_cat='rh'
+                        tag3_cat='rh'
+                        tag4_cat='neutre'
+                        date='Août — Sept'
+                        duration='2 mois · 2026'
+                        missions1_title='Gestion & Facturation'
+                        tiret1='— '
+                        mission1='Gestion des contrats assurance'
+                        tiret2='— '
+                        mission2='Migration vers la facturation électronique'
+                        tiret3='— '
+                        mission3='Saisie et suivi des factures'
+                        tiret4=''
+                        mission4=''
+                        missions2_title='Alternance & Stages'
+                        tiret5='— '
+                        mission5='Gestion des dossiers alternants de A à Z'
+                        tiret6='— '
+                        mission6='Accueil et sortie des stagiaires (de A à Z)'
+                        tiret7=''
+                        mission7=''
+                        tiret8=''
+                        mission8=''
+                        missions3_title='Administration RH'
+                        tiret9='— '
+                        mission9='Suivi administratif des salariés'
+                        tiret10='— '
+                        mission10='Liaison avec le cabinet RH externe'
+                        tiret11=''
+                        mission11=''
+                        tiret12=''
+                        mission12=''
+                        retour="Ce CDD m'a permis de confirmer ma capacité à monter en autonomie rapidement sur des missions variées — facturation, alternance et RH en parallèle, dans un environnement que je connaissais déjà."
                         />
                     </div>
                 </section></FadeIn>
