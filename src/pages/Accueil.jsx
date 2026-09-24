@@ -138,7 +138,7 @@ function Accueil() {
                         competence5='TypeScript'
                         skill5_cat='dev'
                         GitLink='https://github.com/NeugdaeUju/Equisium_Frontend'
-                        DemoLink=''
+                        DemoLink='https://equisium-frontend.vercel.app'
                         decision1='Redux pour la gestion du state global'
                         decision1_text=" — Utilisation de Redux Toolkit avec des slices distincts pour l'authentification et les chevaux. Le token JWT est persisté en localStorage et rechargé automatiquement au refresh."
                         decision2='Édition inline sans modale'
